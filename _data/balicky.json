@@ -11,34 +11,94 @@
    }
   },
   "stitek": {
-   "cs": "Silvestr"
+   "cs": "Silvestr",
+   "de": "Silvester",
+   "en": "New Year's Eve",
+   "es": "Nochevieja",
+   "fr": "Saint-Sylvestre",
+   "it": "San Silvestro",
+   "zh": "跨年夜"
   },
   "nazev": {
-   "cs": "Silvestr v Restaurantu Michal"
+   "cs": "Silvestr v Restaurantu Michal",
+   "de": "Silvester im Restaurant Michal",
+   "en": "New Year's Eve at Restaurant Michal",
+   "es": "Nochevieja en el Restaurant Michal",
+   "fr": "La Saint-Sylvestre au Restaurant Michal",
+   "it": "San Silvestro al Restaurant Michal",
+   "zh": "迈克尔餐厅跨年夜"
   },
   "perex": {
-   "cs": "Oslavte konec roku v historickém domě pár kroků od Karlova mostu."
+   "cs": "Oslavte konec roku v historickém domě pár kroků od Karlova mostu.",
+   "de": "Feiern Sie den Jahreswechsel in einem historischen Haus nur ein paar Schritte von der Karlsbrücke.",
+   "en": "Celebrate the end of the year in a historic house a few steps from Charles Bridge.",
+   "es": "Despida el año en una casa histórica a pocos pasos del Puente de Carlos.",
+   "fr": "Célébrez la fin de l’année dans une maison historique à quelques pas du pont Charles.",
+   "it": "Festeggi la fine dell'anno in una casa storica a pochi passi dal Ponte Carlo.",
+   "zh": "在查理大桥旁的历史老宅中辞旧迎新。"
   },
   "text": {
-   "cs": "Program, menu a cenu silvestrovského večera doplníte v administraci.\nNapište nám nezávaznou poptávku a pošleme Vám podrobnosti."
+   "cs": "Program, menu a cenu silvestrovského večera doplníte v administraci.\nNapište nám nezávaznou poptávku a pošleme Vám podrobnosti.",
+   "de": "Programm, Menü und Preis des Silvesterabends ergänzen Sie in der Administration.\nSenden Sie uns eine unverbindliche Anfrage, und wir schicken Ihnen alle Details.",
+   "en": "The programme, menu and price of the New Year's Eve evening can be added in the administration.\nSend us a no-obligation enquiry and we will send you the details.",
+   "es": "El programa, el menú y el precio de la velada de Nochevieja se completarán en la administración.\nEnvíenos una solicitud sin compromiso y le haremos llegar todos los detalles.",
+   "fr": "Le programme, le menu et le prix de la soirée de la Saint-Sylvestre seront complétés dans l’administration.\nEnvoyez-nous une demande sans engagement et nous vous ferons parvenir tous les détails.",
+   "it": "Il programma, il menu e il prezzo della serata di San Silvestro si possono completare nell'amministrazione.\nCi invii una richiesta senza impegno e Le manderemo tutti i dettagli.",
+   "zh": "跨年夜的节目、菜单和价格可在管理后台补充。\n欢迎向我们提交免费咨询，我们将为您发送详细信息。"
   },
   "termin": {
-   "cs": "31. 12. 2026"
+   "cs": "31. 12. 2026",
+   "de": "31.12.2026",
+   "en": "31 December 2026",
+   "es": "31 de diciembre de 2026",
+   "fr": "31 décembre 2026",
+   "it": "31 dicembre 2026",
+   "zh": "2026年12月31日"
   },
   "cena": {
-   "cs": ""
+   "cs": "",
+   "de": "",
+   "en": "",
+   "es": "",
+   "fr": "",
+   "it": "",
+   "zh": ""
   },
   "kapacita": {
-   "cs": ""
+   "cs": "",
+   "de": "",
+   "en": "",
+   "es": "",
+   "fr": "",
+   "it": "",
+   "zh": ""
   },
   "polozky_nadpis": {
-   "cs": ""
+   "cs": "",
+   "de": "",
+   "en": "",
+   "es": "",
+   "fr": "",
+   "it": "",
+   "zh": ""
   },
   "polozky": {
-   "cs": []
+   "cs": [],
+   "de": [],
+   "en": [],
+   "es": [],
+   "fr": [],
+   "it": [],
+   "zh": []
   },
   "pozn": {
-   "cs": ""
+   "cs": "",
+   "de": "",
+   "en": "",
+   "es": "",
+   "fr": "",
+   "it": "",
+   "zh": ""
   },
   "fotky": []
  },
@@ -54,34 +114,94 @@
    }
   },
   "stitek": {
-   "cs": "Pro firmy"
+   "cs": "Pro firmy",
+   "de": "Für Firmen",
+   "en": "For companies",
+   "es": "Para empresas",
+   "fr": "Entreprises",
+   "it": "Per le aziende",
+   "zh": "企业活动"
   },
   "nazev": {
-   "cs": "Firemní večírky"
+   "cs": "Firemní večírky",
+   "de": "Firmenfeiern",
+   "en": "Corporate parties",
+   "es": "Fiestas de empresa",
+   "fr": "Soirées d’entreprise",
+   "it": "Feste aziendali",
+   "zh": "公司聚会"
   },
   "perex": {
-   "cs": "Firemní a vánoční večírky v prostorách restaurace u Karlova mostu."
+   "cs": "Firemní a vánoční večírky v prostorách restaurace u Karlova mostu.",
+   "de": "Firmen- und Weihnachtsfeiern in den Räumlichkeiten des Restaurants an der Karlsbrücke.",
+   "en": "Corporate and Christmas parties in our restaurant by Charles Bridge.",
+   "es": "Fiestas de empresa y de Navidad en los espacios del restaurante junto al Puente de Carlos.",
+   "fr": "Soirées d’entreprise et fêtes de Noël dans notre restaurant près du pont Charles.",
+   "it": "Feste aziendali e di Natale negli spazi del ristorante vicino al Ponte Carlo.",
+   "zh": "在查理大桥旁的餐厅举办公司聚会和圣诞晚会。"
   },
   "text": {
-   "cs": "V kombinaci s unikátními prostory restaurace, kvalitním servisem a gurmánskými specialitami pro Vás připravíme akci na špičkové úrovni, kterou zaručujeme dlouholetými zkušenostmi a řadou vynikajících referencí.\nProgram, menu a cenu doplníte v administraci."
+   "cs": "V kombinaci s unikátními prostory restaurace, kvalitním servisem a gurmánskými specialitami pro Vás připravíme akci na špičkové úrovni, kterou zaručujeme dlouholetými zkušenostmi a řadou vynikajících referencí.\nProgram, menu a cenu doplníte v administraci.",
+   "de": "In Verbindung mit den einzigartigen Räumlichkeiten des Restaurants, erstklassigem Service und Gourmet-Spezialitäten bereiten wir für Sie ein Event auf höchstem Niveau vor – garantiert durch langjährige Erfahrung und zahlreiche hervorragende Referenzen.\nProgramm, Menü und Preis ergänzen Sie in der Administration.",
+   "en": "In our unique setting, combined with great service and gourmet specialities, we can prepare a top-level event for you, guaranteed by many years of experience and a number of excellent references.\nThe programme, menu and price can be added in the administration.",
+   "es": "Gracias a los espacios únicos del restaurante, a un servicio de calidad y a nuestras especialidades gourmet, le prepararemos un evento del más alto nivel, avalado por nuestra larga experiencia y numerosas referencias excelentes.\nEl programa, el menú y el precio se completarán en la administración.",
+   "fr": "Nos locaux uniques, un excellent service et nos spécialités gastronomiques vous permettront de vivre un événement de la plus grande qualité, garanti par notre longue expérience et une flatteuse liste de références.\nLe programme, le menu et le prix seront complétés dans l’administration.",
+   "it": "Grazie agli spazi unici del ristorante, a un servizio di qualità e alle specialità per buongustai, prepariamo per Lei eventi di alto livello, garantiti dalla nostra esperienza pluriennale e da numerose ottime referenze.\nIl programma, il menu e il prezzo si possono completare nell'amministrazione.",
+   "zh": "凭借独特的餐厅空间、优质的服务和特色美食，我们将为您筹备最高水准的活动——多年的经验和众多出色的客户口碑就是品质的保证。\n节目、菜单和价格可在管理后台补充。"
   },
   "termin": {
-   "cs": ""
+   "cs": "",
+   "de": "",
+   "en": "",
+   "es": "",
+   "fr": "",
+   "it": "",
+   "zh": ""
   },
   "cena": {
-   "cs": ""
+   "cs": "",
+   "de": "",
+   "en": "",
+   "es": "",
+   "fr": "",
+   "it": "",
+   "zh": ""
   },
   "kapacita": {
-   "cs": ""
+   "cs": "",
+   "de": "",
+   "en": "",
+   "es": "",
+   "fr": "",
+   "it": "",
+   "zh": ""
   },
   "polozky_nadpis": {
-   "cs": ""
+   "cs": "",
+   "de": "",
+   "en": "",
+   "es": "",
+   "fr": "",
+   "it": "",
+   "zh": ""
   },
   "polozky": {
-   "cs": []
+   "cs": [],
+   "de": [],
+   "en": [],
+   "es": [],
+   "fr": [],
+   "it": [],
+   "zh": []
   },
   "pozn": {
-   "cs": ""
+   "cs": "",
+   "de": "",
+   "en": "",
+   "es": "",
+   "fr": "",
+   "it": "",
+   "zh": ""
   },
   "fotky": []
  }

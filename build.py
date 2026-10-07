@@ -222,12 +222,12 @@ def build():
                preload=[F['hero'][0]['src']] if F.get('hero') else [])
         for key in ('predstaveni', 'sbirka', 'menu', 'galerie', 'balicky', 'rezervace', 'kontakt'):
             render(key + '.html', key, lang, TT, title=P(key)['title'], description=P(key)['description'],
-                   jsonld=jsonld(lang, TT, [crumbs(lang, TT, (P(key)['h1'], url(key, lang)))]))
+                   jsonld=jsonld(lang, TT, [crumbs(lang, TT, (P(key)['h1'].replace('*', ''), url(key, lang)))]))
         for b in BAL_VIS:
             name = tr(b['nazev'], lang)
             render('balicek.html', 'balicky', lang, TT, extra=b['slug'], b=b,
                    title=f"{name} – {SITE['nazev']}", description=tr(b.get('perex'), lang)[:300] or P('balicky')['description'],
-                   jsonld=jsonld(lang, TT, [crumbs(lang, TT, (P('balicky')['h1'], url('balicky', lang)), (name, url('balicky', lang, b['slug'])))]))
+                   jsonld=jsonld(lang, TT, [crumbs(lang, TT, (P('balicky')['h1'].replace('*', ''), url('balicky', lang)), (name, url('balicky', lang, b['slug'])))]))
         render('gdpr.html', 'gdpr', lang, TT, title=P('gdpr')['title'], description=P('gdpr')['description'])
 
     # 404 (česky + odkazy na jazyky)

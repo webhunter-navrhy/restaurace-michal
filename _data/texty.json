@@ -55,7 +55,7 @@
     "ano_predstaveni": "Ano",
     "ne_predstaveni": "Ne",
     "poznamka": "Napište zprávu",
-    "poznamka_ph": "Např. oslava, alergie, dětská židlička…",
+    "poznamka_ph": "Např. oslava, dětská židlička, speciální strava, alergie…",
     "souhlas": "Osobní údaje zpracováváme pouze pro vyřízení rezervace. Souhlasím se zpracováním –",
     "souhlas_odkaz": "ochrana osobních údajů",
     "dekujeme_h": "Děkujeme!",
@@ -259,6 +259,1584 @@
    "title": "Ochrana osobních údajů | Restaurant Michal",
    "description": "Informace o zpracování osobních údajů – HERMÍNA spol. s r.o., provozovatel Restaurant Michal.",
    "h1": "Ochrana osobních údajů",
+   "perex": ""
+  }
+ },
+ "de": {
+  "ui": {
+   "preskocit": "Zum Inhalt springen",
+   "menu_label": "Hauptmenü",
+   "jazyk": "Sprache",
+   "logo_pod": "Prag 1 · an der Karlsbrücke",
+   "nav": {
+    "home": "Über uns",
+    "predstaveni": "Folkloreshow",
+    "sbirka": "Volkskunstsammlung",
+    "menu": "Menü",
+    "balicky": "Pakete",
+    "galerie": "Fotogalerie",
+    "kontakt": "Kontakt",
+    "rezervace": "Reservierung"
+   },
+   "rezervovat": "Tisch reservieren",
+   "vice": "Mehr über die Show",
+   "kde_nas_najdete": "So finden Sie uns",
+   "cela_sbirka": "Sammlung ansehen",
+   "cela_galerie": "Zur Fotogalerie",
+   "vsechny_balicky": "Alle Pakete",
+   "region": "Region",
+   "menu_vecere": "Abendessen + Folkloreshow",
+   "cena_na_dotaz": "Preis auf Anfrage",
+   "napsat_nam": "Schreiben Sie uns",
+   "adresa": "Adresse",
+   "telefon": "Telefon",
+   "navigovat": "Route planen",
+   "rezervace_info": "Reservierung & Info",
+   "web": "Restaurant",
+   "provozuje": "Betreiber",
+   "ico": "Ident.-Nr. (IČO)",
+   "dic": "USt-IdNr. (DIČ)",
+   "zavolat": "Anrufen",
+   "fotogalerie": "Fotogalerie",
+   "zavrit": "Schließen",
+   "odesilam": "Wird gesendet…",
+   "form_chyba": {
+    "povinne": "Bitte füllen Sie alle Pflichtfelder aus.",
+    "email": "Die E-Mail-Adresse scheint nicht korrekt zu sein.",
+    "souhlas": "Zum Absenden benötigen wir Ihre Einwilligung in die Verarbeitung personenbezogener Daten.",
+    "odeslani": "Das Senden ist leider fehlgeschlagen. Bitte versuchen Sie es erneut oder rufen Sie uns an."
+   },
+   "f": {
+    "jmeno": "Vorname",
+    "prijmeni": "Nachname",
+    "email": "E-Mail",
+    "telefon": "Telefon",
+    "datum": "Datum",
+    "cas": "Ankunftszeit",
+    "osob": "Anzahl der Personen",
+    "predstaveni": "Folkloreshow (19:00–22:00 Uhr)",
+    "ano_predstaveni": "Ja",
+    "ne_predstaveni": "Nein",
+    "poznamka": "Ihre Nachricht",
+    "poznamka_ph": "z. B. Feier, Allergien, Kinderstuhl…",
+    "souhlas": "Wir verarbeiten Ihre personenbezogenen Daten ausschließlich zur Bearbeitung Ihrer Reservierung. Ich willige in die Verarbeitung ein –",
+    "souhlas_odkaz": "Datenschutz",
+    "dekujeme_h": "Vielen Dank!",
+    "dekujeme": "Wir haben Ihre Reservierung erhalten. Wir bestätigen sie Ihnen per E-Mail oder telefonisch – gültig ist erst die bestätigte Reservierung.",
+    "dekujeme_balicek": "Wir haben Ihre Anfrage erhalten und melden uns in Kürze bei Ihnen."
+   }
+  },
+  "home": {
+   "title": "Restaurant Michal Prag – Folkloreshow & böhmische Küche",
+   "description": "Familienrestaurant in einem historischen Haus nahe der Karlsbrücke in Prag: böhmische und internationale Küche, abends Folkloreshow mit Zymbalmusik.",
+   "hero_kicker": "Náprstkova 8 · Altstadt · an der Karlsbrücke",
+   "h1": "Familienrestaurant *Michal*",
+   "hero_text": "Böhmische und internationale Küche in einem Haus mit gotischen Wurzeln, nur ein paar Schritte von den steinernen Bögen der Karlsbrücke entfernt. Abends spielt die Zymbalmusik und unsere Tänzer in Trachten treten auf.",
+   "karta_nadpis": "Folkloreshow",
+   "karta_cas": "19:00–22:00",
+   "karta_text": "Die Zymbalmusik von Alexandr Vrábel und Tänzer in Trachten – Volkskunst aus Böhmen, Mähren und der Slowakei.",
+   "marquee": [
+    "Volkskunst aus Böhmen, Mähren und der Slowakei",
+    "Zymbalmusik von Alexandr Vrábel",
+    "Nur ein paar Schritte von der Karlsbrücke",
+    "Böhmische und internationale Küche",
+    "Originale, handbestickte Trachten"
+   ],
+   "ahr": "Mitglied des Verbandes der Hotels und Restaurants der Tschechischen Republik",
+   "onas_kicker": "Über uns",
+   "onas_h2": "Ein Haus mit *gotischen* Wurzeln",
+   "onas_text": "Das Restaurant Michal befindet sich in einem der ältesten Teile des historischen Prag, am rechten Ufer der Moldau in der Straße Náprstkova, nur ein paar Schritte von den steinernen Bögen der Karlsbrücke entfernt. Gerade diese Nähe lädt nach einem guten Essen und Trinken zu einem angenehmen Spaziergang mit herrlicher Aussicht auf das Panorama des Hradschin ein.\nDas Haus, in dem sich das Restaurant befindet, wurde in der zweiten Hälfte des 19. Jahrhunderts im Jugendstil umgebaut. Am Interieur des Restaurants ist jedoch zu erkennen, dass seine Wurzeln bis in die Frühgotik zurückreichen. Ein Beleg dafür ist auch eine der ältesten Prager Straßen, Boršov, an die das Restaurant angrenzt.",
+   "onas_citat": "",
+   "show_kicker": "Live-Folklore",
+   "show_h2": "Originelle *Folklore*-Vorstellung",
+   "show_text": "In den Abendstunden finden im Restaurant Live-Folkloreauftritte statt, die Ihnen die Zymbalmusik von Alexandr Vrábel und unsere Tänzer in Trachten darbieten.\nDie Vorstellung beginnt um 19 Uhr und endet um 22 Uhr. Im Laufe des Abends erleben Sie einen Querschnitt durch die Volkskunst der meisten volkskundlichen Regionen Böhmens, Mährens und der Slowakei. Zum Schluss können die Gäste auch ihre Lieblingslieder mitsingen.",
+   "cisla": [
+    {
+     "cislo": "1997",
+     "plus": "",
+     "popis": "nahm das Ensemble seine Tätigkeit auf"
+    },
+    {
+     "cislo": "70",
+     "plus": "+",
+     "popis": "originale, handbestickte Trachten in der Sammlung"
+    },
+    {
+     "cislo": "100",
+     "plus": "+",
+     "popis": "Jahre – so alt sind die ältesten Trachten"
+    },
+    {
+     "cislo": "19–22",
+     "plus": "",
+     "popis": "Uhr – so lange dauert die Abendvorstellung"
+    }
+   ],
+   "pruh_text": "Den ganzen Abend spielt die erfahrene Zymbalkapelle unter der Leitung des Primas Alexandr Vrábel.",
+   "pruh_popisek": "Zymbalmusik von Alexandr Vrábel",
+   "kuchyne_kicker": "Küche",
+   "kuchyne_h2": "Ein besonderes *Gourmet*-Erlebnis",
+   "kuchyne_text": "Unser Angebot setzt sich sowohl aus typisch tschechischen Speisen als auch aus Gerichten der internationalen Küche zusammen. Gedacht haben wir auch an Vegetarier und Freunde der gesunden Ernährung. Alles bereiten wir stets aus frischen Zutaten und duftenden Kräutern zu.",
+   "fakta": [
+    {
+     "ikona": "bread",
+     "nadpis": "Eigenes Gebäck und Desserts",
+     "text": "Sämtliches Gebäck wird in unserer Küche zubereitet und gebacken, wo wir auch unsere eigenen Konditoreiprodukte herstellen."
+    },
+    {
+     "ikona": "leaf",
+     "nadpis": "Fleisch von Familienhöfen",
+     "text": "Rind- und Schweinefleisch sowie Geflügel beziehen wir von familiengeführten Bauernhöfen aus Tschechien."
+    },
+    {
+     "ikona": "fish",
+     "nadpis": "Fisch aus Südböhmen",
+     "text": "Frischen Süßwasserfisch liefert uns die Fischerei Hůrka aus Südböhmen."
+    },
+    {
+     "ikona": "wine",
+     "nadpis": "Mährische Weine und tschechisches Bier",
+     "text": "Eine breite Auswahl sorgfältig ausgewählter Weine aus mährischen Weinbergen, tschechisches Bier, Aperitifs und erlesene Destillate."
+    }
+   ],
+   "sbirka_kicker": "Volkskunstsammlung",
+   "sbirka_h2": "Mehr als *70 Trachten* aus Böhmen, Mähren und der Slowakei",
+   "sbirka_text": "Im Restaurant ist die ständig wachsende Trachtensammlung des Ehepaars Kačírek zu sehen. Ein Teil davon wird in verglasten Vitrinen ausgestellt, die einmal jährlich neu bestückt werden.",
+   "balicky_kicker": "Pakete und Events",
+   "balicky_h2": "Feiern, Partys und *Feiertage*",
+   "balicky_text": "In Verbindung mit den einzigartigen Räumlichkeiten des Restaurants, erstklassigem Service und Gourmet-Spezialitäten bereiten wir für Sie ein Event auf höchstem Niveau vor.",
+   "galerie_kicker": "Fotogalerie",
+   "galerie_h2": "Abende im *Michal*",
+   "galerie_text": "Tänzer, Musikanten, Trachten, Interieur und unsere Küche – werfen Sie schon vor Ihrem Besuch einen Blick ins Restaurant.",
+   "cta_kicker": "Reservierung",
+   "cta_h2": "Reservieren Sie Ihren *Tisch* im Voraus",
+   "cta_text": "Eine Reservierung vor dem Besuch ist erforderlich. Wir bestätigen sie per E-Mail oder telefonisch – gültig ist erst die bestätigte Reservierung.",
+   "partneri": "Unsere Partner",
+   "paticka": "Familienrestaurant mit Folkloreshow in einem der ältesten Teile des historischen Prag, nur ein paar Schritte von der Karlsbrücke entfernt."
+  },
+  "predstaveni": {
+   "title": "Folkloreshow in Prag – Zymbalmusik & Tänzer | Restaurant Michal",
+   "description": "Folkloreshow in Prag von 19 bis 22 Uhr: Volkskunst aus Böhmen, Mähren und der Slowakei, Zymbalmusik von Alexandr Vrábel und Tänzer in Originaltrachten.",
+   "kicker": "Ein Abend im Michal",
+   "h1": "Folklore-*Vorstellung*",
+   "perex": "Ein Querschnitt durch die Volkskunst der meisten volkskundlichen Regionen Böhmens, Mährens und der Slowakei – mit Zymbalmusik und Tänzern in Originaltrachten.",
+   "cas_nadpis": "19:00–22:00",
+   "h2": "Originelle Folklore-*Vorstellung*",
+   "text": "Die Vorstellung beginnt um 19 Uhr und endet um 22 Uhr. Im Laufe des Abends wird unseren Gästen ein Querschnitt durch die Volkskunst der meisten volkskundlichen Regionen Böhmens, Mährens und der Slowakei geboten. Zum Schluss der Vorstellung können die Gäste auch ihre Lieblingslieder mitsingen.\nDen ganzen Abend über spielt die erfahrene Zymbalkapelle unter der Leitung des Primas Alexandr Vrábel. Unsere Tänzer treten in Originaltrachten auf, jeweils aus der Region, aus der der Tanz stammt, den sie gerade vorführen.\nSämtliche Choreografien der Tänze, Lieder und Musik sind unsere eigene Bearbeitung oder entstanden mit Hilfe professioneller Choreografen. Die aktuelle neue Choreografie aus den Regionen Trenčín und Horehronie haben unsere Tänzer unter der Leitung professioneller Tänzer aus dem Ensemble Lučnica und dem Kunstensemble SĽUK einstudiert.",
+   "soubor_kicker": "Ensemble",
+   "soubor_h2": "Zymbalmusik von *Alexandr Vrábel*",
+   "soubor_text": "Das Ensemble nahm 1997 seine Tätigkeit auf und rekrutiert sich aus dem ehemaligen Staatlichen Ensemble der Lieder und Tänze. Es widmet sich der Folklore aus verschiedenen Regionen Böhmens, Mährens und der Slowakei. Seine Ideen und Anregungen schöpft es aus den Sammlungen von František Sušil, F. Bartoš, F. Poloczek, L. Janáček und anderer Sammler von Volksliedern.\nDie Zymbalmusik hat auch einen großen Teil Europas bereist und tritt in originalen, handbestickten Trachten auf. Die Mitglieder der Zymbalmusik tragen Trachten aus der Region Kyjov. Die Tänzer tragen Originaltrachten, die genau zu der Region gehören, aus der der Tanz stammt, den sie gerade tanzen.",
+   "citace_nadpis": "Gäste über die Vorstellung",
+   "citace": [
+    {
+     "text": "Vielen Dank für die wunderbare Vorstellung tschechischer Künstler. Es war unglaublich.",
+     "zdroj": "facebook.com"
+    },
+    {
+     "text": "Wenn wir wieder nach Prag kommen, werden wir Ihr Restaurant sicher wieder besuchen – die Tänzer führen dort Unglaubliches vor…",
+     "zdroj": "TripAdvisor.com"
+    },
+    {
+     "text": "Es ist umwerfend, was für eine wunderschöne Stimme die Sängerin hat. Und die Musiker können wohl wirklich alles spielen!",
+     "zdroj": "Gast des Restaurants"
+    }
+   ]
+  },
+  "sbirka": {
+   "title": "Sammlung von Trachten und Gemälden | Restaurant Michal Prag",
+   "description": "Über 70 originale, handbestickte Trachten, manche über 100 Jahre alt, und Grafiken von Jožka Úprka: die Sammlung des Ehepaars Kačírek im Restaurant Michal.",
+   "kicker": "Sammlung",
+   "h1": "Einzigartige Sammlung von Folklore-*Trachten und Gemälden*",
+   "perex": "Im Restaurant ist eine ständig wachsende Sammlung von Trachten aus Böhmen, Mähren und der Slowakei zu sehen.",
+   "kicker2": "Die Besitzer des Restaurants",
+   "h2": "Große Liebhaber der *Volkskunst*",
+   "text": "Im Restaurant ist eine ständig wachsende Sammlung von Trachten zu sehen. Die Besitzer bemühen sich um ihre Präsentation und um die Förderung von Volksbräuchen – nicht nur im Restaurant, sondern auch bei der Organisation verschiedener Folkloreprojekte.\nDie Räumlichkeiten des Restaurants sind auf die Präsentation der böhmischen, mährischen und slowakischen Volkskunst ausgerichtet, damit unsere Gäste möglichst viel aus unterschiedlichen volkskundlichen Regionen sehen und erleben können.\nIn den Innenräumen befinden sich Gemälde und Grafiken unserer führenden Volkskunstmaler. Im Hauptsaal sind grafische Blätter aus der Sammlung „Pánské kožuchy“ (Herrenpelze) unseres bekanntesten Volkskunstmalers Jožka Úprka (1861–1940) ausgestellt. Dieser Maler war ein Kollege von Alfons Mucha, mit dessen Hilfe er seine Bilder im Jahr 1894 im Salon der französischen Künstler in Paris ausstellte. Dort erhielt er für sein Bild „Kirmes zum heiligen Antonius“ die Auszeichnung „Mention Honorable“, und dank ihm wurde das mährische Landleben der Region Slovácko in Europa bekannt.\nDie Besitzer des Restaurants, das Ehepaar Kačírek, sind große Liebhaber der Volkskunst, und ihre Sammlung umfasst bereits mehr als 70 prachtvolle, originale, handbestickte Trachten. Einige davon sind über 100 Jahre alt und von hohem Wert.\nEin Teil dieser einzigartigen Sammlung ist im Restaurant zu sehen, und zwar in verglasten Vitrinen, die einmal jährlich neu bestückt werden. So haben die Gäste die Möglichkeit, alte originale, handbestickte Trachten und ihre Bestandteile von Westböhmen bis zur Ostslowakei zu sehen.",
+   "upra_text": "Im Hauptsaal sind grafische Blätter aus der Sammlung „Pánské kožuchy“ (Herrenpelze) von Jožka Úprka (1861–1940) ausgestellt.",
+   "upra_popisek": "Jožka Úprka, ein Kollege von Alfons Mucha",
+   "regiony_kicker": "Aktuell im Restaurant",
+   "regiony_h2": "Präsentation volkskundlicher *Regionen*",
+   "muzeum": "Die Präsentation der Trachten wurde von Fachleuten des Völkerkundemuseums des Nationalmuseums genehmigt."
+  },
+  "menu": {
+   "title": "Menü – Abendessen mit Folkloreshow | Restaurant Michal Prag",
+   "description": "Komplettes Menü mit Abendessen und Folkloreshow in Prag: Grillmenü, Bratenmenü oder Fischmenü. Getränke ohne Limit von 19 bis 22 Uhr inklusive.",
+   "kicker": "Abendessen + Folkloreshow",
+   "h1": "Menü – Abendessen und *Folkloreshow*",
+   "perex": "Liebe Gäste, wir bieten Ihnen ein komplettes Menü, das Abendessen und Folkloreshow umfasst.",
+   "text": "Die Speisen werden in unserem Restaurant aus frischen Zutaten ohne Zusatzstoffe und ohne Produkte mit chemischen Konservierungsmitteln zubereitet. Zu allen Gerichten wird hausgemachtes Gebäck serviert.",
+   "cena_text": "Im Menüpreis ist die Folkloreshow inbegriffen. Menüpreis auf Anfrage. Getränke ohne Limit von 19:00 bis 22:00 Uhr (Bier, Flaschenwein, alkoholfreie Getränke).",
+   "poznamka": ""
+  },
+  "galerie": {
+   "title": "Fotogalerie – Folkloreshow, Interieur & Küche | Restaurant Michal",
+   "description": "Fotos aus dem Restaurant Michal: Folkloreshow, Zymbalmusik, Trachten aus der Sammlung, das Interieur des Hauses an der Karlsbrücke und unsere Gerichte.",
+   "kicker": "Fotogalerie",
+   "h1": "Foto*galerie*",
+   "perex": "Folkloreshow, Interieur des Restaurants, Trachtensammlung und unsere Küche.",
+   "filtr": "Fotos filtern",
+   "vse": "Alle",
+   "flickr": "Weitere Fotos auf Flickr"
+  },
+  "balicky": {
+   "title": "Pakete & Events – Silvester, Firmenfeiern | Restaurant Michal",
+   "description": "Silvester, Firmenfeiern und weitere Events im Restaurant Michal an der Karlsbrücke in Prag. Senden Sie uns Ihre unverbindliche Anfrage bequem online.",
+   "kicker": "Pakete und Events",
+   "h1": "Pakete und *Events*",
+   "perex": "Silvester, Firmenfeiern und weitere Events im Restaurant an der Karlsbrücke.",
+   "prazdne": "Wir bereiten gerade neue Pakete vor. Schreiben Sie uns, und wir planen Ihr Event ganz nach Ihren Wünschen.",
+   "na_miru_h2": "Ihr Event – *maßgeschneidert*",
+   "na_miru_text": "In Verbindung mit den einzigartigen Räumlichkeiten des Restaurants, erstklassigem Service und Gourmet-Spezialitäten bereiten wir für Sie ein Event auf höchstem Niveau vor – garantiert durch langjährige Erfahrung und zahlreiche hervorragende Referenzen.",
+   "v_cene": "Im Paket enthalten",
+   "termin": "Termin",
+   "cena": "Preis",
+   "kapacita": "Kapazität",
+   "poptat_h": "Unverbindliche Anfrage",
+   "odeslat": "Anfrage senden"
+  },
+  "rezervace": {
+   "title": "Tischreservierung | Restaurant Michal Prag 1",
+   "description": "Reservieren Sie Ihren Tisch im Restaurant Michal an der Karlsbrücke – Abendessen und Folkloreshow 19–22 Uhr. Eine Reservierung vorab ist erforderlich.",
+   "kicker": "Reservierung",
+   "h1": "Tisch*reservierung*",
+   "perex": "Eine Reservierung vor dem Besuch ist erforderlich. Wir bestätigen sie per E-Mail oder telefonisch – gültig ist erst die bestätigte Reservierung.",
+   "form_h": "Reservierungsformular",
+   "form_text": "Bitte füllen Sie Ihre Angaben aus, wir melden uns mit einer Bestätigung bei Ihnen.",
+   "odeslat": "Reservierung senden",
+   "side_h": "Lieber telefonisch?",
+   "side_text": "Gültig ist erst die bestätigte Reservierung. Wir bestätigen sie Ihnen per E-Mail oder telefonisch."
+  },
+  "kontakt": {
+   "title": "Kontakt – Náprstkova 8, Prag 1 | Restaurant Michal",
+   "description": "Restaurant Michal, Náprstkova 273/8, Altstadt, Prag 1 – nur ein paar Schritte von der Karlsbrücke. Reservierung und Informationen per Telefon und E-Mail.",
+   "kicker": "So finden Sie uns",
+   "h1": "Kontakt",
+   "perex": "Náprstkova 273/8, Altstadt – nur ein paar Schritte von der Karlsbrücke entfernt.",
+   "adresa_h": "Adresse",
+   "poloha": "Das Restaurant befindet sich in einem der ältesten Teile des historischen Prag, am rechten Ufer der Moldau in der Straße Náprstkova, nur ein paar Schritte von den steinernen Bögen der Karlsbrücke entfernt. Es grenzt an eine der ältesten Prager Straßen, Boršov.",
+   "upozorneni_h": "Wichtiger Hinweis!",
+   "upozorneni": "Eine Reservierung vor dem Besuch des Restaurants ist erforderlich. Sie können online, telefonisch oder per E-Mail reservieren. Vielen Dank für Ihr Verständnis – wir freuen uns auf Ihren Besuch.",
+   "rezervace_h": "Reservierung & Info",
+   "mapa": "Karte – Restaurant Michal"
+  },
+  "gdpr": {
+   "title": "Datenschutz | Restaurant Michal",
+   "description": "Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO – HERMÍNA spol. s r.o., Betreiber des Restaurant Michal in Prag.",
+   "h1": "Datenschutz",
+   "perex": ""
+  }
+ },
+ "en": {
+  "ui": {
+   "preskocit": "Skip to content",
+   "menu_label": "Main menu",
+   "jazyk": "Language",
+   "logo_pod": "Prague 1 · by Charles Bridge",
+   "nav": {
+    "home": "About the restaurant",
+    "predstaveni": "Live folklore show",
+    "sbirka": "Folklore collection",
+    "menu": "Menu",
+    "balicky": "Packages",
+    "galerie": "Photo gallery",
+    "kontakt": "Contact",
+    "rezervace": "Reservations"
+   },
+   "rezervovat": "Book a table",
+   "vice": "More about the show",
+   "kde_nas_najdete": "How to find us",
+   "cela_sbirka": "Explore the collection",
+   "cela_galerie": "Full photo gallery",
+   "vsechny_balicky": "All packages",
+   "region": "Region",
+   "menu_vecere": "Dinner + folklore show",
+   "cena_na_dotaz": "Price on request",
+   "napsat_nam": "Send us a message",
+   "adresa": "Address",
+   "telefon": "Phone",
+   "navigovat": "Get directions",
+   "rezervace_info": "Reservations & information",
+   "web": "Restaurant",
+   "provozuje": "Operated by",
+   "ico": "Company ID (IČO)",
+   "dic": "VAT ID (DIČ)",
+   "zavolat": "Call us",
+   "fotogalerie": "Photo gallery",
+   "zavrit": "Close",
+   "odesilam": "Sending…",
+   "form_chyba": {
+    "povinne": "Please fill in all required fields.",
+    "email": "The e-mail address doesn't look right.",
+    "souhlas": "Please give your consent to the processing of personal data before sending.",
+    "odeslani": "Sorry, your message could not be sent. Please try again or give us a call."
+   },
+   "f": {
+    "jmeno": "First name",
+    "prijmeni": "Last name",
+    "email": "E-mail",
+    "telefon": "Phone",
+    "datum": "Date",
+    "cas": "Arrival time",
+    "osob": "Number of guests",
+    "predstaveni": "Folklore show (7–10 pm)",
+    "ano_predstaveni": "Yes",
+    "ne_predstaveni": "No",
+    "poznamka": "Your message",
+    "poznamka_ph": "E.g. celebration, allergies, high chair…",
+    "souhlas": "We process your personal data solely to handle your reservation. I consent to the processing –",
+    "souhlas_odkaz": "privacy policy",
+    "dekujeme_h": "Thank you!",
+    "dekujeme": "We have received your reservation. We will confirm it by e-mail or phone – a reservation is only valid once confirmed.",
+    "dekujeme_balicek": "We have received your enquiry and will get back to you shortly."
+   }
+  },
+  "home": {
+   "title": "Restaurant Michal Prague 1 – Folklore Show & Czech Cuisine",
+   "description": "Family restaurant in a historic house steps from Charles Bridge. Czech and international cuisine and a live folklore show with Alexandr Vrábel's dulcimer band.",
+   "hero_kicker": "Náprstkova 8 · Old Town · by Charles Bridge",
+   "h1": "Family restaurant *Michal*",
+   "hero_text": "Czech and international cuisine in a house with Gothic roots, just a few steps from the stone arches of Charles Bridge. In the evening, a dulcimer band plays and our dancers perform in traditional costumes.",
+   "karta_nadpis": "Live folklore show",
+   "karta_cas": "7–10 pm",
+   "karta_text": "Alexandr Vrábel's dulcimer band and dancers in traditional costumes – folklore of Bohemia, Moravia and Slovakia.",
+   "marquee": [
+    "Folklore of Bohemia, Moravia and Slovakia",
+    "Alexandr Vrábel's dulcimer band",
+    "A few steps from Charles Bridge",
+    "Czech and international cuisine",
+    "Original hand-embroidered costumes"
+   ],
+   "ahr": "Member of the Association of Hotels and Restaurants of the Czech Republic",
+   "onas_kicker": "About the restaurant",
+   "onas_h2": "A house with *Gothic* roots",
+   "onas_text": "Restaurant Michal is situated in one of the oldest parts of historic Prague, on the right bank of the Vltava river in Náprstkova Street, only a few steps from the stone arches of Charles Bridge. After time spent over great food and drink, the bridge invites you for a pleasant stroll with beautiful views of the Prague Castle skyline.\nThe building was rebuilt in the Art Nouveau style in the second half of the 19th century, yet the interior of the restaurant shows that its roots go back to the early Gothic period. Further evidence of this is Boršov, one of the oldest streets in Prague, which runs right alongside the restaurant.",
+   "onas_citat": "",
+   "show_kicker": "Live folklore",
+   "show_h2": "Original *folklore* show",
+   "show_text": "In the evening hours, the restaurant hosts a live folklore show performed by Alexandr Vrábel's dulcimer band and our dancers in traditional costumes.\nThe show starts at 7 pm and finishes at 10 pm. During the evening you will see a cross-section of folklore from most of the ethnographic regions of Bohemia, Moravia and Slovakia. At the end, guests are welcome to sing their own favourite songs.",
+   "cisla": [
+    {
+     "cislo": "1997",
+     "plus": "",
+     "popis": "the year our ensemble was founded"
+    },
+    {
+     "cislo": "70",
+     "plus": "+",
+     "popis": "original hand-embroidered costumes in the collection"
+    },
+    {
+     "cislo": "100",
+     "plus": "+",
+     "popis": "years – the age of the oldest costumes"
+    },
+    {
+     "cislo": "19–22",
+     "plus": "",
+     "popis": "evening show hours (7–10 pm)"
+    }
+   ],
+   "pruh_text": "An experienced dulcimer band led by first violinist Alexandr Vrábel plays throughout the evening.",
+   "pruh_popisek": "Alexandr Vrábel's dulcimer band",
+   "kuchyne_kicker": "Cuisine",
+   "kuchyne_h2": "An unusual *gourmet* experience",
+   "kuchyne_text": "Our menu features traditional Czech dishes as well as international cuisine, and we have not forgotten vegetarians and lovers of healthy food either. Everything is always prepared from fresh ingredients and fragrant herbs.",
+   "fakta": [
+    {
+     "ikona": "bread",
+     "nadpis": "Our own bread and pastries",
+     "text": "We make and bake all our bread in our own kitchen, where we also prepare our own confectionery."
+    },
+    {
+     "ikona": "leaf",
+     "nadpis": "Meat from family farms",
+     "text": "Beef, pork and poultry are supplied by family farms from the Czech Republic."
+    },
+    {
+     "ikona": "fish",
+     "nadpis": "Fish from South Bohemia",
+     "text": "Fresh freshwater fish is supplied by the Hůrka fishery from South Bohemia."
+    },
+    {
+     "ikona": "wine",
+     "nadpis": "Moravian wines and Czech beer",
+     "text": "A wide range of carefully selected wines from Moravian vineyards, Czech beer, aperitifs and top-shelf spirits."
+    }
+   ],
+   "sbirka_kicker": "Folklore collection",
+   "sbirka_h2": "More than *70 costumes* from Bohemia, Moravia and Slovakia",
+   "sbirka_text": "The restaurant is home to the Kačírek family's ever-growing collection of folk costumes. Part of it is on display in glass cases, which are changed once a year.",
+   "balicky_kicker": "Packages & events",
+   "balicky_h2": "Celebrations, parties and *holidays*",
+   "balicky_text": "In our unique setting, combined with great service and gourmet specialities, we can prepare a top-level event for you.",
+   "galerie_kicker": "Photo gallery",
+   "galerie_h2": "Evenings at *Michal*",
+   "galerie_text": "Dancers, musicians, costumes, the interior and our cuisine – take a look inside the restaurant before your visit.",
+   "cta_kicker": "Reservations",
+   "cta_h2": "Book your *table* in advance",
+   "cta_text": "Booking before your visit is necessary. We will confirm your reservation by e-mail or phone – a reservation is only valid once confirmed.",
+   "partneri": "Our partners",
+   "paticka": "A family restaurant with a live folklore show in one of the oldest parts of historic Prague, just a few steps from Charles Bridge."
+  },
+  "predstaveni": {
+   "title": "Live Folklore Show in Prague – Dulcimer Band | Restaurant Michal",
+   "description": "The show runs from 7 to 10 pm: folklore of Bohemia, Moravia and Slovakia with Alexandr Vrábel's dulcimer band and dancers in original folk costumes.",
+   "kicker": "An evening at Michal",
+   "h1": "Folklore *show*",
+   "perex": "A cross-section of folklore from most of the ethnographic regions of Bohemia, Moravia and Slovakia – with a dulcimer band and dancers in original folk costumes.",
+   "cas_nadpis": "7–10 pm",
+   "h2": "Original folklore *show*",
+   "text": "The folklore show starts at 7 pm and finishes at 10 pm. During the evening our guests can see a cross-section of folklore from most of the ethnographic regions of Bohemia, Moravia and Slovakia. At the end of the performance, guests can sing their own favourite songs.\nThe experienced dulcimer band led by first violinist Alexandr Vrábel plays throughout the evening. Our dancers wear original folk costumes, always the exact costume of the region the dance comes from.\nAll the dance choreographies, songs and music are in our own arrangement or were created with professional choreographers. Our dancers rehearsed the current new choreography from the regions of Trenčín and Horehronie under the guidance of professional dancers from the Lučnica ensemble and the SĽUK art ensemble.",
+   "soubor_kicker": "The ensemble",
+   "soubor_h2": "The dulcimer band of *Alexandr Vrábel*",
+   "soubor_text": "The ensemble started its activity in 1997 and draws its members from the former State Song and Dance Ensemble. It performs folklore from various regions of Bohemia, Moravia and Slovakia, drawing its themes and inspiration from the collections of František Sušil, F. Bartoš, F. Poloczek, L. Janáček and other collectors of folk songs.\nThe band has travelled across much of Europe and performs in original hand-embroidered costumes. The musicians wear costumes from the Kyjovsko region of Moravia. The dancers wear original costumes that belong precisely to the region the dance comes from.",
+   "citace_nadpis": "Guests about the show",
+   "citace": [
+    {
+     "text": "Thank you for the wonderful performance by Czech artists. It was unreal.",
+     "zdroj": "facebook.com"
+    },
+    {
+     "text": "When we come back to Prague, we certainly won't miss a visit to your restaurant, where the dancers perform things never seen before…",
+     "zdroj": "TripAdvisor.com"
+    },
+    {
+     "text": "It's unbelievable how wonderful the singer's voice is. And the musicians can play just about anything!",
+     "zdroj": "Restaurant guest"
+    }
+   ]
+  },
+  "sbirka": {
+   "title": "Folklore Collection of Costumes & Paintings | Restaurant Michal",
+   "description": "More than 70 original hand-embroidered folk costumes, some over 100 years old, and prints by Jožka Úprka. The Kačírek family collection at Restaurant Michal.",
+   "kicker": "Collection",
+   "h1": "The unique folklore collection of *costumes and paintings*",
+   "perex": "The restaurant is home to an ever-growing collection of folk costumes from Bohemia, Moravia and Slovakia.",
+   "kicker2": "The owners",
+   "h2": "Great lovers of *folklore*",
+   "text": "In the restaurant you can see our constantly expanding collection of folk costumes. The owners present it and promote folk traditions not only in the restaurant but also by organising various folklore projects.\nThe restaurant's premises are arranged to showcase Czech, Moravian and Slovak folklore, so that our guests can see and experience as much as possible from the different ethnographic regions.\nThe interiors feature paintings and prints by our leading folklore painters. In the main hall you can see prints from the series “Men's Sheepskin Coats” by our most famous folklore painter, Jožka Úprka (1861–1940). He was a colleague of Alfons Mucha, with whose help he exhibited his paintings at the Salon of French Artists in Paris in 1894. There he received the “Mention Honorable” award for his painting “Pilgrimage to St Anthony”, and thanks to him the Slovácko countryside became known throughout Europe.\nThe owners of the restaurant, the Kačírek family, are great lovers of folklore, and their collection already contains more than 70 beautiful, original, hand-embroidered costumes. Some of them are more than 100 years old and very valuable.\nPart of this unique collection is on display in the restaurant in glass cases, which are changed once a year. Guests can thus see old, original, hand-embroidered costumes and their accessories from Western Bohemia all the way to Eastern Slovakia.",
+   "upra_text": "In the main hall you can see prints from the series “Men's Sheepskin Coats” by Jožka Úprka (1861–1940).",
+   "upra_popisek": "Jožka Úprka, a colleague of Alfons Mucha",
+   "regiony_kicker": "Currently in the restaurant",
+   "regiony_h2": "Presentation of ethnographic *regions*",
+   "muzeum": "The costume display was approved by specialists from the Ethnographic Museum of the National Museum."
+  },
+  "menu": {
+   "title": "Menu – Dinner with Folklore Show | Restaurant Michal Prague",
+   "description": "A complete menu including dinner and a live folklore show: grilled meats, roasted meats or fish menu. Unlimited drinks from 7 to 10 pm. Near Charles Bridge.",
+   "kicker": "Dinner + folklore show",
+   "h1": "Menu – dinner and *folklore show*",
+   "perex": "Dear guests, we offer you a complete menu which includes dinner and a folklore show.",
+   "text": "All meals are made in our restaurant from fresh ingredients, without additives or products containing chemical preservatives. Home-made bread is served with all dishes.",
+   "cena_text": "The folklore show is included in the menu price. Menu price on request. Unlimited drinks from 7 to 10 pm (beer, bottled wine, soft drinks).",
+   "poznamka": ""
+  },
+  "galerie": {
+   "title": "Photo Gallery – Folklore Show & Interior | Restaurant Michal",
+   "description": "Photos from Restaurant Michal: the live folklore show, the dulcimer band, costumes from our collection, our house by Charles Bridge and our food.",
+   "kicker": "Photo gallery",
+   "h1": "Photo *gallery*",
+   "perex": "The folklore show, the restaurant interior, the costume collection and our cuisine.",
+   "filtr": "Filter photos",
+   "vse": "All",
+   "flickr": "More photos on Flickr"
+  },
+  "balicky": {
+   "title": "Packages & Events – New Year's Eve, Parties | Restaurant Michal",
+   "description": "New Year's Eve, corporate parties and other events at Restaurant Michal near Charles Bridge in Prague. Send us a no-obligation enquiry online.",
+   "kicker": "Packages & events",
+   "h1": "Packages and *events*",
+   "perex": "New Year's Eve, corporate parties and other events in our restaurant by Charles Bridge.",
+   "prazdne": "We are preparing new packages. Send us a message and we will arrange an event tailored to you.",
+   "na_miru_h2": "Events *tailored* to you",
+   "na_miru_text": "In our unique setting, combined with great service and gourmet specialities, we can prepare a top-level event for you, guaranteed by many years of experience and a number of excellent references.",
+   "v_cene": "What the package includes",
+   "termin": "Date",
+   "cena": "Price",
+   "kapacita": "Capacity",
+   "poptat_h": "No-obligation enquiry",
+   "odeslat": "Send enquiry"
+  },
+  "rezervace": {
+   "title": "Book a Table | Restaurant Michal Prague 1",
+   "description": "Book a table at Restaurant Michal near Charles Bridge – dinner and a live folklore show from 7 to 10 pm. Booking before your visit is necessary.",
+   "kicker": "Reservations",
+   "h1": "Book a *table*",
+   "perex": "Booking before your visit is necessary. We will confirm your reservation by e-mail or phone – a reservation is only valid once confirmed.",
+   "form_h": "Reservation form",
+   "form_text": "Please fill in your details and we will get back to you with a confirmation.",
+   "odeslat": "Send reservation",
+   "side_h": "Prefer to call?",
+   "side_text": "A reservation is only valid once confirmed. We will confirm it by e-mail or phone."
+  },
+  "kontakt": {
+   "title": "Contact – Náprstkova 8, Prague 1 | Restaurant Michal",
+   "description": "Restaurant Michal, Náprstkova 273/8, Old Town, Prague 1 – a few steps from Charles Bridge. Reservations and information by phone or e-mail.",
+   "kicker": "How to find us",
+   "h1": "Contact",
+   "perex": "Náprstkova 273/8, Old Town – just a few steps from Charles Bridge.",
+   "adresa_h": "Address",
+   "poloha": "The restaurant is situated in one of the oldest parts of historic Prague, on the right bank of the Vltava river in Náprstkova Street, just a few steps from the stone arches of Charles Bridge. It stands next to Boršov, one of the oldest streets in Prague.",
+   "upozorneni_h": "Important notice!",
+   "upozorneni": "Booking before visiting the restaurant is necessary and you can make it online, by phone or by e-mail. Thank you for your understanding, we look forward to your visit.",
+   "rezervace_h": "Reservations & information",
+   "mapa": "Map – Restaurant Michal"
+  },
+  "gdpr": {
+   "title": "Privacy Policy | Restaurant Michal",
+   "description": "Information on the processing of personal data by HERMÍNA spol. s r.o., the operator of Restaurant Michal in Prague 1 – reservations, enquiries and your rights.",
+   "h1": "Privacy policy",
+   "perex": ""
+  }
+ },
+ "es": {
+  "ui": {
+   "preskocit": "Saltar al contenido",
+   "menu_label": "Menú principal",
+   "jazyk": "Idioma",
+   "logo_pod": "Praga 1 · junto al Puente de Carlos",
+   "nav": {
+    "home": "El restaurante",
+    "predstaveni": "Espectáculo folclórico",
+    "sbirka": "Colección folclórica",
+    "menu": "Menú",
+    "balicky": "Paquetes",
+    "galerie": "Galería de fotos",
+    "kontakt": "Contacto",
+    "rezervace": "Reservas"
+   },
+   "rezervovat": "Reservar mesa",
+   "vice": "Más sobre el espectáculo",
+   "kde_nas_najdete": "Dónde encontrarnos",
+   "cela_sbirka": "Ver la colección",
+   "cela_galerie": "Ver toda la galería",
+   "vsechny_balicky": "Todos los paquetes",
+   "region": "Región",
+   "menu_vecere": "Cena + espectáculo folclórico",
+   "cena_na_dotaz": "Precio bajo petición",
+   "napsat_nam": "Escríbanos",
+   "adresa": "Dirección",
+   "telefon": "Teléfono",
+   "navigovat": "Cómo llegar",
+   "rezervace_info": "Reservas e información",
+   "web": "Restaurante",
+   "provozuje": "Operado por",
+   "ico": "IČO",
+   "dic": "DIČ",
+   "zavolat": "Llamar",
+   "fotogalerie": "Galería de fotos",
+   "zavrit": "Cerrar",
+   "odesilam": "Enviando…",
+   "form_chyba": {
+    "povinne": "Por favor, rellene todos los campos obligatorios.",
+    "email": "La dirección de correo electrónico no parece correcta.",
+    "souhlas": "Para enviar el formulario es necesario su consentimiento para el tratamiento de los datos personales.",
+    "odeslani": "No se ha podido enviar. Por favor, inténtelo de nuevo o llámenos."
+   },
+   "f": {
+    "jmeno": "Nombre",
+    "prijmeni": "Apellidos",
+    "email": "Correo electrónico",
+    "telefon": "Teléfono",
+    "datum": "Fecha",
+    "cas": "Hora de llegada",
+    "osob": "Número de personas",
+    "predstaveni": "Espectáculo folclórico (19:00–22:00)",
+    "ano_predstaveni": "Sí",
+    "ne_predstaveni": "No",
+    "poznamka": "Escríbanos un mensaje",
+    "poznamka_ph": "P. ej., una celebración, alergias, trona para niños…",
+    "souhlas": "Tratamos sus datos personales únicamente para gestionar la reserva. Doy mi consentimiento para su tratamiento –",
+    "souhlas_odkaz": "protección de datos personales",
+    "dekujeme_h": "¡Muchas gracias!",
+    "dekujeme": "Hemos recibido su reserva. Se la confirmaremos por correo electrónico o por teléfono; la reserva solo es válida una vez confirmada.",
+    "dekujeme_balicek": "Hemos recibido su solicitud y nos pondremos en contacto con usted en breve."
+   }
+  },
+  "home": {
+   "title": "Restaurant Michal Praga – espectáculo folclórico y cocina checa",
+   "description": "Restaurante familiar junto al Puente de Carlos: cocina checa e internacional y espectáculo folclórico en Praga con música de címbalo en directo.",
+   "hero_kicker": "Náprstkova 8 · Ciudad Vieja · junto al Puente de Carlos",
+   "h1": "Restaurante familiar *Michal*",
+   "hero_text": "Cocina checa e internacional en una casa de raíces góticas, a tan solo unos pasos de los arcos de piedra del Puente de Carlos. Por la noche suena la música de címbalo y bailan nuestros bailarines vestidos con trajes tradicionales.",
+   "karta_nadpis": "Espectáculo folclórico",
+   "karta_cas": "19:00–22:00",
+   "karta_text": "La banda de címbalo de Alexandr Vrábel y bailarines con trajes tradicionales: folclore de Bohemia, Moravia y Eslovaquia.",
+   "marquee": [
+    "Folclore de Bohemia, Moravia y Eslovaquia",
+    "Banda de címbalo de Alexandr Vrábel",
+    "A pocos pasos del Puente de Carlos",
+    "Cocina checa e internacional",
+    "Trajes originales bordados a mano"
+   ],
+   "ahr": "Miembro de la Asociación de Hoteles y Restaurantes de la República Checa",
+   "onas_kicker": "El restaurante",
+   "onas_h2": "Una casa de raíces *góticas*",
+   "onas_text": "El restaurante Michal se encuentra en una de las partes más antiguas del casco histórico de Praga, en la orilla derecha del río Moldava, en la calle Náprstkova, a tan solo unos pasos de los arcos de piedra del Puente de Carlos. Su cercanía invita, tras disfrutar de buena comida y bebida, a dar un agradable paseo con preciosas vistas del panorama del Castillo de Praga (Hradčany).\nLa casa en la que se ubica el restaurante fue reconstruida en estilo modernista en la segunda mitad del siglo XIX; no obstante, en el interior del restaurante se percibe con claridad que sus raíces se remontan al gótico temprano. Lo demuestra también Boršov, una de las calles más antiguas de Praga, con la que linda el restaurante.",
+   "onas_citat": "",
+   "show_kicker": "Folclore en directo",
+   "show_h2": "Espectáculo *folclórico* original",
+   "show_text": "Por la noche, en el restaurante se celebran actuaciones folclóricas en directo a cargo de la banda de címbalo de Alexandr Vrábel y de nuestros bailarines vestidos con trajes tradicionales.\nEl espectáculo comienza a las 19:00 y termina a las 22:00. Durante la velada verá una muestra representativa del folclore de la mayoría de las regiones etnográficas de Bohemia, Moravia y Eslovaquia. Al final, los invitados también pueden cantar sus canciones favoritas.",
+   "cisla": [
+    {
+     "cislo": "1997",
+     "plus": "",
+     "popis": "el conjunto inició su actividad"
+    },
+    {
+     "cislo": "70",
+     "plus": "+",
+     "popis": "trajes originales bordados a mano en la colección"
+    },
+    {
+     "cislo": "100",
+     "plus": "+",
+     "popis": "años tienen los trajes más antiguos"
+    },
+    {
+     "cislo": "19–22",
+     "plus": "",
+     "popis": "h: horario del espectáculo nocturno"
+    }
+   ],
+   "pruh_text": "Durante toda la velada toca una experimentada banda de címbalo bajo la dirección del primer violín Alexandr Vrábel.",
+   "pruh_popisek": "Banda de címbalo de Alexandr Vrábel",
+   "kuchyne_kicker": "Cocina",
+   "kuchyne_h2": "Una experiencia *gastronómica* fuera de lo común",
+   "kuchyne_text": "Nuestra oferta se compone tanto de platos típicos checos como de cocina internacional, y no nos hemos olvidado de los vegetarianos ni de quienes cuidan su línea. Todo lo preparamos siempre con ingredientes frescos y hierbas aromáticas.",
+   "fakta": [
+    {
+     "ikona": "bread",
+     "nadpis": "Pan y repostería propios",
+     "text": "Todo el pan lo amasamos y horneamos en nuestra propia cocina, donde también elaboramos nuestra repostería."
+    },
+    {
+     "ikona": "leaf",
+     "nadpis": "Carne de granjas familiares",
+     "text": "La carne de vacuno y de cerdo y las aves proceden de granjas familiares de la República Checa."
+    },
+    {
+     "ikona": "fish",
+     "nadpis": "Pescado del sur de Bohemia",
+     "text": "El pescado fresco de agua dulce lo suministra la piscifactoría Hůrka, del sur de Bohemia."
+    },
+    {
+     "ikona": "wine",
+     "nadpis": "Vinos de Moravia y cerveza checa",
+     "text": "Una amplia selección de vinos cuidadosamente elegidos de los viñedos de Moravia, cerveza checa, aperitivos y destilados de primera calidad."
+    }
+   ],
+   "sbirka_kicker": "Colección folclórica",
+   "sbirka_h2": "Más de *70 trajes* de Bohemia, Moravia y Eslovaquia",
+   "sbirka_text": "En el restaurante puede contemplar la colección de trajes del matrimonio Kačírek, que no deja de crecer. Una parte se expone en vitrinas de cristal que se renuevan una vez al año.",
+   "balicky_kicker": "Paquetes y eventos",
+   "balicky_h2": "Celebraciones, fiestas y *festividades*",
+   "balicky_text": "Gracias a los espacios únicos del restaurante, a un servicio de calidad y a nuestras especialidades gourmet, le prepararemos un evento del más alto nivel.",
+   "galerie_kicker": "Galería de fotos",
+   "galerie_h2": "Veladas en el *Michal*",
+   "galerie_text": "Bailarines, músicos, trajes, el interior y nuestra cocina: eche un vistazo al restaurante antes de su visita.",
+   "cta_kicker": "Reservas",
+   "cta_h2": "Reserve su *mesa* con antelación",
+   "cta_text": "Es necesario reservar antes de la visita. Confirmaremos su reserva por correo electrónico o por teléfono; la reserva solo es válida una vez confirmada.",
+   "partneri": "Nuestros socios",
+   "paticka": "Restaurante familiar con espectáculo folclórico en una de las partes más antiguas del casco histórico de Praga, a pocos pasos del Puente de Carlos."
+  },
+  "predstaveni": {
+   "title": "Espectáculo folclórico en Praga con cena | Restaurant Michal",
+   "description": "De 19:00 a 22:00: folclore de Bohemia, Moravia y Eslovaquia, la banda de címbalo de Alexandr Vrábel y bailarines con trajes originales, en el centro de Praga.",
+   "kicker": "Una velada en el Michal",
+   "h1": "Espectáculo *folclórico*",
+   "perex": "Una muestra del folclore de la mayoría de las regiones etnográficas de Bohemia, Moravia y Eslovaquia, con banda de címbalo y bailarines vestidos con trajes originales.",
+   "cas_nadpis": "19:00–22:00",
+   "h2": "*Espectáculo* folclórico original",
+   "text": "El espectáculo comienza a las 19:00 y termina a las 22:00. Durante la velada, nuestros invitados verán una muestra representativa del folclore de la mayoría de las regiones etnográficas de Bohemia, Moravia y Eslovaquia. Al final del espectáculo, los invitados pueden cantar sus canciones favoritas.\nDurante toda la velada toca una experimentada banda de címbalo bajo la dirección del primer violín Alexandr Vrábel. Nuestros bailarines actúan con trajes originales, siempre de la región cuyo baile interpretan.\nTodas las coreografías de bailes, canciones y música son de creación propia o se han elaborado con la ayuda de coreógrafos profesionales. La nueva coreografía de las regiones de Trenčín y Horehronie la ensayaron nuestros bailarines bajo la dirección de bailarines profesionales del conjunto Lučnica y del conjunto artístico SĽUK.",
+   "soubor_kicker": "El conjunto",
+   "soubor_h2": "Banda de címbalo de *Alexandr Vrábel*",
+   "soubor_text": "El conjunto inició su actividad en 1997 y procede del antiguo Conjunto Estatal de Canciones y Danzas. Se dedica al folclore de diversas regiones de Bohemia, Moravia y Eslovaquia. Extrae sus temas e inspiración de las colecciones de František Sušil, F. Bartoš, F. Poloczek, L. Janáček y otros recopiladores de canciones populares.\nLa banda también ha recorrido gran parte de Europa y en sus actuaciones utiliza trajes originales bordados a mano. Los músicos visten trajes de la región de Kyjov (Kyjovsko). Los bailarines llevan trajes originales que corresponden exactamente a la región cuyo baile interpretan.",
+   "citace_nadpis": "Lo que dicen nuestros invitados",
+   "citace": [
+    {
+     "text": "Gracias por la maravillosa actuación de los artistas checos. Ha sido increíble.",
+     "zdroj": "facebook.com"
+    },
+    {
+     "text": "Cuando volvamos a Praga, no dejaremos de visitar su restaurante, donde los bailarines hacen cosas nunca vistas…",
+     "zdroj": "TripAdvisor.com"
+    },
+    {
+     "text": "Es increíble lo bonita que es la voz de la cantante. ¡Y los músicos tocan prácticamente de todo!",
+     "zdroj": "Cliente del restaurante"
+    }
+   ]
+  },
+  "sbirka": {
+   "title": "Colección de trajes folclóricos y pinturas | Restaurant Michal",
+   "description": "Más de 70 trajes originales bordados a mano, algunos de más de 100 años, y grabados de Jožka Úprka: la colección de los Kačírek en el Restaurant Michal.",
+   "kicker": "Colección",
+   "h1": "Colección folclórica única de *trajes y pinturas*",
+   "perex": "En el restaurante puede contemplar una colección de trajes de Bohemia, Moravia y Eslovaquia que no deja de crecer.",
+   "kicker2": "Los propietarios del restaurante",
+   "h2": "Grandes amantes del *folclore*",
+   "text": "En el restaurante puede contemplar una colección de trajes que no deja de crecer. Los propietarios se esfuerzan por presentarla y por promover las tradiciones populares no solo en el restaurante, sino también organizando diversos proyectos folclóricos.\nLos espacios del restaurante están adaptados a la presentación del folclore checo, moravo y eslovaco, para que nuestros invitados puedan ver y vivir lo máximo posible de las distintas regiones etnográficas.\nEn los interiores se exponen cuadros y grabados de nuestros principales pintores del folclore. En la sala principal pueden verse grabados de la serie «Abrigos de piel de hombre» de Jožka Úprka (1861–1940), nuestro pintor del folclore más conocido. Este pintor fue colega de Alfons Mucha, con cuya ayuda expuso sus obras en 1894 en el Salón de Artistas Franceses de París. Allí obtuvo la «Mention Honorable» por su cuadro «Peregrinación a San Antonio» y, gracias a él, el campo de Slovácko se dio a conocer en Europa.\nLos propietarios del restaurante, el matrimonio Kačírek, son grandes amantes del folclore y su colección cuenta ya con más de 70 preciosos trajes originales bordados a mano. Algunos tienen más de 100 años y son de gran valor.\nUna parte de esta colección única se expone también en el restaurante, en vitrinas de cristal que se renuevan una vez al año. Así, los invitados pueden contemplar antiguos trajes originales bordados a mano y sus piezas, desde Bohemia occidental hasta Eslovaquia oriental.",
+   "upra_text": "En la sala principal pueden verse grabados de la serie «Abrigos de piel de hombre» de Jožka Úprka (1861–1940).",
+   "upra_popisek": "Jožka Úprka, colega de Alfons Mucha",
+   "regiony_kicker": "Ahora en el restaurante",
+   "regiony_h2": "Presentación de las *regiones* etnográficas",
+   "muzeum": "La disposición de los trajes fue aprobada por expertos del Museo Etnográfico del Museo Nacional."
+  },
+  "menu": {
+   "title": "Menú – cena con espectáculo folclórico | Restaurant Michal Praga",
+   "description": "Menú completo con cena y espectáculo folclórico incluidos: carnes a la brasa, carnes asadas o menú de pescado. Bebidas sin límite de 19:00 a 22:00.",
+   "kicker": "Cena + espectáculo folclórico",
+   "h1": "Menú – cena y *espectáculo folclórico*",
+   "perex": "Estimados invitados, les ofrecemos un menú completo que incluye la cena y el espectáculo folclórico.",
+   "text": "Los platos se elaboran en nuestro restaurante con ingredientes frescos, sin aditivos ni productos que contengan conservantes químicos. Todos los platos se acompañan de pan casero.",
+   "cena_text": "El precio del menú incluye el espectáculo folclórico. Precio del menú bajo petición. Bebidas sin límite de 19:00 a 22:00 (cerveza, vino embotellado, refrescos).",
+   "poznamka": ""
+  },
+  "galerie": {
+   "title": "Fotos del espectáculo folclórico y la cocina | Restaurant Michal",
+   "description": "Fotos del Restaurant Michal: espectáculo folclórico, banda de címbalo, trajes de la colección, el interior junto al Puente de Carlos y nuestros platos.",
+   "kicker": "Galería de fotos",
+   "h1": "Galería de *fotos*",
+   "perex": "Espectáculo folclórico, interior del restaurante, colección de trajes y nuestra cocina.",
+   "filtr": "Filtrar fotos",
+   "vse": "Todas",
+   "flickr": "Más fotos en Flickr"
+  },
+  "balicky": {
+   "title": "Nochevieja y fiestas de empresa | Restaurant Michal Praga",
+   "description": "Nochevieja, fiestas de empresa y otros eventos en el Restaurant Michal, junto al Puente de Carlos en Praga. Envíenos su solicitud online y sin compromiso.",
+   "kicker": "Paquetes y eventos",
+   "h1": "Paquetes y *eventos*",
+   "perex": "Nochevieja, fiestas de empresa y otros eventos en el restaurante junto al Puente de Carlos.",
+   "prazdne": "Estamos preparando nuevos paquetes. Escríbanos y le organizaremos un evento a medida.",
+   "na_miru_h2": "Organizamos su evento *a medida*",
+   "na_miru_text": "Gracias a los espacios únicos del restaurante, a un servicio de calidad y a nuestras especialidades gourmet, le prepararemos un evento del más alto nivel, avalado por nuestra larga experiencia y numerosas referencias excelentes.",
+   "v_cene": "Qué incluye el paquete",
+   "termin": "Fecha",
+   "cena": "Precio",
+   "kapacita": "Capacidad",
+   "poptat_h": "Solicitud sin compromiso",
+   "odeslat": "Enviar solicitud"
+  },
+  "rezervace": {
+   "title": "Reservar mesa | Restaurant Michal Praga 1",
+   "description": "Reserve su mesa en el Restaurant Michal, junto al Puente de Carlos: cena y espectáculo folclórico de 19:00 a 22:00. Es necesario reservar antes de la visita.",
+   "kicker": "Reservas",
+   "h1": "Reserva de *mesa*",
+   "perex": "Es necesario reservar antes de la visita. Confirmaremos su reserva por correo electrónico o por teléfono; la reserva solo es válida una vez confirmada.",
+   "form_h": "Formulario de reserva",
+   "form_text": "Por favor, rellene sus datos y le responderemos con la confirmación.",
+   "odeslat": "Enviar reserva",
+   "side_h": "¿Prefiere llamarnos?",
+   "side_text": "La reserva solo es válida una vez confirmada. Se la confirmaremos por correo electrónico o por teléfono."
+  },
+  "kontakt": {
+   "title": "Contacto – Náprstkova 8, Praga 1 | Restaurant Michal",
+   "description": "Restaurant Michal, Náprstkova 273/8, Ciudad Vieja, Praga 1, a pocos pasos del Puente de Carlos. Reservas e información por teléfono y correo electrónico.",
+   "kicker": "Dónde encontrarnos",
+   "h1": "Contacto",
+   "perex": "Náprstkova 273/8, Ciudad Vieja (Staré Město), a tan solo unos pasos del Puente de Carlos.",
+   "adresa_h": "Dirección",
+   "poloha": "El restaurante se encuentra en una de las partes más antiguas del casco histórico de Praga, en la orilla derecha del Moldava, en la calle Náprstkova, a tan solo unos pasos de los arcos de piedra del Puente de Carlos. Linda con Boršov, una de las calles más antiguas de Praga.",
+   "upozorneni_h": "¡Aviso importante!",
+   "upozorneni": "Es necesario reservar antes de visitar el restaurante; puede hacerlo online, por teléfono o por correo electrónico. Gracias por su comprensión, esperamos su visita.",
+   "rezervace_h": "Reservas e información",
+   "mapa": "Mapa – Restaurant Michal"
+  },
+  "gdpr": {
+   "title": "Protección de datos personales | Restaurant Michal",
+   "description": "Información sobre el tratamiento de datos personales por parte de HERMÍNA spol. s r.o., empresa que opera el Restaurant Michal en Praga, conforme al RGPD.",
+   "h1": "Protección de datos personales",
+   "perex": ""
+  }
+ },
+ "fr": {
+  "ui": {
+   "preskocit": "Aller au contenu",
+   "menu_label": "Menu principal",
+   "jazyk": "Langue",
+   "logo_pod": "Prague 1 · près du pont Charles",
+   "nav": {
+    "home": "Le restaurant",
+    "predstaveni": "Spectacle folklorique",
+    "sbirka": "Collection folklorique",
+    "menu": "Menu",
+    "balicky": "Formules",
+    "galerie": "Galerie photos",
+    "kontakt": "Contact",
+    "rezervace": "Réservation"
+   },
+   "rezervovat": "Réserver une table",
+   "vice": "En savoir plus sur le spectacle",
+   "kde_nas_najdete": "Nous trouver",
+   "cela_sbirka": "Découvrir la collection",
+   "cela_galerie": "Toute la galerie",
+   "vsechny_balicky": "Toutes les formules",
+   "region": "Région",
+   "menu_vecere": "Dîner + spectacle folklorique",
+   "cena_na_dotaz": "Prix sur demande",
+   "napsat_nam": "Écrivez-nous",
+   "adresa": "Adresse",
+   "telefon": "Téléphone",
+   "navigovat": "Itinéraire",
+   "rezervace_info": "Réservations & informations",
+   "web": "Restaurant",
+   "provozuje": "Exploité par",
+   "ico": "IČO",
+   "dic": "N° TVA",
+   "zavolat": "Appeler",
+   "fotogalerie": "Galerie photos",
+   "zavrit": "Fermer",
+   "odesilam": "Envoi en cours…",
+   "form_chyba": {
+    "povinne": "Merci de remplir tous les champs obligatoires.",
+    "email": "L’adresse e-mail ne semble pas valide.",
+    "souhlas": "Votre consentement au traitement des données personnelles est nécessaire pour l’envoi.",
+    "odeslani": "L’envoi a échoué. Veuillez réessayer ou nous appeler."
+   },
+   "f": {
+    "jmeno": "Prénom",
+    "prijmeni": "Nom",
+    "email": "E-mail",
+    "telefon": "Téléphone",
+    "datum": "Date",
+    "cas": "Heure d’arrivée",
+    "osob": "Nombre de personnes",
+    "predstaveni": "Spectacle folklorique (19h00–22h00)",
+    "ano_predstaveni": "Oui",
+    "ne_predstaveni": "Non",
+    "poznamka": "Votre message",
+    "poznamka_ph": "Par ex. anniversaire, allergies, chaise haute…",
+    "souhlas": "Nous traitons vos données personnelles uniquement pour gérer votre réservation. J’accepte leur traitement –",
+    "souhlas_odkaz": "protection des données personnelles",
+    "dekujeme_h": "Merci !",
+    "dekujeme": "Nous avons bien reçu votre réservation. Nous vous la confirmerons par e-mail ou par téléphone – seule une réservation confirmée est valable.",
+    "dekujeme_balicek": "Nous avons bien reçu votre demande et reviendrons vers vous très prochainement."
+   }
+  },
+  "home": {
+   "title": "Restaurant Michal Prague – spectacle folklorique, cuisine tchèque",
+   "description": "Restaurant familial près du pont Charles : cuisine tchèque et internationale, spectacle folklorique en soirée avec l’orchestre de cymbalum d’Alexandr Vrábel.",
+   "hero_kicker": "Náprstkova 8 · Vieille Ville · près du pont Charles",
+   "h1": "Restaurant familial *Michal*",
+   "hero_text": "Cuisine tchèque et internationale dans une maison aux origines gothiques, à quelques pas des voûtes de pierre du pont Charles. Le soir, l’orchestre de cymbalum joue et nos danseurs en costumes traditionnels entrent en scène.",
+   "karta_nadpis": "Spectacle folklorique",
+   "karta_cas": "19h00–22h00",
+   "karta_text": "L’orchestre de cymbalum d’Alexandr Vrábel et des danseurs en costumes traditionnels – le folklore de Bohême, de Moravie et de Slovaquie.",
+   "marquee": [
+    "Le folklore de Bohême, de Moravie et de Slovaquie",
+    "L’orchestre de cymbalum d’Alexandr Vrábel",
+    "À quelques pas du pont Charles",
+    "Cuisine tchèque et internationale",
+    "Costumes traditionnels authentiques brodés à la main"
+   ],
+   "ahr": "Membre de l’Association des hôtels et restaurants de la République tchèque",
+   "onas_kicker": "Le restaurant",
+   "onas_h2": "Une maison aux origines *gothiques*",
+   "onas_text": "Le restaurant Michal se trouve dans l’un des quartiers les plus anciens de la Prague historique, sur la rive droite de la Vltava, rue Náprstkova, à quelques pas des voûtes de pierre du pont Charles. Cette situation invite, après un bon repas, à une agréable promenade avec une vue magnifique sur le panorama du Château de Prague.\nLa maison qui abrite le restaurant fut reconstruite dans le style Art nouveau dans la seconde moitié du XIXe siècle, mais l’intérieur du restaurant révèle que ses origines remontent au début de l’époque gothique. En témoigne aussi Boršov, la rue voisine, l’une des plus anciennes de Prague.",
+   "onas_citat": "",
+   "show_kicker": "Folklore vivant",
+   "show_h2": "Un spectacle *folklorique* original",
+   "show_text": "En soirée, le restaurant accueille des spectacles folkloriques en direct, assurés par l’orchestre de cymbalum d’Alexandr Vrábel et nos danseurs en costumes traditionnels.\nLe spectacle commence à 19h et se termine à 22h. Pendant la soirée, vous découvrirez le folklore de la plupart des régions ethnographiques de Bohême, de Moravie et de Slovaquie. À la fin, nos hôtes peuvent aussi chanter leurs chansons préférées.",
+   "cisla": [
+    {
+     "cislo": "1997",
+     "plus": "",
+     "popis": "année de fondation de l’ensemble"
+    },
+    {
+     "cislo": "70",
+     "plus": "+",
+     "popis": "costumes authentiques brodés à la main dans la collection"
+    },
+    {
+     "cislo": "100",
+     "plus": "+",
+     "popis": "ans – l’âge des plus anciens costumes"
+    },
+    {
+     "cislo": "19–22",
+     "plus": "",
+     "popis": "heures : la durée du spectacle du soir"
+    }
+   ],
+   "pruh_text": "Toute la soirée, un orchestre de cymbalum expérimenté joue sous la direction du premier violon Alexandr Vrábel.",
+   "pruh_popisek": "L’orchestre de cymbalum d’Alexandr Vrábel",
+   "kuchyne_kicker": "Cuisine",
+   "kuchyne_h2": "Une expérience *gastronomique* rare",
+   "kuchyne_text": "Notre carte se compose de plats typiquement tchèques, mais aussi de plats de la cuisine internationale, sans oublier les végétariens ni les adeptes d’une alimentation légère. Tout est toujours préparé à partir d’ingrédients frais et d’herbes aromatiques.",
+   "fakta": [
+    {
+     "ikona": "bread",
+     "nadpis": "Pain et pâtisseries maison",
+     "text": "Tout notre pain est pétri et cuit dans notre cuisine, où nous préparons également nos propres pâtisseries."
+    },
+    {
+     "ikona": "leaf",
+     "nadpis": "Viandes d’élevages familiaux",
+     "text": "Le bœuf, le porc et la volaille proviennent d’élevages familiaux de République tchèque."
+    },
+    {
+     "ikona": "fish",
+     "nadpis": "Poissons de Bohême du Sud",
+     "text": "Nos poissons d’eau douce frais nous sont livrés par la pêcherie Hůrka, en Bohême du Sud."
+    },
+    {
+     "ikona": "wine",
+     "nadpis": "Vins de Moravie et bière tchèque",
+     "text": "Un large choix de vins soigneusement sélectionnés auprès de vignerons moraves, de la bière tchèque, des apéritifs et des eaux-de-vie de premier choix."
+    }
+   ],
+   "sbirka_kicker": "Collection folklorique",
+   "sbirka_h2": "Plus de *70 costumes* de Bohême, de Moravie et de Slovaquie",
+   "sbirka_text": "Le restaurant présente la collection de costumes traditionnels de M. et Mme Kačírek, qui ne cesse de s’enrichir. Une partie est exposée dans des vitrines, renouvelées une fois par an.",
+   "balicky_kicker": "Formules et événements",
+   "balicky_h2": "Fêtes, soirées et *célébrations*",
+   "balicky_text": "Nos locaux uniques, un excellent service et nos spécialités gastronomiques vous permettront de vivre un événement de la plus grande qualité.",
+   "galerie_kicker": "Galerie photos",
+   "galerie_h2": "Les soirées au *Michal*",
+   "galerie_text": "Danseurs, musiciens, costumes, intérieur et cuisine – découvrez le restaurant avant même votre visite.",
+   "cta_kicker": "Réservation",
+   "cta_h2": "Réservez votre *table* à l’avance",
+   "cta_text": "La réservation est obligatoire avant votre visite. Nous la confirmons par e-mail ou par téléphone ; seule une réservation confirmée est valable.",
+   "partneri": "Nos partenaires",
+   "paticka": "Restaurant familial avec spectacle folklorique dans l’un des quartiers les plus anciens de la Prague historique, à quelques pas du pont Charles."
+  },
+  "predstaveni": {
+   "title": "Spectacle folklorique à Prague | Restaurant Michal",
+   "description": "De 19h à 22h, le folklore de Bohême, de Moravie et de Slovaquie : l’orchestre de cymbalum d’Alexandr Vrábel et des danseurs en costumes authentiques.",
+   "kicker": "Une soirée au Michal",
+   "h1": "Spectacle *folklorique*",
+   "perex": "Un voyage à travers le folklore de la plupart des régions ethnographiques de Bohême, de Moravie et de Slovaquie – avec un orchestre de cymbalum et des danseurs en costumes authentiques.",
+   "cas_nadpis": "19h00–22h00",
+   "h2": "*Spectacle* folklorique original",
+   "text": "Le spectacle commence à 19h et se termine à 22h. Pendant la soirée, nos hôtes découvrent le folklore de la plupart des régions ethnographiques de Bohême, de Moravie et de Slovaquie. À la fin du spectacle, ils ont aussi la possibilité de chanter leurs chansons préférées.\nToute la soirée, un orchestre de cymbalum expérimenté joue sous la direction du premier violon Alexandr Vrábel. Nos danseurs portent des costumes traditionnels authentiques, toujours ceux de la région dont provient la danse.\nToutes les chorégraphies des danses, des chants et de la musique sont nos propres adaptations ou ont été créées avec l’aide de chorégraphes professionnels. La toute nouvelle chorégraphie consacrée aux régions de Trenčín et de Horehronie a été répétée par nos danseurs sous la direction de danseurs professionnels de l’ensemble Lučnica et de l’ensemble artistique SĽUK.",
+   "soubor_kicker": "L’ensemble",
+   "soubor_h2": "L’orchestre de cymbalum d’*Alexandr Vrábel*",
+   "soubor_text": "L’ensemble a été fondé en 1997 et ses membres sont issus de l’ancien Ensemble national de chants et de danses. Il se consacre au folklore de différentes régions de Bohême, de Moravie et de Slovaquie et puise son inspiration dans les recueils de František Sušil, F. Bartoš, F. Poloczek, L. Janáček et d’autres collecteurs de chants populaires.\nL’ensemble a parcouru une grande partie de l’Europe et se produit en costumes authentiques brodés à la main. Les musiciens portent des costumes de la région de Kyjov (Kyjovsko). Les danseurs portent des costumes authentiques correspondant exactement à la région dont provient chaque danse.",
+   "citace_nadpis": "Ce que disent nos hôtes",
+   "citace": [
+    {
+     "text": "Merci pour ce merveilleux spectacle des artistes tchèques. C’était incroyable.",
+     "zdroj": "facebook.com"
+    },
+    {
+     "text": "Quand nous reviendrons à Prague, nous ne manquerons pas de revenir dans votre restaurant, où les danseurs font des choses jamais vues…",
+     "zdroj": "TripAdvisor.com"
+    },
+    {
+     "text": "La voix de la chanteuse est d’une beauté incroyable. Et les musiciens savent vraiment tout jouer !",
+     "zdroj": "Client du restaurant"
+    }
+   ]
+  },
+  "sbirka": {
+   "title": "Collection de costumes et de tableaux | Restaurant Michal Prague",
+   "description": "Plus de 70 costumes authentiques brodés à la main, certains centenaires, et des gravures de Jožka Úprka : la collection Kačírek au Restaurant Michal.",
+   "kicker": "Collection",
+   "h1": "Une collection folklorique unique de *costumes et de tableaux*",
+   "perex": "Le restaurant présente une collection de costumes de Bohême, de Moravie et de Slovaquie qui ne cesse de s’enrichir.",
+   "kicker2": "Les propriétaires du restaurant",
+   "h2": "De grands passionnés de *folklore*",
+   "text": "Le restaurant présente une collection de costumes traditionnels qui ne cesse de s’enrichir. Les propriétaires s’attachent à la faire connaître et à promouvoir les traditions populaires, non seulement au restaurant, mais aussi en organisant divers projets folkloriques.\nLes espaces du restaurant sont aménagés pour mettre en valeur le folklore tchèque, morave et slovaque, afin que nos hôtes puissent voir et vivre le plus possible de la culture des différentes régions ethnographiques.\nÀ l’intérieur se trouvent des tableaux et des gravures de nos plus grands peintres du folklore. Dans la salle principale sont exposées des gravures de la série « Fourrures d’hommes » de Jožka Úprka (1861–1940), notre peintre du folklore le plus célèbre. Collègue d’Alfons Mucha, il exposa grâce à lui ses tableaux en 1894 au Salon des artistes français à Paris. Il y reçut une « Mention honorable » pour son tableau « Pèlerinage à Saint-Antoine », et c’est grâce à lui que la campagne de Slovácko s’est fait connaître en Europe.\nLes propriétaires du restaurant, M. et Mme Kačírek, sont de grands passionnés de folklore et leur collection compte déjà plus de 70 magnifiques costumes authentiques brodés à la main. Certains ont plus de 100 ans et sont d’une grande valeur.\nUne partie de cette collection unique est exposée au restaurant, dans des vitrines renouvelées une fois par an. Nos hôtes peuvent ainsi admirer d’anciens costumes authentiques brodés à la main et leurs accessoires, de la Bohême de l’Ouest jusqu’à la Slovaquie orientale.",
+   "upra_text": "Dans la salle principale sont exposées des gravures de la série « Fourrures d’hommes » de Jožka Úprka (1861–1940).",
+   "upra_popisek": "Jožka Úprka, collègue d’Alfons Mucha",
+   "regiony_kicker": "Actuellement au restaurant",
+   "regiony_h2": "Présentation des *régions* ethnographiques",
+   "muzeum": "La présentation des costumes a été approuvée par les spécialistes du Musée ethnographique du Musée national."
+  },
+  "menu": {
+   "title": "Menu – dîner et spectacle folklorique | Restaurant Michal Prague",
+   "description": "Un menu complet incluant le dîner et le spectacle folklorique : viandes grillées, viandes rôties ou poisson. Boissons à volonté de 19h à 22h.",
+   "kicker": "Dîner + spectacle folklorique",
+   "h1": "Menu – dîner et *spectacle folklorique*",
+   "perex": "Chers hôtes, nous vous proposons un menu complet qui comprend le dîner et le spectacle folklorique.",
+   "text": "Les plats sont préparés dans notre restaurant à partir d’ingrédients frais, sans additifs ni produits contenant des conservateurs chimiques. Tous les plats sont servis avec du pain maison.",
+   "cena_text": "Le spectacle folklorique est compris dans le prix du menu. Prix du menu sur demande. Boissons à volonté de 19h00 à 22h00 (bière, vin en bouteille, boissons sans alcool).",
+   "poznamka": ""
+  },
+  "galerie": {
+   "title": "Galerie photos – spectacle folklorique | Restaurant Michal",
+   "description": "Photos du Restaurant Michal : spectacle folklorique, orchestre de cymbalum, costumes de la collection, intérieur de la maison près du pont Charles et nos plats.",
+   "kicker": "Galerie photos",
+   "h1": "Galerie *photos*",
+   "perex": "Spectacle folklorique, intérieur du restaurant, collection de costumes et notre cuisine.",
+   "filtr": "Filtrer les photos",
+   "vse": "Tout",
+   "flickr": "Plus de photos sur Flickr"
+  },
+  "balicky": {
+   "title": "Saint-Sylvestre, soirées d’entreprise | Restaurant Michal",
+   "description": "Saint-Sylvestre, soirées d’entreprise et autres événements au Restaurant Michal, près du pont Charles à Prague. Demande en ligne sans engagement.",
+   "kicker": "Formules et événements",
+   "h1": "Formules et *événements*",
+   "perex": "Saint-Sylvestre, soirées d’entreprise et autres événements dans notre restaurant près du pont Charles.",
+   "prazdne": "Nous préparons actuellement de nouvelles formules. Écrivez-nous et nous organiserons un événement sur mesure.",
+   "na_miru_h2": "Un événement *sur mesure*",
+   "na_miru_text": "Nos locaux uniques, un excellent service et nos spécialités gastronomiques vous permettront de vivre un événement de la plus grande qualité, garanti par notre longue expérience et une flatteuse liste de références.",
+   "v_cene": "Ce que comprend la formule",
+   "termin": "Date",
+   "cena": "Prix",
+   "kapacita": "Capacité",
+   "poptat_h": "Demande sans engagement",
+   "odeslat": "Envoyer la demande"
+  },
+  "rezervace": {
+   "title": "Réserver une table | Restaurant Michal Prague 1",
+   "description": "Réservez votre table au Restaurant Michal, près du pont Charles – dîner et spectacle folklorique de 19h à 22h. La réservation est obligatoire avant la visite.",
+   "kicker": "Réservation",
+   "h1": "Réserver une *table*",
+   "perex": "La réservation est obligatoire avant votre visite. Nous la confirmons par e-mail ou par téléphone ; seule une réservation confirmée est valable.",
+   "form_h": "Formulaire de réservation",
+   "form_text": "Merci de remplir vos coordonnées, nous reviendrons vers vous avec une confirmation.",
+   "odeslat": "Envoyer la réservation",
+   "side_h": "Vous préférez téléphoner ?",
+   "side_text": "Seule une réservation confirmée est valable. Nous vous la confirmerons par e-mail ou par téléphone."
+  },
+  "kontakt": {
+   "title": "Contact – Náprstkova 8, Prague 1 | Restaurant Michal",
+   "description": "Restaurant Michal, Náprstkova 273/8, Vieille Ville, Prague 1 – à quelques pas du pont Charles. Réservations et informations par téléphone ou par e-mail.",
+   "kicker": "Nous trouver",
+   "h1": "Contact",
+   "perex": "Náprstkova 273/8, Vieille Ville – à quelques pas du pont Charles.",
+   "adresa_h": "Adresse",
+   "poloha": "Le restaurant se trouve dans l’un des quartiers les plus anciens de la Prague historique, sur la rive droite de la Vltava, rue Náprstkova, à quelques pas des voûtes de pierre du pont Charles. Il est voisin de Boršov, l’une des plus anciennes rues de Prague.",
+   "upozorneni_h": "Information importante !",
+   "upozorneni": "Il est nécessaire de réserver avant de venir au restaurant ; vous pouvez le faire en ligne, par téléphone ou par e-mail. Merci de votre compréhension, nous nous réjouissons de votre visite.",
+   "rezervace_h": "Réservations & informations",
+   "mapa": "Plan – Restaurant Michal"
+  },
+  "gdpr": {
+   "title": "Protection des données personnelles | Restaurant Michal",
+   "description": "Informations sur le traitement des données personnelles par HERMÍNA spol. s r.o., exploitant du Restaurant Michal à Prague 1.",
+   "h1": "Protection des données personnelles",
+   "perex": ""
+  }
+ },
+ "it": {
+  "ui": {
+   "preskocit": "Vai al contenuto",
+   "menu_label": "Menu principale",
+   "jazyk": "Lingua",
+   "logo_pod": "Praga 1 · vicino al Ponte Carlo",
+   "nav": {
+    "home": "Il ristorante",
+    "predstaveni": "Spettacolo folcloristico",
+    "sbirka": "Collezione folcloristica",
+    "menu": "Menu",
+    "balicky": "Pacchetti",
+    "galerie": "Fotogalleria",
+    "kontakt": "Contatti",
+    "rezervace": "Prenotazioni"
+   },
+   "rezervovat": "Prenoti un tavolo",
+   "vice": "Scopra lo spettacolo",
+   "kde_nas_najdete": "Dove trovarci",
+   "cela_sbirka": "Scopra la collezione",
+   "cela_galerie": "Tutta la fotogalleria",
+   "vsechny_balicky": "Tutti i pacchetti",
+   "region": "Regione",
+   "menu_vecere": "Cena + spettacolo folcloristico",
+   "cena_na_dotaz": "Prezzo su richiesta",
+   "napsat_nam": "Ci scriva",
+   "adresa": "Indirizzo",
+   "telefon": "Telefono",
+   "navigovat": "Indicazioni stradali",
+   "rezervace_info": "Prenotazioni e informazioni",
+   "web": "Ristorante",
+   "provozuje": "Gestito da",
+   "ico": "IČO",
+   "dic": "DIČ",
+   "zavolat": "Ci chiami",
+   "fotogalerie": "Fotogalleria",
+   "zavrit": "Chiudi",
+   "odesilam": "Invio in corso…",
+   "form_chyba": {
+    "povinne": "La preghiamo di compilare tutti i campi obbligatori.",
+    "email": "L'indirizzo e-mail non sembra corretto.",
+    "souhlas": "Per l'invio è necessario il consenso al trattamento dei dati personali.",
+    "odeslani": "Invio non riuscito. La preghiamo di riprovare o di contattarci telefonicamente."
+   },
+   "f": {
+    "jmeno": "Nome",
+    "prijmeni": "Cognome",
+    "email": "E-mail",
+    "telefon": "Telefono",
+    "datum": "Data",
+    "cas": "Orario di arrivo",
+    "osob": "Numero di persone",
+    "predstaveni": "Spettacolo folcloristico (19:00–22:00)",
+    "ano_predstaveni": "Sì",
+    "ne_predstaveni": "No",
+    "poznamka": "Il Suo messaggio",
+    "poznamka_ph": "Ad es. festeggiamento, allergie, seggiolone per bambini…",
+    "souhlas": "Trattiamo i dati personali esclusivamente per gestire la prenotazione. Acconsento al trattamento –",
+    "souhlas_odkaz": "informativa sulla privacy",
+    "dekujeme_h": "Grazie!",
+    "dekujeme": "Abbiamo ricevuto la Sua prenotazione. Gliela confermeremo via e-mail o per telefono: la prenotazione è valida solo dopo la nostra conferma.",
+    "dekujeme_balicek": "Abbiamo ricevuto la Sua richiesta e La ricontatteremo al più presto."
+   }
+  },
+  "home": {
+   "title": "Restaurant Michal Praga – spettacolo folcloristico e cucina ceca",
+   "description": "Ristorante familiare a due passi dal Ponte Carlo a Praga: cucina ceca e internazionale e spettacolo folcloristico serale con il cimbalom di Alexandr Vrábel.",
+   "hero_kicker": "Náprstkova 8 · Città Vecchia · vicino al Ponte Carlo",
+   "h1": "Ristorante a conduzione familiare *Michal*",
+   "hero_text": "Cucina ceca e internazionale in una casa dalle radici gotiche, a pochi passi dalle arcate in pietra del Ponte Carlo. La sera suona l'orchestra di cimbalom e danzano i nostri ballerini in costume tradizionale.",
+   "karta_nadpis": "Spettacolo folcloristico",
+   "karta_cas": "19:00–22:00",
+   "karta_text": "L'orchestra di cimbalom di Alexandr Vrábel e i ballerini in costume tradizionale: il folclore di Boemia, Moravia e Slovacchia.",
+   "marquee": [
+    "Il folclore di Boemia, Moravia e Slovacchia",
+    "L'orchestra di cimbalom di Alexandr Vrábel",
+    "A pochi passi dal Ponte Carlo",
+    "Cucina ceca e internazionale",
+    "Costumi originali ricamati a mano"
+   ],
+   "ahr": "Membro dell'Associazione degli hotel e dei ristoranti della Repubblica Ceca",
+   "onas_kicker": "Il ristorante",
+   "onas_h2": "Una casa dalle radici *gotiche*",
+   "onas_text": "Il Restaurant Michal si trova in una delle zone più antiche della Praga storica, sulla riva destra della Moldava, in via Náprstkova, a pochi passi dalle arcate in pietra del Ponte Carlo. Questa posizione invita anche, dopo un buon pasto e un buon bicchiere, a una piacevole passeggiata con una splendida vista sul panorama di Hradčany.\nLa casa in cui si trova il ristorante è stata ricostruita in stile Art Nouveau nella seconda metà del XIX secolo, ma dagli interni del ristorante si nota che le sue radici risalgono al primo periodo gotico. Lo testimonia anche Boršov, una delle vie più antiche di Praga, con cui il ristorante confina.",
+   "onas_citat": "",
+   "show_kicker": "Folclore dal vivo",
+   "show_h2": "Spettacolo *folcloristico* originale",
+   "show_text": "Nelle ore serali il ristorante ospita spettacoli folcloristici dal vivo, con l'orchestra di cimbalom di Alexandr Vrábel e i nostri ballerini in costume tradizionale.\nLo spettacolo inizia alle 19.00 e termina alle 22.00. Durante la serata assisterà a uno spaccato del folclore della maggior parte delle regioni etnografiche di Boemia, Moravia e Slovacchia. Alla fine gli ospiti potranno cantare anche le loro canzoni preferite.",
+   "cisla": [
+    {
+     "cislo": "1997",
+     "plus": "",
+     "popis": "anno di fondazione dell'ensemble"
+    },
+    {
+     "cislo": "70",
+     "plus": "+",
+     "popis": "costumi originali ricamati a mano nella collezione"
+    },
+    {
+     "cislo": "100",
+     "plus": "+",
+     "popis": "anni – l'età dei costumi più antichi"
+    },
+    {
+     "cislo": "19–22",
+     "plus": "",
+     "popis": "l'orario dello spettacolo serale"
+    }
+   ],
+   "pruh_text": "Per tutta la serata suona un'esperta orchestra di cimbalom guidata dal primo violino Alexandr Vrábel.",
+   "pruh_popisek": "L'orchestra di cimbalom di Alexandr Vrábel",
+   "kuchyne_kicker": "Cucina",
+   "kuchyne_h2": "Un'esperienza *gastronomica* insolita",
+   "kuchyne_text": "Il nostro menu comprende sia piatti tipici della cucina ceca sia piatti della cucina internazionale, e non ci siamo dimenticati né dei vegetariani né di chi tiene alla linea. Prepariamo tutto sempre con materie prime fresche ed erbe aromatiche profumate.",
+   "fakta": [
+    {
+     "ikona": "bread",
+     "nadpis": "Pane e dolci fatti in casa",
+     "text": "Tutto il pane viene impastato e sfornato nella nostra cucina, dove prepariamo anche i nostri dolci di pasticceria."
+    },
+    {
+     "ikona": "leaf",
+     "nadpis": "Carne da allevamenti familiari",
+     "text": "La carne di manzo, di maiale e il pollame ci vengono forniti da allevamenti familiari della Repubblica Ceca."
+    },
+    {
+     "ikona": "fish",
+     "nadpis": "Pesce dalla Boemia meridionale",
+     "text": "Il pesce d'acqua dolce fresco ci viene fornito dall'azienda ittica Hůrka, nella Boemia meridionale."
+    },
+    {
+     "ikona": "wine",
+     "nadpis": "Vini moravi e birra ceca",
+     "text": "Un'ampia scelta di vini accuratamente selezionati dai vigneti moravi, birra ceca, aperitivi e distillati di prima qualità."
+    }
+   ],
+   "sbirka_kicker": "Collezione folcloristica",
+   "sbirka_h2": "Oltre *70 costumi* di Boemia, Moravia e Slovacchia",
+   "sbirka_text": "Nel ristorante è esposta la collezione di costumi dei coniugi Kačírek, in continua crescita. Una parte si trova in teche di vetro che vengono rinnovate una volta all'anno.",
+   "balicky_kicker": "Pacchetti ed eventi",
+   "balicky_h2": "Celebrazioni, feste e *festività*",
+   "balicky_text": "Grazie agli spazi unici del ristorante, a un servizio di qualità e alle specialità per buongustai, prepariamo per Lei eventi di alto livello.",
+   "galerie_kicker": "Fotogalleria",
+   "galerie_h2": "Serate al *Michal*",
+   "galerie_text": "Ballerini, musicisti, costumi, gli interni e la nostra cucina: dia uno sguardo al ristorante ancora prima della Sua visita.",
+   "cta_kicker": "Prenotazioni",
+   "cta_h2": "Prenoti il Suo *tavolo* in anticipo",
+   "cta_text": "La prenotazione prima della visita è obbligatoria. La confermeremo via e-mail o per telefono: è valida solo la prenotazione confermata.",
+   "partneri": "I nostri partner",
+   "paticka": "Ristorante a conduzione familiare con spettacolo folcloristico in una delle zone più antiche della Praga storica, a pochi passi dal Ponte Carlo."
+  },
+  "predstaveni": {
+   "title": "Spettacolo folcloristico Praga – musica e danze | Restaurant Michal",
+   "description": "Dalle 19 alle 22: il folclore di Boemia, Moravia e Slovacchia con l'orchestra di cimbalom di Alexandr Vrábel e ballerini in costumi originali.",
+   "kicker": "Una serata al Michal",
+   "h1": "Spettacolo *folcloristico*",
+   "perex": "Uno spaccato del folclore della maggior parte delle regioni etnografiche di Boemia, Moravia e Slovacchia, con l'orchestra di cimbalom e ballerini in costumi originali.",
+   "cas_nadpis": "19:00–22:00",
+   "h2": "*Spettacolo* folcloristico originale",
+   "text": "Lo spettacolo inizia alle 19.00 e termina alle 22.00. Durante la serata i nostri ospiti assisteranno a uno spaccato del folclore della maggior parte delle regioni etnografiche di Boemia, Moravia e Slovacchia. Alla fine dello spettacolo gli ospiti potranno cantare anche le loro canzoni preferite.\nPer tutta la serata suona un'esperta orchestra di cimbalom guidata dal primo violino Alexandr Vrábel. I nostri ballerini si esibiscono in costumi originali, sempre della regione da cui proviene la danza.\nTutte le coreografie di danze, canti e musiche sono state elaborate da noi o con l'aiuto di coreografi professionisti. L'attuale nuova coreografia delle regioni di Trenčín e Horehronie è stata provata dai nostri ballerini sotto la guida di ballerini professionisti dell'ensemble Lučnica e dell'ensemble artistico SĽUK.",
+   "soubor_kicker": "L'ensemble",
+   "soubor_h2": "L'orchestra di cimbalom di *Alexandr Vrábel*",
+   "soubor_text": "L'ensemble ha iniziato la sua attività nel 1997 ed è nato dall'ex Ensemble statale di canti e danze. Si dedica al folclore di varie regioni di Boemia, Moravia e Slovacchia e trae temi e spunti dalle raccolte di František Sušil, F. Bartoš, F. Poloczek, L. Janáček e di altri raccoglitori di canti popolari.\nL'orchestra ha inoltre girato gran parte dell'Europa e nelle sue esibizioni indossa costumi originali ricamati a mano. I musicisti dell'orchestra di cimbalom vestono costumi della regione di Kyjov. I ballerini indossano costumi originali che appartengono esattamente alla regione da cui proviene la danza.",
+   "citace_nadpis": "Cosa dicono gli ospiti",
+   "citace": [
+    {
+     "text": "Grazie per il meraviglioso spettacolo degli artisti cechi. È stato incredibile.",
+     "zdroj": "facebook.com"
+    },
+    {
+     "text": "Quando torneremo a Praga, non mancheremo di visitare il vostro ristorante, dove i ballerini fanno cose mai viste…",
+     "zdroj": "TripAdvisor.com"
+    },
+    {
+     "text": "È incredibile quanto sia bella la voce della cantante. E i musicisti suonano davvero di tutto!",
+     "zdroj": "Ospite del ristorante"
+    }
+   ]
+  },
+  "sbirka": {
+   "title": "Collezione di costumi e dipinti popolari | Restaurant Michal Praga",
+   "description": "Oltre 70 costumi originali ricamati a mano, alcuni con più di 100 anni, e le stampe di Jožka Úprka: la collezione dei coniugi Kačírek al Restaurant Michal.",
+   "kicker": "Collezione",
+   "h1": "Collezione folcloristica unica di *costumi e dipinti*",
+   "perex": "Nel ristorante è esposta una collezione di costumi di Boemia, Moravia e Slovacchia in continua crescita.",
+   "kicker2": "I proprietari del ristorante",
+   "h2": "Grandi amanti del *folclore*",
+   "text": "Nel ristorante è esposta una collezione di costumi in continua crescita. I proprietari si impegnano a presentarla e a promuovere le tradizioni popolari non solo nel ristorante, ma anche organizzando vari progetti folcloristici.\nI locali del ristorante sono pensati per la presentazione del folclore ceco, moravo e slovacco, affinché i nostri ospiti possano vedere e vivere il più possibile delle diverse aree etnografiche.\nGli interni ospitano dipinti e stampe dei nostri principali pittori del folclore. Nella sala principale sono esposte le stampe della serie «Pellicce da uomo» del nostro più famoso pittore del folclore, Jožka Úprka (1861–1940). Questo pittore era collega di Alfons Mucha, con il cui aiuto espose le sue opere nel 1894 al Salon des Artistes Français di Parigi. Qui ottenne per il dipinto «Pellegrinaggio a Sant'Antonino» la «Mention Honorable» e grazie a lui la campagna dello Slovácko divenne nota in Europa.\nI proprietari del ristorante, i coniugi Kačírek, sono grandi amanti del folclore e la loro collezione comprende già più di 70 splendidi costumi originali ricamati a mano. Alcuni di essi hanno più di 100 anni e sono di grande valore.\nUna parte di questa collezione unica è esposta anche nel ristorante, in teche di vetro che vengono rinnovate una volta all'anno. Gli ospiti possono così ammirare antichi costumi originali ricamati a mano e i loro elementi, dalla Boemia occidentale alla Slovacchia orientale.",
+   "upra_text": "Nella sala principale sono esposte le stampe della serie «Pellicce da uomo» di Jožka Úprka (1861–1940).",
+   "upra_popisek": "Jožka Úprka, collega di Alfons Mucha",
+   "regiony_kicker": "Attualmente nel ristorante",
+   "regiony_h2": "Presentazione delle *regioni* etnografiche",
+   "muzeum": "L'allestimento dei costumi è stato approvato dagli esperti del Museo Etnografico del Museo Nazionale."
+  },
+  "menu": {
+   "title": "Menu – cena con spettacolo folcloristico | Restaurant Michal Praga",
+   "description": "Menu completo con cena e spettacolo folcloristico incluso: carni alla griglia, carni arrosto o menu di pesce. Bevande illimitate dalle 19 alle 22.",
+   "kicker": "Cena + spettacolo folcloristico",
+   "h1": "Menu – cena e *spettacolo folcloristico*",
+   "perex": "Gentili ospiti, Vi offriamo un menu completo che comprende la cena e lo spettacolo folcloristico.",
+   "text": "I piatti sono preparati nel nostro ristorante con ingredienti freschi, senza additivi né prodotti contenenti conservanti chimici. Tutti i piatti sono accompagnati da pane fatto in casa.",
+   "cena_text": "Il prezzo del menu include lo spettacolo folcloristico. Prezzo del menu su richiesta. Bevande illimitate dalle 19.00 alle 22.00 (birra, vino in bottiglia, bevande analcoliche).",
+   "poznamka": ""
+  },
+  "galerie": {
+   "title": "Fotogalleria – spettacolo, interni e cucina | Restaurant Michal",
+   "description": "Foto del Restaurant Michal: spettacolo folcloristico, orchestra di cimbalom, costumi della collezione, interni della casa vicino al Ponte Carlo e piatti.",
+   "kicker": "Fotogalleria",
+   "h1": "Foto*galleria*",
+   "perex": "Spettacolo folcloristico, interni del ristorante, collezione di costumi e la nostra cucina.",
+   "filtr": "Filtra le foto",
+   "vse": "Tutte",
+   "flickr": "Altre foto su Flickr"
+  },
+  "balicky": {
+   "title": "Pacchetti ed eventi – Capodanno, feste aziendali | Michal Praga",
+   "description": "Capodanno, feste aziendali e altri eventi al Restaurant Michal, ristorante vicino al Ponte Carlo a Praga. Richiesta online senza impegno.",
+   "kicker": "Pacchetti ed eventi",
+   "h1": "Pacchetti ed *eventi*",
+   "perex": "Capodanno, feste aziendali e altri eventi nel ristorante vicino al Ponte Carlo.",
+   "prazdne": "Stiamo preparando nuovi pacchetti. Ci scriva e organizzeremo per Lei un evento su misura.",
+   "na_miru_h2": "Eventi *su misura*",
+   "na_miru_text": "Grazie agli spazi unici del ristorante, a un servizio di qualità e alle specialità per buongustai, prepariamo per Lei eventi di alto livello, garantiti dalla nostra esperienza pluriennale e da numerose ottime referenze.",
+   "v_cene": "Cosa include il pacchetto",
+   "termin": "Data",
+   "cena": "Prezzo",
+   "kapacita": "Capienza",
+   "poptat_h": "Richiesta senza impegno",
+   "odeslat": "Invia la richiesta"
+  },
+  "rezervace": {
+   "title": "Prenotazione tavolo | Restaurant Michal Praga 1",
+   "description": "Prenoti un tavolo al Restaurant Michal vicino al Ponte Carlo: cena e spettacolo folcloristico dalle 19:00 alle 22:00. La prenotazione è obbligatoria.",
+   "kicker": "Prenotazioni",
+   "h1": "Prenotazione del *tavolo*",
+   "perex": "La prenotazione prima della visita è obbligatoria. La confermeremo via e-mail o per telefono: è valida solo la prenotazione confermata.",
+   "form_h": "Modulo di prenotazione",
+   "form_text": "La preghiamo di compilare i dati: La ricontatteremo con la conferma.",
+   "odeslat": "Invia la prenotazione",
+   "side_h": "Preferisce telefonare?",
+   "side_text": "È valida solo la prenotazione confermata. Gliela confermeremo via e-mail o per telefono."
+  },
+  "kontakt": {
+   "title": "Contatti – Náprstkova 8, Praga 1 | Restaurant Michal",
+   "description": "Restaurant Michal, Náprstkova 273/8, Città Vecchia, Praga 1 – a pochi passi dal Ponte Carlo. Prenotazioni e informazioni per telefono o via e-mail.",
+   "kicker": "Dove trovarci",
+   "h1": "Contatti",
+   "perex": "Náprstkova 273/8, Città Vecchia – a pochi passi dal Ponte Carlo.",
+   "adresa_h": "Indirizzo",
+   "poloha": "Il ristorante si trova in una delle zone più antiche della Praga storica, sulla riva destra della Moldava, in via Náprstkova, a pochi passi dalle arcate in pietra del Ponte Carlo. Confina con Boršov, una delle vie più antiche di Praga.",
+   "upozorneni_h": "Avviso importante!",
+   "upozorneni": "La prenotazione è obbligatoria prima di visitare il ristorante e può essere effettuata online, per telefono o via e-mail. La ringraziamo per la comprensione e La aspettiamo con piacere.",
+   "rezervace_h": "Prenotazioni e informazioni",
+   "mapa": "Mappa – Restaurant Michal"
+  },
+  "gdpr": {
+   "title": "Informativa sulla privacy | Restaurant Michal",
+   "description": "Informazioni sul trattamento dei dati personali da parte di HERMÍNA spol. s r.o., società che gestisce il Restaurant Michal a Praga 1.",
+   "h1": "Informativa sulla privacy",
+   "perex": ""
+  }
+ },
+ "zh": {
+  "ui": {
+   "preskocit": "跳至正文",
+   "menu_label": "主菜单",
+   "jazyk": "语言",
+   "logo_pod": "布拉格1区 · 查理大桥旁",
+   "nav": {
+    "home": "关于餐厅",
+    "predstaveni": "民俗表演",
+    "sbirka": "民俗收藏",
+    "menu": "菜单",
+    "balicky": "活动套餐",
+    "galerie": "相册",
+    "kontakt": "联系我们",
+    "rezervace": "预订"
+   },
+   "rezervovat": "预订餐桌",
+   "vice": "了解表演详情",
+   "kde_nas_najdete": "如何找到我们",
+   "cela_sbirka": "参观收藏",
+   "cela_galerie": "查看全部照片",
+   "vsechny_balicky": "全部活动套餐",
+   "region": "地区",
+   "menu_vecere": "晚餐 + 民俗表演",
+   "cena_na_dotaz": "价格请咨询",
+   "napsat_nam": "给我们留言",
+   "adresa": "地址",
+   "telefon": "电话",
+   "navigovat": "导航",
+   "rezervace_info": "预订与咨询",
+   "web": "餐厅",
+   "provozuje": "运营方",
+   "ico": "公司识别号（IČO）",
+   "dic": "税号（DIČ）",
+   "zavolat": "拨打电话",
+   "fotogalerie": "相册",
+   "zavrit": "关闭",
+   "odesilam": "正在发送…",
+   "form_chyba": {
+    "povinne": "请填写所有必填项。",
+    "email": "电子邮箱地址格式似乎不正确。",
+    "souhlas": "提交前，请同意我们处理您的个人信息。",
+    "odeslani": "发送失败，请重试或致电我们。"
+   },
+   "f": {
+    "jmeno": "名",
+    "prijmeni": "姓",
+    "email": "电子邮箱",
+    "telefon": "电话",
+    "datum": "日期",
+    "cas": "到达时间",
+    "osob": "人数",
+    "predstaveni": "民俗表演（19:00–22:00）",
+    "ano_predstaveni": "是",
+    "ne_predstaveni": "否",
+    "poznamka": "留言",
+    "poznamka_ph": "例如：庆祝活动、食物过敏、儿童座椅……",
+    "souhlas": "您的个人信息仅用于处理预订。我同意相关信息处理——",
+    "souhlas_odkaz": "隐私政策",
+    "dekujeme_h": "谢谢！",
+    "dekujeme": "我们已收到您的预订，将通过电子邮件或电话向您确认——预订须经确认后方为有效。",
+    "dekujeme_balicek": "我们已收到您的咨询，将尽快与您联系。"
+   }
+  },
+  "home": {
+   "title": "迈克尔餐厅 Restaurant Michal｜布拉格民俗表演与捷克美食",
+   "description": "布拉格迈克尔家族餐馆坐落于历史老宅中，距查理大桥仅数步之遥。供应捷克传统菜式与国际美食，每晚由亚历山大·弗拉贝尔扬琴乐队现场伴奏，上演原汁原味的捷克民俗表演。",
+   "hero_kicker": "Náprstkova 8 · 布拉格老城区 · 查理大桥旁",
+   "h1": "*迈克尔*家族餐馆",
+   "hero_text": "在这座拥有哥特时期历史渊源的老宅里，品味捷克传统菜式与国际美食，距查理大桥的石拱仅数步之遥。每到晚间，扬琴乐声响起，身着民族服饰的舞者翩翩起舞。",
+   "karta_nadpis": "民俗表演",
+   "karta_cas": "19:00–22:00",
+   "karta_text": "亚历山大·弗拉贝尔扬琴乐队与身着民族服饰的舞者，呈现波西米亚、摩拉维亚和斯洛伐克的民俗风情。",
+   "marquee": [
+    "波西米亚、摩拉维亚和斯洛伐克民俗风情",
+    "亚历山大·弗拉贝尔扬琴乐队",
+    "距查理大桥仅数步之遥",
+    "捷克传统菜式与国际美食",
+    "手工刺绣的原版民族服饰"
+   ],
+   "ahr": "捷克酒店与餐馆协会会员",
+   "onas_kicker": "关于餐厅",
+   "onas_h2": "源自*哥特*时期的老宅",
+   "onas_text": "迈克尔餐厅坐落在纳普斯特科瓦街（Náprstkova），这里是历史悠久的布拉格最古老的城区之一，位于伏尔塔瓦河右岸，距离查理大桥的石拱仅数步之遥。享用美食醇酒之后，不妨沿查理大桥漫步，饱览布拉格城堡区（Hradčany）的美丽全景。\n餐厅所在的建筑于19世纪下半叶以新艺术风格重建，然而从餐厅内部仍可看出，其历史渊源可追溯至早期哥特时期。毗邻餐厅的波烁辅街（Boršov）是布拉格最古老的街道之一，正是这段历史的见证。",
+   "onas_citat": "",
+   "show_kicker": "现场民俗",
+   "show_h2": "原汁原味的*民俗*表演",
+   "show_text": "每晚，餐厅都会上演现场民俗表演，由亚历山大·弗拉贝尔扬琴乐队与我们身着民族服饰的舞者为您倾情呈现。\n表演从19:00开始，22:00结束。您可以用一晚的时间尽览波西米亚、摩拉维亚和斯洛伐克大部分民俗地区的传统民俗文化。表演尾声时，客人们还能一同演唱自己喜爱的歌曲。",
+   "cisla": [
+    {
+     "cislo": "1997",
+     "plus": "",
+     "popis": "乐团开始演出"
+    },
+    {
+     "cislo": "70",
+     "plus": "+",
+     "popis": "件手工刺绣的原版民族服饰藏品"
+    },
+    {
+     "cislo": "100",
+     "plus": "+",
+     "popis": "年——最古老服饰的历史"
+    },
+    {
+     "cislo": "19–22",
+     "plus": "",
+     "popis": "点——晚间表演时间"
+    }
+   ],
+   "pruh_text": "整晚表演由首席小提琴手亚历山大·弗拉贝尔带领的资深扬琴乐队伴奏。",
+   "pruh_popisek": "亚历山大·弗拉贝尔扬琴乐队",
+   "kuchyne_kicker": "美食",
+   "kuchyne_h2": "不同寻常的*美食*体验",
+   "kuchyne_text": "我们的菜单既有地道的捷克传统菜式，也有国际美食，同时也不会冷落素食者和注重健康饮食的顾客。所有菜肴均选用新鲜食材和芬芳香草精心烹制。",
+   "fakta": [
+    {
+     "ikona": "bread",
+     "nadpis": "自制面包与甜点",
+     "text": "所有面包均由我们的厨房亲手和面、烘烤，各式糕点甜品也由我们自制。"
+    },
+    {
+     "ikona": "leaf",
+     "nadpis": "家庭农场肉品",
+     "text": "牛肉、猪肉和禽肉均来自捷克的家庭农场。"
+    },
+    {
+     "ikona": "fish",
+     "nadpis": "南波西米亚鲜鱼",
+     "text": "新鲜淡水鱼由南波西米亚的胡尔卡（Hůrka）渔场供应。"
+    },
+    {
+     "ikona": "wine",
+     "nadpis": "摩拉维亚葡萄酒与捷克啤酒",
+     "text": "精心挑选、品种丰富的摩拉维亚葡萄园佳酿，以及捷克啤酒、各式餐前酒和上等烈酒。"
+    }
+   ],
+   "sbirka_kicker": "民俗收藏",
+   "sbirka_h2": "逾*70件民族服饰*，来自波西米亚、摩拉维亚和斯洛伐克",
+   "sbirka_text": "餐厅内展示着卡契尔夫妇不断扩充的民族服饰收藏。部分藏品陈列于玻璃展柜中，每年更换一次。",
+   "balicky_kicker": "套餐与活动",
+   "balicky_h2": "庆典、聚会与*节日*",
+   "balicky_text": "凭借独特的餐厅空间、优质的服务和特色美食，我们将为您筹备最高水准的活动。",
+   "galerie_kicker": "相册",
+   "galerie_h2": "*迈克尔*餐厅之夜",
+   "galerie_text": "舞者、乐手、民族服饰、餐厅内景与我们的美食——到访之前，先来一睹餐厅风采。",
+   "cta_kicker": "预订",
+   "cta_h2": "请提前预订*餐桌*",
+   "cta_text": "到访前须提前预订。我们将通过电子邮件或电话确认您的预订，预订须经确认后方为有效。",
+   "partneri": "合作伙伴",
+   "paticka": "家族餐馆，每晚上演民俗表演，坐落于历史悠久的布拉格最古老的城区之一，距查理大桥仅数步之遥。"
+  },
+  "predstaveni": {
+   "title": "布拉格民俗表演 – 扬琴乐队与民族舞蹈 | 迈克尔餐厅",
+   "description": "表演从19:00开始，22:00结束：尽览波西米亚、摩拉维亚和斯洛伐克的民俗风情，亚历山大·弗拉贝尔扬琴乐队现场伴奏，舞者身着原版民族服饰登台。布拉格查理大桥旁的民俗之夜。",
+   "kicker": "迈克尔餐厅之夜",
+   "h1": "民俗*表演*",
+   "perex": "尽览波西米亚、摩拉维亚和斯洛伐克大部分民俗地区的民俗文化——扬琴乐队现场伴奏，舞者身着原版民族服饰。",
+   "cas_nadpis": "19:00–22:00",
+   "h2": "原汁原味的民俗*表演*",
+   "text": "表演从19:00开始，22:00结束。客人们可以用一晚的时间尽览波西米亚、摩拉维亚和斯洛伐克大部分民俗地区的传统民俗文化。表演尾声时，客人们还能一同演唱自己喜爱的歌曲。\n整晚表演由首席小提琴手亚历山大·弗拉贝尔带领的资深扬琴乐队伴奏。我们的舞者会根据所表演舞蹈的来源地区，换上该地区相应的原版民族服饰登台。\n所有舞蹈、歌曲和音乐均由我们自己编排，或在专业编舞师的协助下完成。最新的特伦钦（Trenčín）和上赫龙（Horehronie）地区舞蹈，由我们的舞者在卢奇尼察民族歌舞团（Lučnica）和斯洛伐克国家民间艺术团（SĽUK）专业舞者的指导下排练而成。",
+   "soubor_kicker": "乐团",
+   "soubor_h2": "*亚历山大·弗拉贝尔*扬琴乐队",
+   "soubor_text": "乐团于1997年开始活动，成员来自前国家歌舞团，专注于波西米亚、摩拉维亚和斯洛伐克各地的民俗音乐与舞蹈。其创作素材与灵感源自弗朗齐歇克·苏希尔（František Sušil）、F. 巴尔托什（F. Bartoš）、F. 波洛切克（F. Poloczek）、L. 雅纳切克（L. Janáček）等民歌收集者的作品集。\n乐团足迹遍及欧洲大部分地区，演出时身着手工刺绣的原版民族服饰。扬琴乐手身着基约夫（Kyjov）地区的民族服饰，舞者则穿着与所表演舞蹈地区完全对应的原版服饰。",
+   "citace_nadpis": "客人们的评价",
+   "citace": [
+    {
+     "text": "感谢捷克艺术家们带来如此精彩的表演，简直难以置信。",
+     "zdroj": "facebook.com"
+    },
+    {
+     "text": "等我们再来布拉格，一定还会光临你们的餐厅——舞者们的表演真是前所未见……",
+     "zdroj": "TripAdvisor.com"
+    },
+    {
+     "text": "女歌手的嗓音美得令人难以置信，乐手们似乎什么曲子都能演奏！",
+     "zdroj": "餐厅客人"
+    }
+   ]
+  },
+  "sbirka": {
+   "title": "民族服饰与绘画民俗收藏 | 布拉格迈克尔餐厅",
+   "description": "逾70件手工刺绣的原版民族服饰，部分已有百余年历史，另有约查·乌皮卡的版画作品。卡契尔夫妇的民俗收藏，尽在布拉格迈克尔餐厅（Restaurant Michal）。",
+   "kicker": "收藏",
+   "h1": "独一无二的民俗收藏：*民族服饰与绘画*",
+   "perex": "餐厅内展示着不断扩充的民族服饰收藏，藏品来自波西米亚、摩拉维亚和斯洛伐克。",
+   "kicker2": "餐厅主人",
+   "h2": "*民俗*文化的忠实爱好者",
+   "text": "餐厅内展示着一批不断扩充的民族服饰收藏。餐厅主人不仅在餐厅中展示这些藏品、宣传民间传统，还通过组织各类民俗项目推广民俗文化。\n餐厅的空间布置专为展示波西米亚、摩拉维亚和斯洛伐克的民俗文化而设计，让客人们尽可能多地欣赏和体验不同民俗地区的风情。\n餐厅内陈列着捷克著名民俗画家的绘画和版画作品。主厅里展示的是系列版画《穿皮袄的男人们》，出自捷克最著名的民俗画家约查·乌皮卡（Jožka Úprka，1861–1940）之手。乌皮卡是捷克国宝级画家穆夏（Alfons Mucha）的同事，在穆夏的帮助下，他于1894年在巴黎法国艺术家沙龙展出了自己的画作，并凭借作品《圣安东尼小教堂朝圣》荣获“荣誉奖”（Mention Honorable），摩拉维亚斯洛伐克地区（Slovácko）的乡村风貌也因此闻名欧洲。\n餐厅主人卡契尔夫妇酷爱民俗文化，他们的收藏已有超过70件精美的手工刺绣原版民族服饰，其中一些已有逾百年历史，价值不菲。\n部分珍贵藏品陈列于餐厅的玻璃展柜中，每年更换一次。客人们因此可以欣赏到从西波西米亚到东斯洛伐克的古老手工刺绣原版服饰及其配饰。",
+   "upra_text": "主厅里展示着约查·乌皮卡（1861–1940）的系列版画《穿皮袄的男人们》。",
+   "upra_popisek": "约查·乌皮卡，穆夏的同事",
+   "regiony_kicker": "目前餐厅内陈列",
+   "regiony_h2": "各民俗*地区*展示",
+   "muzeum": "民族服饰的陈列方式经捷克国家博物馆民族志博物馆专家审定。"
+  },
+  "menu": {
+   "title": "菜单 – 晚餐+民俗表演套餐 | 布拉格迈克尔餐厅",
+   "description": "完整套餐包含晚餐和民俗表演，可选铁扒肉类、烘烤肉类或鱼类套餐。19:00至22:00饮料不限量（啤酒、瓶装葡萄酒、软饮料）。布拉格查理大桥旁的民俗晚宴。",
+   "kicker": "晚餐 + 民俗表演",
+   "h1": "菜单——晚餐与*民俗表演*",
+   "perex": "亲爱的客人，我们为您提供完整的套餐，其中包括晚餐和民俗表演。",
+   "text": "我们餐厅的菜肴均采用新鲜食材现场制作，不使用添加剂及含化学防腐剂的产品。所有菜品均配有自制面包。",
+   "cena_text": "套餐价格已包含民俗表演。套餐价格请咨询。19:00至22:00饮料不限量（啤酒、瓶装葡萄酒、软饮料）。",
+   "poznamka": ""
+  },
+  "galerie": {
+   "title": "相册 – 民俗表演、餐厅内景与美食 | 迈克尔餐厅",
+   "description": "迈克尔餐厅（Restaurant Michal）精彩照片：布拉格民俗表演、亚历山大·弗拉贝尔扬琴乐队、收藏的手工刺绣民族服饰、查理大桥旁历史老宅的内景以及我们的捷克美食。",
+   "kicker": "相册",
+   "h1": "精彩*相册*",
+   "perex": "民俗表演、餐厅内景、民族服饰收藏与我们的美食。",
+   "filtr": "筛选照片",
+   "vse": "全部",
+   "flickr": "在Flickr上查看更多照片"
+  },
+  "balicky": {
+   "title": "活动套餐 – 跨年夜、公司聚会 | 迈克尔餐厅",
+   "description": "在布拉格查理大桥旁的迈克尔餐厅（Restaurant Michal）欢度跨年夜、举办公司聚会、圣诞晚会及其他活动。独特的历史空间与特色美食，欢迎在线提交咨询，不产生任何义务。",
+   "kicker": "套餐与活动",
+   "h1": "套餐与*活动*",
+   "perex": "在查理大桥旁的餐厅欢度跨年夜、举办公司聚会及其他活动。",
+   "prazdne": "我们正在筹备新的活动套餐。欢迎给我们留言，我们将为您量身定制活动。",
+   "na_miru_h2": "为您*量身定制*活动",
+   "na_miru_text": "凭借独特的餐厅空间、优质的服务和特色美食，我们将为您筹备最高水准的活动——多年的经验和众多出色的客户口碑就是品质的保证。",
+   "v_cene": "套餐包含",
+   "termin": "日期",
+   "cena": "价格",
+   "kapacita": "容纳人数",
+   "poptat_h": "免费咨询",
+   "odeslat": "提交咨询"
+  },
+  "rezervace": {
+   "title": "预订餐桌 | 布拉格1区迈克尔餐厅",
+   "description": "在线预订布拉格查理大桥旁迈克尔餐厅（Restaurant Michal）的餐桌，享用捷克美食晚餐并观赏19:00–22:00的现场民俗表演。到访前须提前预订，预订经确认后方为有效。",
+   "kicker": "预订",
+   "h1": "预订*餐桌*",
+   "perex": "到访前须提前预订。我们将通过电子邮件或电话确认您的预订，预订须经确认后方为有效。",
+   "form_h": "预订表",
+   "form_text": "请填写以下信息，我们将与您联系确认。",
+   "odeslat": "提交预订",
+   "side_h": "更喜欢电话预订？",
+   "side_text": "预订须经确认后方为有效。我们将通过电子邮件或电话向您确认。"
+  },
+  "kontakt": {
+   "title": "联系我们 – 布拉格1区Náprstkova 8号 | 迈克尔餐厅",
+   "description": "迈克尔餐厅（Restaurant Michal），地址：Náprstkova 273/8, Staré Město, 布拉格1区，距查理大桥仅数步之遥。可通过电话或电子邮件预订和咨询。",
+   "kicker": "如何找到我们",
+   "h1": "联系我们",
+   "perex": "Náprstkova 273/8，老城区——距查理大桥仅数步之遥。",
+   "adresa_h": "地址",
+   "poloha": "餐厅坐落在纳普斯特科瓦街（Náprstkova），这里是历史悠久的布拉格最古老的城区之一，位于伏尔塔瓦河右岸，距离查理大桥的石拱仅数步之遥，毗邻布拉格最古老的街道之一波烁辅街（Boršov）。",
+   "upozorneni_h": "重要通知！",
+   "upozorneni": "到访餐厅前须提前预订，您可以通过网上、电话或电子邮件进行预订。感谢您的理解，期待您的光临。",
+   "rezervace_h": "预订与咨询",
+   "mapa": "地图 – 迈克尔餐厅"
+  },
+  "gdpr": {
+   "title": "隐私政策 | 迈克尔餐厅",
+   "description": "个人信息处理说明——迈克尔餐厅（Restaurant Michal）运营方HERMÍNA spol. s r.o.。",
+   "h1": "隐私政策",
    "perex": ""
   }
  }

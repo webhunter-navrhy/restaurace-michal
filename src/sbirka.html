@@ -10,7 +10,7 @@
   </div>
 </section>
 {% if F.sbirka %}
-<section class="break" aria-label="{{ P.h1 }}">{{ img(F.sbirka[0]) }}<div class="break__cap"><p class="rv">{{ P.upra_text|nb }}</p><small class="rv">{{ P.upra_popisek }}</small></div></section>
+<section class="break" aria-label="{{ P.h1|replace('*', '') }}">{{ img(F.sbirka[0]) }}<div class="break__cap"><p class="rv">{{ P.upra_text|nb }}</p><small class="rv">{{ P.upra_popisek }}</small></div></section>
 {% endif %}
 <section class="section section--alt">
   <div class="container">

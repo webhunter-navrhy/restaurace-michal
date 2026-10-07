@@ -4,7 +4,13 @@
    "id": "grilovana-masa",
    "skryta": false,
    "nazev": {
-    "cs": "Menu grilovaná masa"
+    "cs": "Menu grilovaná masa",
+    "de": "Menü Gegrilltes Fleisch",
+    "en": "Grilled meats menu",
+    "es": "Menú de carnes a la brasa",
+    "fr": "Menu viandes grillées",
+    "it": "Menu carni alla griglia",
+    "zh": "铁扒肉类套餐"
    },
    "popis": {
     "cs": ""
@@ -13,14 +19,25 @@
     "cs": ""
    },
    "pozn": {
-    "cs": "Alergeny: 1, 3, 4, 7, 8, 9, 10, 11"
+    "cs": "Alergeny: 1, 3, 4, 7, 8, 9, 10, 11",
+    "de": "Allergene: 1, 3, 4, 7, 8, 9, 10, 11",
+    "en": "Allergens: 1, 3, 4, 7, 8, 9, 10, 11",
+    "es": "Alérgenos: 1, 3, 4, 7, 8, 9, 10, 11",
+    "fr": "Allergènes : 1, 3, 4, 7, 8, 9, 10, 11",
+    "it": "Allergeni: 1, 3, 4, 7, 8, 9, 10, 11",
+    "zh": "过敏原：1, 3, 4, 7, 8, 9, 10, 11"
    },
    "foto": {
     "src": "img/foto/jidlo-14.webp",
     "sm": "img/foto/jidlo-14-sm.webp",
     "alt": {
      "cs": "Grilovaná masa – kuřecí prso, vepřová panenka, hovězí steak, pyré, zelenina",
-     "en": "Grilled meats – chicken breast, pork tenderloin, beef steak, purée, vegetables"
+     "en": "Grilled meats – chicken breast, pork tenderloin, beef steak, purée, vegetables",
+     "de": "Gegrilltes Fleisch – Hähnchenbrust, Schweinefilet, Rindersteak, Püree, Gemüse",
+     "es": "Carnes a la brasa: pechuga de pollo, solomillo de cerdo, filete de ternera, puré y verduras",
+     "fr": "Viandes grillées – blanc de poulet, filet mignon de porc, steak de bœuf, purée, légumes",
+     "it": "Carni alla griglia – petto di pollo, filetto di maiale, bistecca di manzo, purè, verdure",
+     "zh": "铁扒肉类——鸡胸肉、猪里脊、牛排、蔬菜泥、时蔬"
     }
    },
    "chody": [
@@ -29,7 +46,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Aperitiv"
+      "cs": "Aperitiv",
+      "de": "Aperitif",
+      "en": "Aperitif",
+      "es": "Aperitivo",
+      "fr": "Apéritif",
+      "it": "Aperitivo",
+      "zh": "开胃酒"
      }
     },
     {
@@ -37,7 +60,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Variace předkrmů dle sezóny"
+      "cs": "Variace předkrmů dle sezóny",
+      "de": "Variation von Vorspeisen je nach Saison",
+      "en": "Seasonal variation of starters",
+      "es": "Variación de entrantes de temporada",
+      "fr": "Assortiment d’entrées selon la saison",
+      "it": "Selezione di antipasti di stagione",
+      "zh": "时令开胃菜拼盘"
      }
     },
     {
@@ -45,7 +74,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Plněná kobliha trhanou vepřovou panenkou"
+      "cs": "Plněná kobliha trhanou vepřovou panenkou",
+      "de": "Gefüllter Krapfen mit gezupftem Schweinefilet",
+      "en": "Doughnut filled with pulled pork tenderloin",
+      "es": "Buñuelo relleno de solomillo de cerdo deshilachado",
+      "fr": "Beignet farci au filet mignon de porc effiloché",
+      "it": "Bombolone salato ripieno di filetto di maiale sfilacciato",
+      "zh": "手撕猪里脊馅炸面包球"
      }
     },
     {
@@ -53,7 +88,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Kuřecí, hovězí, vepřová panenka\nZeleninové puré, zelenina"
+      "cs": "Kuřecí, hovězí, vepřová panenka\nZeleninové puré, zelenina",
+      "de": "Hähnchen, Rind, Schweinefilet\nGemüsepüree, Gemüse",
+      "en": "Chicken, beef and pork tenderloin\nVegetable purée, vegetables",
+      "es": "Pollo, ternera y solomillo de cerdo\nPuré de verduras, verduras",
+      "fr": "Poulet, bœuf, filet mignon de porc\nPurée de légumes, légumes",
+      "it": "Pollo, manzo, filetto di maiale\nPurè di verdure, verdure",
+      "zh": "铁扒鸡肉、牛肉、猪里脊\n蔬菜泥、时蔬"
      }
     },
     {
@@ -61,7 +102,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Domácí moučník"
+      "cs": "Domácí moučník",
+      "de": "Hausgemachtes Dessert",
+      "en": "Home-made dessert",
+      "es": "Postre casero",
+      "fr": "Dessert maison",
+      "it": "Dolce della casa",
+      "zh": "自制甜点"
      }
     },
     {
@@ -69,7 +116,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Káva – čaj"
+      "cs": "Káva – čaj",
+      "de": "Kaffee – Tee",
+      "en": "Coffee – tea",
+      "es": "Café – té",
+      "fr": "Café – thé",
+      "it": "Caffè – tè",
+      "zh": "咖啡 – 茶"
      }
     }
    ]
@@ -78,7 +131,13 @@
    "id": "pecena-masa",
    "skryta": false,
    "nazev": {
-    "cs": "Menu pečená masa"
+    "cs": "Menu pečená masa",
+    "de": "Menü Braten",
+    "en": "Roasted meats menu",
+    "es": "Menú de carnes asadas",
+    "fr": "Menu viandes rôties",
+    "it": "Menu carni arrosto",
+    "zh": "烘烤肉类套餐"
    },
    "popis": {
     "cs": ""
@@ -87,14 +146,25 @@
     "cs": ""
    },
    "pozn": {
-    "cs": "Alergeny: 1, 2, 3, 4, 7, 8, 9, 10, 11, 14"
+    "cs": "Alergeny: 1, 2, 3, 4, 7, 8, 9, 10, 11, 14",
+    "de": "Allergene: 1, 2, 3, 4, 7, 8, 9, 10, 11, 14",
+    "en": "Allergens: 1, 2, 3, 4, 7, 8, 9, 10, 11, 14",
+    "es": "Alérgenos: 1, 2, 3, 4, 7, 8, 9, 10, 11, 14",
+    "fr": "Allergènes : 1, 2, 3, 4, 7, 8, 9, 10, 11, 14",
+    "it": "Allergeni: 1, 2, 3, 4, 7, 8, 9, 10, 11, 14",
+    "zh": "过敏原：1, 2, 3, 4, 7, 8, 9, 10, 11, 14"
    },
    "foto": {
     "src": "img/foto/jidlo-12.webp",
     "sm": "img/foto/jidlo-12-sm.webp",
     "alt": {
      "cs": "Pečená masa – kachní stehno, bůček, telecí roláda, červené zelí, knedlíky",
-     "en": "Roasted meats – duck leg, pork belly, veal roulade, red cabbage, dumplings"
+     "en": "Roasted meats – duck leg, pork belly, veal roulade, red cabbage, dumplings",
+     "de": "Braten – Entenkeule, Schweinebauch, Kalbsroulade, Rotkohl, Knödel",
+     "es": "Carnes asadas: muslo de pato, panceta de cerdo, rollo de ternera, lombarda y knedlíky",
+     "fr": "Viandes rôties – cuisse de canard, poitrine de porc, roulade de veau, chou rouge, knedlíky",
+     "it": "Carni arrosto – coscia d'anatra, pancetta di maiale, involtino di vitello, cavolo rosso, canederli",
+     "zh": "烘烤肉类——鸭腿、猪五花、小牛肉卷、红卷心菜、捷克团子"
     }
    },
    "chody": [
@@ -103,7 +173,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Aperitiv"
+      "cs": "Aperitiv",
+      "de": "Aperitif",
+      "en": "Aperitif",
+      "es": "Aperitivo",
+      "fr": "Apéritif",
+      "it": "Aperitivo",
+      "zh": "开胃酒"
      }
     },
     {
@@ -111,7 +187,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Variace předkrmů dle sezóny"
+      "cs": "Variace předkrmů dle sezóny",
+      "de": "Variation von Vorspeisen je nach Saison",
+      "en": "Seasonal variation of starters",
+      "es": "Variación de entrantes de temporada",
+      "fr": "Assortiment d’entrées selon la saison",
+      "it": "Selezione di antipasti di stagione",
+      "zh": "时令开胃菜拼盘"
      }
     },
     {
@@ -119,7 +201,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Plněná kobliha trhanou vepřovou panenkou"
+      "cs": "Plněná kobliha trhanou vepřovou panenkou",
+      "de": "Gefüllter Krapfen mit gezupftem Schweinefilet",
+      "en": "Doughnut filled with pulled pork tenderloin",
+      "es": "Buñuelo relleno de solomillo de cerdo deshilachado",
+      "fr": "Beignet farci au filet mignon de porc effiloché",
+      "it": "Bombolone salato ripieno di filetto di maiale sfilacciato",
+      "zh": "手撕猪里脊馅炸面包球"
      }
     },
     {
@@ -127,7 +215,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Kachní stehno, telecí roláda, pečený marinovaný bůček, červené zelí, karlovarský a bramborový knedlík, bramboráček"
+      "cs": "Kachní stehno, telecí roláda, pečený marinovaný bůček, červené zelí, karlovarský a bramborový knedlík, bramboráček",
+      "de": "Entenkeule, Kalbsroulade, gebratener marinierter Schweinebauch, Rotkohl, Karlsbader Knödel und Kartoffelknödel, Kartoffelpuffer",
+      "en": "Duck leg, veal roulade, roasted marinated pork belly, red cabbage, Carlsbad (bread) and potato dumplings, potato pancake",
+      "es": "Muslo de pato, rollo de ternera lechal, panceta de cerdo marinada y asada, lombarda, knedlík de Karlovy Vary (de pan) y knedlík de patata, tortita de patata",
+      "fr": "Cuisse de canard, roulade de veau, poitrine de porc marinée et rôtie, chou rouge, knedlíky de pain façon Karlovy Vary et knedlíky de pommes de terre, galette de pommes de terre",
+      "it": "Coscia d'anatra, involtino di vitello, pancetta di maiale marinata al forno, cavolo rosso, canederli di pane alla Karlovy Vary e canederli di patate, frittella di patate",
+      "zh": "烤鸭腿、小牛肉卷、烤腌猪五花、红卷心菜、卡罗维发利面包团子与土豆团子、土豆煎饼"
      }
     },
     {
@@ -135,7 +229,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Domácí moučník"
+      "cs": "Domácí moučník",
+      "de": "Hausgemachtes Dessert",
+      "en": "Home-made dessert",
+      "es": "Postre casero",
+      "fr": "Dessert maison",
+      "it": "Dolce della casa",
+      "zh": "自制甜点"
      }
     },
     {
@@ -143,7 +243,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Káva – čaj"
+      "cs": "Káva – čaj",
+      "de": "Kaffee – Tee",
+      "en": "Coffee – tea",
+      "es": "Café – té",
+      "fr": "Café – thé",
+      "it": "Caffè – tè",
+      "zh": "咖啡 – 茶"
      }
     }
    ]
@@ -152,7 +258,13 @@
    "id": "rybi-menu",
    "skryta": false,
    "nazev": {
-    "cs": "Menu rybí"
+    "cs": "Menu rybí",
+    "de": "Fischmenü",
+    "en": "Fish menu",
+    "es": "Menú de pescado",
+    "fr": "Menu poisson",
+    "it": "Menu di pesce",
+    "zh": "鱼类套餐"
    },
    "popis": {
     "cs": ""
@@ -161,14 +273,25 @@
     "cs": ""
    },
    "pozn": {
-    "cs": "Alergeny: 1, 2, 3, 4, 7, 8, 9, 10, 1, 14"
+    "cs": "Alergeny: 1, 2, 3, 4, 7, 8, 9, 10, 1, 14",
+    "de": "Allergene: 1, 2, 3, 4, 7, 8, 9, 10, 1, 14",
+    "en": "Allergens: 1, 2, 3, 4, 7, 8, 9, 10, 1, 14",
+    "es": "Alérgenos: 1, 2, 3, 4, 7, 8, 9, 10, 1, 14",
+    "fr": "Allergènes : 1, 2, 3, 4, 7, 8, 9, 10, 1, 14",
+    "it": "Allergeni: 1, 2, 3, 4, 7, 8, 9, 10, 1, 14",
+    "zh": "过敏原：1, 2, 3, 4, 7, 8, 9, 10, 1, 14"
    },
    "foto": {
     "src": "img/foto/jidlo-09.webp",
     "sm": "img/foto/jidlo-09-sm.webp",
     "alt": {
      "cs": "Smažené kousky ryby a zeleniny",
-     "en": "Fried pieces of fish and vegetables"
+     "en": "Fried pieces of fish and vegetables",
+     "de": "Gebratene Fischstücke und Gemüse",
+     "es": "Trozos de pescado frito con verduras",
+     "fr": "Morceaux de poisson frits et légumes",
+     "it": "Bocconcini di pesce fritti e verdure",
+     "zh": "炸鱼块配蔬菜"
     }
    },
    "chody": [
@@ -177,7 +300,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Aperitiv"
+      "cs": "Aperitiv",
+      "de": "Aperitif",
+      "en": "Aperitif",
+      "es": "Aperitivo",
+      "fr": "Apéritif",
+      "it": "Aperitivo",
+      "zh": "开胃酒"
      }
     },
     {
@@ -185,7 +314,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Variace předkrmů dle sezóny"
+      "cs": "Variace předkrmů dle sezóny",
+      "de": "Variation von Vorspeisen je nach Saison",
+      "en": "Seasonal variation of starters",
+      "es": "Variación de entrantes de temporada",
+      "fr": "Assortiment d’entrées selon la saison",
+      "it": "Selezione di antipasti di stagione",
+      "zh": "时令开胃菜拼盘"
      }
     },
     {
@@ -193,7 +328,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Rybí kroketa"
+      "cs": "Rybí kroketa",
+      "de": "Fischkrokette",
+      "en": "Fish croquette",
+      "es": "Croqueta de pescado",
+      "fr": "Croquette de poisson",
+      "it": "Crocchetta di pesce",
+      "zh": "炸鱼肉可乐饼"
      }
     },
     {
@@ -201,7 +342,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Grilované filátko z ryby, zeleninové puré a zelenina"
+      "cs": "Grilované filátko z ryby, zeleninové puré a zelenina",
+      "de": "Gegrilltes Fischfilet, Gemüsepüree und Gemüse",
+      "en": "Grilled fish fillet, vegetable purée and vegetables",
+      "es": "Filete de pescado a la parrilla, puré de verduras y verduras",
+      "fr": "Filet de poisson grillé, purée de légumes et légumes",
+      "it": "Filetto di pesce alla griglia, purè di verdure e verdure",
+      "zh": "铁扒鱼柳配蔬菜泥和时蔬"
      }
     },
     {
@@ -209,7 +356,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Domácí moučník"
+      "cs": "Domácí moučník",
+      "de": "Hausgemachtes Dessert",
+      "en": "Home-made dessert",
+      "es": "Postre casero",
+      "fr": "Dessert maison",
+      "it": "Dolce della casa",
+      "zh": "自制甜点"
      }
     },
     {
@@ -217,7 +370,13 @@
       "cs": ""
      },
      "text": {
-      "cs": "Káva – čaj"
+      "cs": "Káva – čaj",
+      "de": "Kaffee – Tee",
+      "en": "Coffee – tea",
+      "es": "Café – té",
+      "fr": "Café – thé",
+      "it": "Caffè – tè",
+      "zh": "咖啡 – 茶"
      }
     }
    ]

@@ -3,19 +3,49 @@
   {
    "id": "chodsko",
    "nazev": {
-    "cs": "Region Chodsko"
+    "cs": "Region Chodsko",
+    "de": "Region Chodenland (Chodsko)",
+    "en": "The Chodsko region",
+    "es": "Región de Chodsko",
+    "fr": "Région Chodsko",
+    "it": "Regione di Chodsko",
+    "zh": "霍德斯克地区"
    },
    "podnazev": {
-    "cs": "západní Čechy"
+    "cs": "západní Čechy",
+    "de": "Westböhmen",
+    "en": "Western Bohemia",
+    "es": "Bohemia occidental",
+    "fr": "Bohême de l’Ouest",
+    "it": "Boemia occidentale",
+    "zh": "西波西米亚"
    },
    "text": {
-    "cs": "Národopisná (etnografická) oblast Chodsko se rozkládá v západních Čechách v okolí Domažlic. Chodové byli svobodní sedláci, kteří byli v minulosti pověřeni ochranou zemských hranic. K typickým znakům Chodska patří velmi bohatá lidová tradice – lidová píseň, dudácká hudba. Lidový folklór představují různé slavnosti, např. Chodské slavnosti v Domažlicích. Známé jsou také vyhlášené chodské koláče a lidová keramika s typickým chodským vzorem."
+    "cs": "Národopisná (etnografická) oblast Chodsko se rozkládá v západních Čechách v okolí Domažlic. Chodové byli svobodní sedláci, kteří byli v minulosti pověřeni ochranou zemských hranic. K typickým znakům Chodska patří velmi bohatá lidová tradice – lidová píseň, dudácká hudba. Lidový folklór představují různé slavnosti, např. Chodské slavnosti v Domažlicích. Známé jsou také vyhlášené chodské koláče a lidová keramika s typickým chodským vzorem.",
+    "de": "Die volkskundliche (ethnografische) Region Chodenland erstreckt sich in Westböhmen in der Umgebung der Stadt Domažlice (Taus). Die Choden waren freie Bauern, die in der Vergangenheit mit dem Schutz der Landesgrenze betraut waren. Zu den typischen Merkmalen des Chodenlandes zählt eine sehr reiche Volkstradition – Volkslieder und Dudelsackmusik. Die Volkskunst lebt in verschiedenen Festen fort, wie z. B. dem Chodenfest in Domažlice. Bekannt sind auch die berühmten Choden-Kolatschen sowie die Volkskeramik mit dem typischen Chodenmuster.",
+    "en": "The ethnographic region of Chodsko lies in Western Bohemia around the town of Domažlice. The Chods were free farmers who were historically entrusted with guarding the country's borders. Typical of Chodsko is its very rich folk tradition – folk songs and bagpipe music. These traditions come alive at various festivals, for example the Chod Festival in Domažlice. The region is also famous for its delicious Chod pies (koláče) and folk ceramics with the typical Chodsko pattern.",
+    "es": "La región etnográfica de Chodsko se extiende por Bohemia occidental, en los alrededores de Domažlice. Los chodos eran campesinos libres a quienes en el pasado se encomendaba la protección de las fronteras del país. Entre los rasgos típicos de Chodsko figura una tradición popular muy rica: la canción popular y la música de gaita. El folclore se vive en diversas fiestas, como las Fiestas de Chodsko (Chodské slavnosti) de Domažlice. También son famosos los pasteles de Chodsko y la cerámica popular con el típico motivo chodo.",
+    "fr": "La région ethnographique de Chodsko s’étend en Bohême de l’Ouest, aux alentours de Domažlice. Les Chodes (Chodové) étaient des paysans libres, chargés autrefois de la garde des frontières du pays. Chodsko se distingue par une tradition populaire très riche – chants populaires et musique de cornemuse. Le folklore vit à travers diverses fêtes, comme les Fêtes chodes (Chodské slavnosti) de Domažlice. Les célèbres gâteaux chodes et la céramique populaire au motif chode caractéristique sont également réputés.",
+    "it": "L'area etnografica del Chodsko si trova nella Boemia occidentale, nei dintorni di Domažlice. I Chodi erano contadini liberi a cui in passato era affidata la difesa dei confini del paese. Tra i tratti tipici del Chodsko c'è una tradizione popolare molto ricca: canti popolari e musica per cornamusa. Il folclore vive in varie feste, come le Feste del Chodsko a Domažlice. Sono rinomati anche i famosi dolci del Chodsko e le ceramiche popolari con il tipico motivo del Chodsko.",
+    "zh": "霍德斯克（Chodsko）民俗（民族志）地区位于捷克西波西米亚的多马日利采（Domažlice）一带。霍德人历史上是自由农民，肩负守卫国家边境的职责。霍德斯克最具特色的是极为丰富的民间传统——民歌和风笛音乐。各类民俗节庆也是当地民俗文化的体现，例如多马日利采的霍德斯克节。久负盛名的还有当地的霍德斯克馅饼，以及饰有典型霍德斯克图案的民间陶器。"
    },
    "kroj_nadpis": {
-    "cs": "Chodský kroj"
+    "cs": "Chodský kroj",
+    "de": "Chodentracht",
+    "en": "The costume from Chodsko",
+    "es": "Traje de Chodsko",
+    "fr": "Costume de Chodsko",
+    "it": "Costume del Chodsko",
+    "zh": "霍德斯克民族服饰"
    },
    "kroj": {
-    "cs": "Žena a muž oblečení do krojů ze západočeského Dolního Chodska, které se nosily ve vesnicích Mrákov, Klíčov, Tlumačov, Nevolice, Stráž, Chrastavice, Luženice, Újezd, Petrovice, Draženov, Pasečnice, Havlovice, Bořice, Záhořany, Milavče, i v městském prostředí Domažlic. Hlavu ženy zdobí typicky uvázaný a vyšitý chodský šátek."
+    "cs": "Žena a muž oblečení do krojů ze západočeského Dolního Chodska, které se nosily ve vesnicích Mrákov, Klíčov, Tlumačov, Nevolice, Stráž, Chrastavice, Luženice, Újezd, Petrovice, Draženov, Pasečnice, Havlovice, Bořice, Záhořany, Milavče, i v městském prostředí Domažlic. Hlavu ženy zdobí typicky uvázaný a vyšitý chodský šátek.",
+    "de": "Frau und Mann in Trachten aus dem westböhmischen Niederchodenland, die in den Dörfern Mrákov, Klíčov, Tlumačov, Nevolice, Stráž, Chrastavice, Luženice, Újezd, Petrovice, Draženov, Pasečnice, Havlovice, Bořice, Záhořany und Milavče sowie in der Stadt Domažlice getragen wurden. Den Kopf der Frau schmückt ein auf typische Choden-Art gebundenes und besticktes Kopftuch.",
+    "en": "Woman and man dressed in folk costumes from Lower Chodsko in Western Bohemia, which were worn in the villages of Mrákov, Klíčov, Tlumačov, Nevolice, Stráž, Chrastavice, Luženice, Újezd, Petrovice, Draženov, Pasečnice, Havlovice, Bořice, Záhořany and Milavče, as well as in the town of Domažlice. The woman's head is adorned with the typically tied, embroidered Chodsko headscarf.",
+    "es": "Una mujer y un hombre vestidos con trajes del Bajo Chodsko, en Bohemia occidental, que se llevaban en los pueblos de Mrákov, Klíčov, Tlumačov, Nevolice, Stráž, Chrastavice, Luženice, Újezd, Petrovice, Draženov, Pasečnice, Havlovice, Bořice, Záhořany y Milavče, así como en la ciudad de Domažlice. La cabeza de la mujer está adornada con el típico pañuelo chodo, bordado y anudado de manera característica.",
+    "fr": "Une femme et un homme vêtus de costumes de Basse-Chodsko (Dolní Chodsko), en Bohême de l’Ouest, portés dans les villages de Mrákov, Klíčov, Tlumačov, Nevolice, Stráž, Chrastavice, Luženice, Újezd, Petrovice, Draženov, Pasečnice, Havlovice, Bořice, Záhořany, Milavče, ainsi qu’en ville, à Domažlice. La tête de la femme est ornée du foulard chode brodé, noué de façon traditionnelle.",
+    "it": "Una donna e un uomo vestiti con i costumi del Chodsko inferiore, nella Boemia occidentale, indossati nei villaggi di Mrákov, Klíčov, Tlumačov, Nevolice, Stráž, Chrastavice, Luženice, Újezd, Petrovice, Draženov, Pasečnice, Havlovice, Bořice, Záhořany, Milavče e nell'ambiente cittadino di Domažlice. Il capo della donna è ornato dal tipico fazzoletto ricamato del Chodsko, annodato in modo caratteristico.",
+    "zh": "身着西波西米亚下霍德斯克地区民族服饰的女子与男子。这种服饰曾流行于Mrákov、Klíčov、Tlumačov、Nevolice、Stráž、Chrastavice、Luženice、Újezd、Petrovice、Draženov、Pasečnice、Havlovice、Bořice、Záhořany、Milavče等村庄，也见于多马日利采城中。女子头上系着极具特色的霍德斯克刺绣头巾。"
    },
    "fotky": [
     {
@@ -33,19 +63,49 @@
   {
    "id": "kozacko",
    "nazev": {
-    "cs": "Region Kozácko"
+    "cs": "Region Kozácko",
+    "de": "Region Kozácko",
+    "en": "The Kozácko region",
+    "es": "Región de Kozácko",
+    "fr": "Région Kozácko",
+    "it": "Regione di Kozácko",
+    "zh": "科扎茨科地区"
    },
    "podnazev": {
-    "cs": "Táborsko-Milevsko, jižní Čechy"
+    "cs": "Táborsko-Milevsko, jižní Čechy",
+    "de": "Tábor und Milevsko, Südböhmen",
+    "en": "Tábor–Milevsko area, South Bohemia",
+    "es": "Táborsko-Milevsko, Bohemia del Sur",
+    "fr": "Táborsko-Milevsko, Bohême du Sud",
+    "it": "Táborsko-Milevsko, Boemia meridionale",
+    "zh": "塔博尔-米莱夫斯科，南波西米亚"
    },
    "text": {
-    "cs": "Národopisná (etnografická) oblast Kozácko (Táborsko-Milevsko), nazývaná také Táborsko, se nachází v severní části jižních Čech. Je známá jedinečnou a dodnes udržovanou tradicí „obcházení lucek“, která se váže k 13. prosinci, kdy má svátek Lucie. Známé jsou i lidové písně z Kozácka, které sesbíral středoškolský profesor Čeněk Holas (10. 2. 1855 – 8. 2. 1939), básník a sběratel lidových písní a tanců, které zapsal do své sbírky „České národní písně a tance“ (6 svazků, Praha 1908–1910)."
+    "cs": "Národopisná (etnografická) oblast Kozácko (Táborsko-Milevsko), nazývaná také Táborsko, se nachází v severní části jižních Čech. Je známá jedinečnou a dodnes udržovanou tradicí „obcházení lucek“, která se váže k 13. prosinci, kdy má svátek Lucie. Známé jsou i lidové písně z Kozácka, které sesbíral středoškolský profesor Čeněk Holas (10. 2. 1855 – 8. 2. 1939), básník a sběratel lidových písní a tanců, které zapsal do své sbírky „České národní písně a tance“ (6 svazků, Praha 1908–1910).",
+    "de": "Die volkskundliche (ethnografische) Region Kozácko (Gebiet um Tábor und Milevsko), auch Táborsko genannt, liegt im nördlichen Teil Südböhmens. Bekannt ist sie für die einzigartige und bis heute gepflegte Tradition des „Lucien-Umgangs“ („obcházení lucek“), die mit dem 13. Dezember verbunden ist, dem Namenstag der heiligen Lucia. Bekannt sind auch die Volkslieder aus Kozácko, die der Gymnasialprofessor Čeněk Holas (10. 2. 1855 – 8. 2. 1939) gesammelt hat – Dichter und Sammler von Volksliedern und -tänzen, die er in seine Sammlung „Tschechische Nationallieder und -tänze“ (6 Bände, Prag 1908–1910) aufnahm.",
+    "en": "The ethnographic region of Kozácko (Táborsko-Milevsko), also called Táborsko, lies in the northern part of South Bohemia. It is famous for the unique tradition of “obcházení lucek” (the Lucy procession), still kept alive today, which is linked to 13 December, St Lucy's name day. Also well known are the folk songs of Kozácko collected by the secondary-school teacher Čeněk Holas (10 Feb 1855 – 8 Feb 1939), a poet and collector of folk songs and dances, who recorded them in his collection “Czech National Songs and Dances” (6 volumes, Prague 1908–1910).",
+    "es": "La región etnográfica de Kozácko (Táborsko-Milevsko), también llamada Táborsko, se encuentra en la parte septentrional de Bohemia del Sur. Es conocida por la singular tradición, que se mantiene hasta hoy, de las «lucky» que recorren las casas (obcházení lucek), vinculada al 13 de diciembre, día de Santa Lucía. También son conocidas las canciones populares de Kozácko, recopiladas por el profesor de instituto Čeněk Holas (10 de febrero de 1855 – 8 de febrero de 1939), poeta y recopilador de canciones y danzas populares, que las recogió en su colección «Canciones y danzas nacionales checas» (6 volúmenes, Praga 1908–1910).",
+    "fr": "La région ethnographique de Kozácko (Táborsko-Milevsko), appelée aussi Táborsko, se trouve dans la partie nord de la Bohême du Sud. Elle est connue pour une tradition unique, entretenue jusqu’à nos jours : la « tournée des Lucies », liée au 13 décembre, jour de la Sainte-Lucie. Les chansons populaires de Kozácko sont également célèbres grâce à Čeněk Holas (10 février 1855 – 8 février 1939), professeur de lycée, poète et collecteur de chants et de danses populaires, qui les a transcrites dans son recueil « Chants et danses nationaux tchèques » (6 volumes, Prague 1908–1910).",
+    "it": "L'area etnografica di Kozácko (Táborsko-Milevsko), detta anche Táborsko, si trova nella parte settentrionale della Boemia meridionale. È nota per la tradizione unica, ancora oggi viva, del giro delle «Lucie» di casa in casa, legata al 13 dicembre, giorno di Santa Lucia. Sono note anche le canzoni popolari del Kozácko raccolte dal professore di liceo Čeněk Holas (10 febbraio 1855 – 8 febbraio 1939), poeta e raccoglitore di canti e danze popolari, che le trascrisse nella sua raccolta «Canti e danze nazionali cechi» (6 volumi, Praga 1908–1910).",
+    "zh": "科扎茨科（Kozácko）民俗（民族志）地区（塔博尔-米莱夫斯科一带）又称塔博尔地区，位于南波西米亚北部。当地以独特且传承至今的“露西巡游”传统而闻名，这一习俗与12月13日的露西命名日相关。科扎茨科的民歌同样广为人知，由中学教授切涅克·霍拉斯（Čeněk Holas，1855年2月10日—1939年2月8日）收集整理。他是诗人，也是民歌与民间舞蹈的收集者，将其收录于作品集《捷克民族歌曲与舞蹈》（共6卷，布拉格，1908–1910年）。"
    },
    "kroj_nadpis": {
-    "cs": "Kroj regionu Kozácko"
+    "cs": "Kroj regionu Kozácko",
+    "de": "Tracht der Region Kozácko",
+    "en": "The costume from Kozácko",
+    "es": "Traje de la región de Kozácko",
+    "fr": "Costume de Kozácko",
+    "it": "Costume della regione di Kozácko",
+    "zh": "科扎茨科民族服饰"
    },
    "kroj": {
-    "cs": "Žena oblečená do kroje z jihočeského regionu Táborsko (Kozácko). Kroj je zdobený bílou prolamovanou výšivkou."
+    "cs": "Žena oblečená do kroje z jihočeského regionu Táborsko (Kozácko). Kroj je zdobený bílou prolamovanou výšivkou.",
+    "de": "Frau in Tracht aus der südböhmischen Region Táborsko (Kozácko). Die Tracht ist mit weißer Lochstickerei verziert.",
+    "en": "Woman dressed in a costume from the South Bohemian region of Táborsko (Kozácko). The costume is decorated with white openwork embroidery.",
+    "es": "Mujer vestida con un traje de la región de Táborsko (Kozácko), en Bohemia del Sur. El traje está decorado con un bordado blanco calado.",
+    "fr": "Une femme vêtue d’un costume de la région de Táborsko (Kozácko), en Bohême du Sud. Le costume est orné d’une broderie blanche ajourée.",
+    "it": "Donna vestita con il costume della regione di Táborsko (Kozácko), nella Boemia meridionale. Il costume è decorato con un ricamo bianco traforato.",
+    "zh": "身着南波西米亚塔博尔（科扎茨科）地区民族服饰的女子。服饰饰有白色镂空刺绣。"
    },
    "fotky": [
     {
@@ -63,19 +123,49 @@
   {
    "id": "blata",
    "nazev": {
-    "cs": "Region jihočeská Blata"
+    "cs": "Region jihočeská Blata",
+    "de": "Region Südböhmisches Blata",
+    "en": "The South Bohemian Blata region",
+    "es": "Región de Blata, Bohemia del Sur",
+    "fr": "Région de Blata en Bohême du Sud",
+    "it": "Regione Blata della Boemia meridionale",
+    "zh": "南波西米亚布拉塔地区"
    },
    "podnazev": {
-    "cs": "jižní Čechy"
+    "cs": "jižní Čechy",
+    "de": "Südböhmen",
+    "en": "South Bohemia",
+    "es": "Bohemia del Sur",
+    "fr": "Bohême du Sud",
+    "it": "Boemia meridionale",
+    "zh": "南波西米亚"
    },
    "text": {
-    "cs": "Národopisná (etnografická) oblast Blata leží v jižních Čechách. Je pro ni charakteristické velké množství rybníků, založených v 16. století. K hlavním znakům oblasti patří zděná bohatá lidová architektura s typickými štukovými reliéfy (tzv. selské baroko)."
+    "cs": "Národopisná (etnografická) oblast Blata leží v jižních Čechách. Je pro ni charakteristické velké množství rybníků, založených v 16. století. K hlavním znakům oblasti patří zděná bohatá lidová architektura s typickými štukovými reliéfy (tzv. selské baroko).",
+    "de": "Die volkskundliche (ethnografische) Region Blata liegt in Südböhmen. Typisch für sie ist eine große Anzahl von Teichen, die im 16. Jahrhundert angelegt wurden. Zu den Hauptmerkmalen der Region zählt die reiche gemauerte Volksarchitektur mit ihren typischen Stuckreliefs (sog. Bauernbarock).",
+    "en": "The ethnographic region of Blata lies in South Bohemia. It is characterised by a large number of fishponds, established in the 16th century. The region's main hallmark is its rich masonry folk architecture with typical stucco reliefs (so-called rural Baroque).",
+    "es": "La región etnográfica de Blata se encuentra en Bohemia del Sur. Se caracteriza por un gran número de estanques, creados en el siglo XVI. Entre los rasgos principales de la zona destaca la rica arquitectura popular de obra, con sus típicos relieves de estuco (el llamado barroco campesino).",
+    "fr": "La région ethnographique de Blata se trouve en Bohême du Sud. Elle se caractérise par un grand nombre d’étangs, créés au XVIe siècle. Son trait le plus marquant est une riche architecture populaire maçonnée, ornée de reliefs en stuc caractéristiques (le « baroque paysan »).",
+    "it": "L'area etnografica di Blata si trova nella Boemia meridionale. È caratterizzata da un gran numero di stagni, realizzati nel XVI secolo. Tra i tratti principali della zona spicca la ricca architettura popolare in muratura con i tipici rilievi in stucco (il cosiddetto barocco rurale).",
+    "zh": "布拉塔（Blata）民俗（民族志）地区位于捷克南波西米亚，以16世纪开凿的众多鱼塘为特色。当地最主要的标志是丰富多彩的砖石民间建筑，饰有典型的灰泥浮雕（即所谓的“乡村巴洛克”）。"
    },
    "kroj_nadpis": {
-    "cs": "Kroj regionu jihočeská Blata"
+    "cs": "Kroj regionu jihočeská Blata",
+    "de": "Tracht der Region Südböhmisches Blata",
+    "en": "The costume from South Bohemian Blata",
+    "es": "Traje de la región de Blata",
+    "fr": "Costume de Blata",
+    "it": "Costume della regione Blata della Boemia meridionale",
+    "zh": "南波西米亚布拉塔民族服饰"
    },
    "kroj": {
-    "cs": "Žena a muž oblečení do krojů z jihočeského regionu Blata. Hlavu ženy zdobí typický prvek této oblasti – rozměrná plena, zdobená bohatou výšivkou."
+    "cs": "Žena a muž oblečení do krojů z jihočeského regionu Blata. Hlavu ženy zdobí typický prvek této oblasti – rozměrná plena, zdobená bohatou výšivkou.",
+    "de": "Frau und Mann in Trachten aus der südböhmischen Region Blata. Den Kopf der Frau schmückt ein für diese Region typisches Element – die großformatige, reich bestickte Plena (Kopftuch).",
+    "en": "Woman and man dressed in costumes from the South Bohemian region of Blata. The woman's head is adorned with a typical feature of the region – a large linen headcloth (plena) decorated with rich embroidery.",
+    "es": "Una mujer y un hombre vestidos con trajes de la región de Blata, en Bohemia del Sur. La cabeza de la mujer está adornada con un elemento típico de esta zona: un gran tocado de tela (plena) ricamente bordado.",
+    "fr": "Une femme et un homme vêtus de costumes de la région de Blata, en Bohême du Sud. La tête de la femme est ornée d’un élément typique de la région : un grand voile richement brodé.",
+    "it": "Una donna e un uomo vestiti con i costumi della regione di Blata, nella Boemia meridionale. Il capo della donna è ornato da un elemento tipico di questa zona: un ampio velo riccamente ricamato.",
+    "zh": "身着南波西米亚布拉塔地区民族服饰的女子与男子。女子头上佩戴该地区的典型饰物——饰有繁复刺绣的宽大头巾。"
    },
    "fotky": [
     {
@@ -93,19 +183,49 @@
   {
    "id": "policka",
    "nazev": {
-    "cs": "Region Polička"
+    "cs": "Region Polička",
+    "de": "Region Polička",
+    "en": "The Polička region",
+    "es": "Región de Polička",
+    "fr": "Région de Polička",
+    "it": "Regione di Polička",
+    "zh": "波利奇卡地区"
    },
    "podnazev": {
-    "cs": "východní Čechy"
+    "cs": "východní Čechy",
+    "de": "Ostböhmen",
+    "en": "Eastern Bohemia",
+    "es": "Bohemia oriental",
+    "fr": "Bohême de l’Est",
+    "it": "Boemia orientale",
+    "zh": "东波西米亚"
    },
    "text": {
-    "cs": "Národopisná (etnografická) oblast Polička leží ve východních Čechách, v okrese Svitavy. Město Polička se nachází v blízkosti zemské hranice Čech a Moravy a je v něm mnoho krásných památek, např. radnice, která je národní kulturní památkou. Město je známé i dvěma velkými osobnostmi, které pocházely přímo z Poličky: česko-rakouským těsnopiscem Hynkem Jakubem Hegerem (5. 7. 1808 – 11. 5. 1854), autorem první české těsnopisné soustavy, a především Bohuslavem Martinů (8. 12. 1890 – 28. 8. 1959), světově proslulým hudebním skladatelem, který je např. autorem nádherné kantáty Otvírání studánek."
+    "cs": "Národopisná (etnografická) oblast Polička leží ve východních Čechách, v okrese Svitavy. Město Polička se nachází v blízkosti zemské hranice Čech a Moravy a je v něm mnoho krásných památek, např. radnice, která je národní kulturní památkou. Město je známé i dvěma velkými osobnostmi, které pocházely přímo z Poličky: česko-rakouským těsnopiscem Hynkem Jakubem Hegerem (5. 7. 1808 – 11. 5. 1854), autorem první české těsnopisné soustavy, a především Bohuslavem Martinů (8. 12. 1890 – 28. 8. 1959), světově proslulým hudebním skladatelem, který je např. autorem nádherné kantáty Otvírání studánek.",
+    "de": "Die volkskundliche (ethnografische) Region Polička liegt in Ostböhmen, im Bezirk Svitavy. Die Stadt Polička befindet sich nahe der Landesgrenze zwischen Böhmen und Mähren und besitzt viele wunderschöne Baudenkmäler, z. B. das Rathaus, das ein nationales Kulturdenkmal ist. Bekannt ist die Stadt auch durch zwei große Persönlichkeiten, die direkt aus Polička stammten: den tschechisch-österreichischen Stenografen Hynek Jakub Heger (5. 7. 1808 – 11. 5. 1854), Autor des ersten tschechischen Kurzschriftsystems, und vor allem Bohuslav Martinů (8. 12. 1890 – 28. 8. 1959), den weltberühmten Komponisten, u. a. Autor der wunderschönen Kantate „Das Öffnen der Brünnlein“.",
+    "en": "The ethnographic region of Polička lies in Eastern Bohemia, in the Svitavy district. The town of Polička is situated near the historic border between Bohemia and Moravia and has many beautiful monuments, for example the town hall, which is a National Cultural Monument. The town is also known for two great figures born here: the Czech-Austrian stenographer Hynek Jakub Heger (5 July 1808 – 11 May 1854), author of the first Czech shorthand system, and above all Bohuslav Martinů (8 Dec 1890 – 28 Aug 1959), the world-famous composer whose works include the beautiful cantata “The Opening of the Wells”.",
+    "es": "La región etnográfica de Polička se encuentra en Bohemia oriental, en el distrito de Svitavy. La ciudad de Polička está situada cerca de la frontera histórica entre Bohemia y Moravia y cuenta con muchos monumentos hermosos, como el ayuntamiento, declarado Monumento Cultural Nacional. La ciudad es conocida también por dos grandes personalidades nacidas en ella: el taquígrafo checo-austriaco Hynek Jakub Heger (5 de julio de 1808 – 11 de mayo de 1854), autor del primer sistema checo de taquigrafía, y, sobre todo, Bohuslav Martinů (8 de diciembre de 1890 – 28 de agosto de 1959), compositor de fama mundial, autor, entre otras obras, de la hermosa cantata «La apertura de los manantiales» (Otvírání studánek).",
+    "fr": "La région ethnographique de Polička se trouve en Bohême de l’Est, dans le district de Svitavy. La ville de Polička est située près de la frontière historique entre la Bohême et la Moravie et compte de nombreux et beaux monuments, comme l’hôtel de ville, classé monument culturel national. La ville est aussi connue grâce à deux grandes personnalités qui en sont originaires : le sténographe tchéco-autrichien Hynek Jakub Heger (5 juillet 1808 – 11 mai 1854), auteur du premier système de sténographie tchèque, et surtout Bohuslav Martinů (8 décembre 1890 – 28 août 1959), compositeur de renommée mondiale, auteur notamment de la magnifique cantate « L’Ouverture des sources ».",
+    "it": "L'area etnografica di Polička si trova nella Boemia orientale, nel distretto di Svitavy. La città di Polička sorge vicino al confine storico tra Boemia e Moravia e vanta molti bei monumenti, come il municipio, che è monumento culturale nazionale. La città è famosa anche per due grandi personalità originarie proprio di Polička: lo stenografo ceco-austriaco Hynek Jakub Heger (5 luglio 1808 – 11 maggio 1854), autore del primo sistema stenografico ceco, e soprattutto Bohuslav Martinů (8 dicembre 1890 – 28 agosto 1959), compositore di fama mondiale, autore tra l'altro della splendida cantata «L'apertura delle sorgenti».",
+    "zh": "波利奇卡（Polička）民俗（民族志）地区位于东波西米亚的斯维塔维（Svitavy）县。波利奇卡城靠近波西米亚与摩拉维亚的历史边界，城内有许多美丽的古迹，例如被列为国家文化遗产的市政厅。这座城市还因两位土生土长的名人而闻名：捷克-奥地利速记专家亨内克·雅库布·黑格尔（Hynek Jakub Heger，1808年7月5日—1854年5月11日），第一套捷克语速记体系的创立者；以及更为著名的博胡斯拉夫·马蒂努（Bohuslav Martinů，1890年12月8日—1959年8月28日），享誉世界的作曲家，其作品包括优美的康塔塔《开泉》（Otvírání studánek）。"
    },
    "kroj_nadpis": {
-    "cs": "Kroj regionu Polička"
+    "cs": "Kroj regionu Polička",
+    "de": "Tracht der Region Polička",
+    "en": "The costume from Polička",
+    "es": "Traje de la región de Polička",
+    "fr": "Costume de Polička",
+    "it": "Costume della regione di Polička",
+    "zh": "波利奇卡民族服饰"
    },
    "kroj": {
-    "cs": "Žena a muž oblečení do krojů z východočeského regionu Polička. Žena má oblečenou typickou modrou zástěru, zdobenou bílou výšivkou. Mužský kroj zdobí rekonstrukce opasku. Mužský opasek byl v minulosti zdoben výšivkou s pavím brkem."
+    "cs": "Žena a muž oblečení do krojů z východočeského regionu Polička. Žena má oblečenou typickou modrou zástěru, zdobenou bílou výšivkou. Mužský kroj zdobí rekonstrukce opasku. Mužský opasek byl v minulosti zdoben výšivkou s pavím brkem.",
+    "de": "Frau und Mann in Trachten aus der ostböhmischen Region Polička. Die Frau trägt die typische blaue, mit weißer Stickerei verzierte Schürze. Die Männertracht schmückt die Rekonstruktion eines Gürtels. Der Männergürtel war früher mit einer Stickerei aus Pfauenfederkiel verziert.",
+    "en": "Woman and man dressed in costumes from the East Bohemian region of Polička. The woman wears a typical blue apron decorated with white embroidery. The man's costume features a reconstructed belt; in the past, men's belts were decorated with embroidery made from peacock quills.",
+    "es": "Una mujer y un hombre vestidos con trajes de la región de Polička, en Bohemia oriental. La mujer lleva el típico delantal azul decorado con bordado blanco. El traje masculino se adorna con la reconstrucción de un cinturón. Antiguamente, el cinturón masculino se decoraba con un bordado de pluma de pavo real.",
+    "fr": "Une femme et un homme vêtus de costumes de la région de Polička, en Bohême de l’Est. La femme porte le tablier bleu typique, orné d’une broderie blanche. Le costume masculin est agrémenté d’une ceinture reconstituée ; autrefois, la ceinture des hommes était ornée d’une broderie à la plume de paon.",
+    "it": "Una donna e un uomo vestiti con i costumi della regione di Polička, nella Boemia orientale. La donna indossa il tipico grembiule blu decorato con ricami bianchi. Il costume maschile è ornato dalla ricostruzione di una cintura, che in passato veniva decorata con un ricamo in penna di pavone.",
+    "zh": "身着东波西米亚波利奇卡地区民族服饰的女子与男子。女子系着典型的蓝色围裙，饰有白色刺绣。男子服饰配有复原的腰带——过去，男子腰带以孔雀羽管刺绣装饰。"
    },
    "fotky": [
     {

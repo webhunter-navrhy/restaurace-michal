@@ -1,9 +1,9 @@
 {% extends '_base.html' %}
 {% from '_macros.html' import ic, img, em, phero %}
 {% set P = T.balicky %}
-{% set Bp = {'h1': b.nazev|t, 'perex': b.perex|t, 'kicker': (b.stitek|t) or P.h1} %}
+{% set Bp = {'h1': b.nazev|t, 'perex': b.perex|t, 'kicker': (b.stitek|t) or P.h1|replace('*', '')} %}
 {% block main %}
-{{ phero(Bp, page, lang, U, F, trail=[(P.h1, url('balicky', lang)), (b.nazev|t, none)], photo=b.foto if b.foto and b.foto.src else none) }}
+{{ phero(Bp, page, lang, U, F, trail=[(P.h1|replace('*', ''), url('balicky', lang)), ((b.nazev|t)|replace('*', ''), none)], photo=b.foto if b.foto and b.foto.src else none) }}
 <section class="section">
   <div class="container pdetail">
     <div class="prose">

@@ -76,7 +76,7 @@
 <section class="phero{% if not ph %} phero--plain{% endif %}">
   {% if ph %}<div class="phero__img">{{ img(ph, eager=true) }}</div>{% endif %}
   <div class="phero__in">
-    {{ crumbs([(U.nav.home, url('home', lang))] + (trail or [(P.h1, none)])) }}
+    {{ crumbs([(U.nav.home, url('home', lang))] + (trail or [(P.h1|replace('*', ''), none)])) }}
     {% if P.kicker %}<p class="kicker rv">{{ P.kicker }}</p>{% endif %}
     <h1 class="split">{{ split(P.h1) }}</h1>
     {% if P.perex %}<p class="rv" style="--d:.4s">{{ P.perex|nb }}</p>{% endif %}
