@@ -1,0 +1,27 @@
+{% extends '_base.html' %}
+{% from '_macros.html' import ic, img, em, phero %}
+{% set P = T.kontakt %}
+{% block main %}
+{{ phero(P, page, lang, U, F) }}
+<section class="section">
+  <div class="container contact">
+    <div>
+      <p class="kicker rv">{{ P.adresa_h }}</p>
+      <p class="rv" style="font-family:var(--f-display);font-size:clamp(1.5rem,2.6vw,2.1rem);line-height:1.3;font-weight:300">{{ SITE.nazev }}<br>{{ SITE.ulice }}<br>{{ SITE.psc }} {{ SITE.mesto }}</p>
+      <p class="rv muted">{{ P.poloha|nb }}</p>
+      <div class="warn rv">{{ ic('alert') }}<span><b>{{ P.upozorneni_h }}</b> {{ P.upozorneni|nb }}</span></div>
+      <p class="kicker rv" style="margin-top:3rem">{{ P.rezervace_h }}</p>
+      <div class="big-contact rv">{% for t in tels %}<a href="{{ t.href }}">{{ t.cislo }}</a>{% endfor %}<a href="mailto:{{ SITE.email }}">{{ SITE.email }}</a></div>
+      <div class="rv" style="display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2rem">
+        <a class="btn btn--accent" href="{{ B }}{{ url('rezervace', lang) }}">{{ U.rezervovat }} {{ ic('arrow') }}</a>
+        <a class="btn btn--ghost" href="{{ SITE.mapy_url }}" target="_blank" rel="noopener">{{ U.navigovat }}</a>
+      </div>
+      <div class="socials rv" style="margin-top:2.4rem">{% for k in ('facebook', 'instagram', 'tripadvisor', 'flickr') if SITE.socialni[k] %}<a href="{{ SITE.socialni[k] }}" target="_blank" rel="noopener" aria-label="{{ k|capitalize }}" style="border-color:var(--line)">{{ ic(k) }}</a>{% endfor %}</div>
+    </div>
+    <div class="rv">
+      <div class="map"><iframe src="{{ SITE.mapa_embed }}" title="{{ P.mapa }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+      <p class="muted" style="font-size:.82rem;margin-top:1.2rem">{{ U.provozuje }}: {{ SITE.provozovatel }}, {{ SITE.ulice }}, {{ SITE.psc }} {{ SITE.mesto }} · {{ U.ico }} {{ SITE.ico }} · {{ U.dic }} {{ SITE.dic }}</p>
+    </div>
+  </div>
+</section>
+{% endblock %}

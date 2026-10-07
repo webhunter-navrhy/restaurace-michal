@@ -1,0 +1,14 @@
+{% from '_macros.html' import ic, em %}
+<section class="section dark">
+  <div class="container cta">
+    <div>
+      <p class="kicker rv">{{ T.home.cta_kicker }}</p>
+      <h2 class="rv">{{ em(T.home.cta_h2) }}</h2>
+      <p class="rv lead" style="margin-top:1.6rem;color:rgba(243,234,219,.85)">{{ T.home.cta_text|nb }}</p>
+    </div>
+    <div class="rv" style="--d:.2s">
+      <a class="btn btn--accent" href="{{ B }}{{ url('rezervace', lang) }}">{{ U.rezervovat }} {{ ic('arrow') }}</a>
+      <div class="warn">{{ ic('alert') }}<span>{{ T.kontakt.upozorneni|nb }}</span></div>
+    </div>
+  </div>
+</section>

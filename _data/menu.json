@@ -1,0 +1,226 @@
+{
+ "sady": [
+  {
+   "id": "grilovana-masa",
+   "skryta": false,
+   "nazev": {
+    "cs": "Menu grilovaná masa"
+   },
+   "popis": {
+    "cs": ""
+   },
+   "cena": {
+    "cs": ""
+   },
+   "pozn": {
+    "cs": "Alergeny: 1, 3, 4, 7, 8, 9, 10, 11"
+   },
+   "foto": {
+    "src": "img/foto/jidlo-14.webp",
+    "sm": "img/foto/jidlo-14-sm.webp",
+    "alt": {
+     "cs": "Grilovaná masa – kuřecí prso, vepřová panenka, hovězí steak, pyré, zelenina",
+     "en": "Grilled meats – chicken breast, pork tenderloin, beef steak, purée, vegetables"
+    }
+   },
+   "chody": [
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Aperitiv"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Variace předkrmů dle sezóny"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Plněná kobliha trhanou vepřovou panenkou"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Kuřecí, hovězí, vepřová panenka\nZeleninové puré, zelenina"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Domácí moučník"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Káva – čaj"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pecena-masa",
+   "skryta": false,
+   "nazev": {
+    "cs": "Menu pečená masa"
+   },
+   "popis": {
+    "cs": ""
+   },
+   "cena": {
+    "cs": ""
+   },
+   "pozn": {
+    "cs": "Alergeny: 1, 2, 3, 4, 7, 8, 9, 10, 11, 14"
+   },
+   "foto": {
+    "src": "img/foto/jidlo-12.webp",
+    "sm": "img/foto/jidlo-12-sm.webp",
+    "alt": {
+     "cs": "Pečená masa – kachní stehno, bůček, telecí roláda, červené zelí, knedlíky",
+     "en": "Roasted meats – duck leg, pork belly, veal roulade, red cabbage, dumplings"
+    }
+   },
+   "chody": [
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Aperitiv"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Variace předkrmů dle sezóny"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Plněná kobliha trhanou vepřovou panenkou"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Kachní stehno, telecí roláda, pečený marinovaný bůček, červené zelí, karlovarský a bramborový knedlík, bramboráček"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Domácí moučník"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Káva – čaj"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rybi-menu",
+   "skryta": false,
+   "nazev": {
+    "cs": "Menu rybí"
+   },
+   "popis": {
+    "cs": ""
+   },
+   "cena": {
+    "cs": ""
+   },
+   "pozn": {
+    "cs": "Alergeny: 1, 2, 3, 4, 7, 8, 9, 10, 1, 14"
+   },
+   "foto": {
+    "src": "img/foto/jidlo-09.webp",
+    "sm": "img/foto/jidlo-09-sm.webp",
+    "alt": {
+     "cs": "Smažené kousky ryby a zeleniny",
+     "en": "Fried pieces of fish and vegetables"
+    }
+   },
+   "chody": [
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Aperitiv"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Variace předkrmů dle sezóny"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Rybí kroketa"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Grilované filátko z ryby, zeleninové puré a zelenina"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Domácí moučník"
+     }
+    },
+    {
+     "nazev": {
+      "cs": ""
+     },
+     "text": {
+      "cs": "Káva – čaj"
+     }
+    }
+   ]
+  }
+ ]
+}

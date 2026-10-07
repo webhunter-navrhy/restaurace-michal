@@ -1,0 +1,17 @@
+{% extends '_base.html' %}
+{% from '_macros.html' import ic, img, em, phero, pack_card %}
+{% set P = T.balicky %}
+{% block main %}
+{{ phero(P, page, lang, U, F) }}
+<section class="section">
+  <div class="container">
+    {% if BAL %}<div class="packs">{% for b in BAL %}{{ pack_card(b, lang, U) }}{% endfor %}</div>
+    {% else %}<div class="packs-empty">{{ P.prazdne|nb }}</div>{% endif %}
+    <div class="show rv" style="margin-top:clamp(4rem,8vw,6rem);align-items:center">
+      <div><h2 style="font-size:clamp(1.8rem,3.2vw,2.8rem)">{{ em(P.na_miru_h2) }}</h2></div>
+      <div><p>{{ P.na_miru_text|nb }}</p><a class="btn btn--ghost" href="{{ B }}{{ url('rezervace', lang) }}">{{ U.napsat_nam }} {{ ic('arrow') }}</a></div>
+    </div>
+  </div>
+</section>
+{% include '_cta.html' %}
+{% endblock %}

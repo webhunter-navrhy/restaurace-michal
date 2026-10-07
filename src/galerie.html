@@ -1,0 +1,19 @@
+{% extends '_base.html' %}
+{% from '_macros.html' import ic, img, em, phero %}
+{% set P = T.galerie %}
+{% block main %}
+{{ phero(P, page, lang, U, F) }}
+<section class="section section--paper">
+  <div class="container">
+    <div class="gtabs rv" role="group" aria-label="{{ P.filtr }}">
+      <button type="button" aria-pressed="true" data-k="">{{ P.vse }}</button>
+      {% for k in F.kategorie %}<button type="button" aria-pressed="false" data-k="{{ k.id }}">{{ k.nazev|t }}</button>{% endfor %}
+    </div>
+    <div class="masonry" data-lb>
+      {% for f in F.galerie %}<a href="{{ B }}{{ f.src }}" data-k="{{ f.kat }}" data-cap="{{ f.alt|t }}">{{ img(f, sizes='(max-width: 767px) 100vw, 33vw') }}</a>{% endfor %}
+    </div>
+    {% if SITE.socialni.flickr %}<div class="orn-line rv" style="margin-top:4rem"><a class="btn btn--ghost" href="{{ SITE.socialni.flickr }}" target="_blank" rel="noopener">{{ ic('flickr') }} {{ P.flickr }}</a></div>{% endif %}
+  </div>
+</section>
+{% include '_cta.html' %}
+{% endblock %}

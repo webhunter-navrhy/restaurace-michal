@@ -1,0 +1,33 @@
+{% extends '_base.html' %}
+{% from '_macros.html' import ic, img, em, phero %}
+{% set P = T.sbirka %}
+{% block main %}
+{{ phero(P, page, lang, U, F) }}
+<section class="section">
+  <div class="container show">
+    <div class="show__head"><p class="kicker rv">{{ P.kicker2 }}</p><h2 class="rv" style="color:var(--text)">{{ em(P.h2) }}</h2></div>
+    <div class="prose">{% for p in P.text|odstavce %}<p class="rv{{ ' lead' if loop.first }}">{{ p|nb }}</p>{% endfor %}{% if P.muzeum %}<p class="note rv">{{ P.muzeum|nb }}</p>{% endif %}</div>
+  </div>
+</section>
+{% if F.sbirka %}
+<section class="break" aria-label="{{ P.h1 }}">{{ img(F.sbirka[0]) }}<div class="break__cap"><p class="rv">{{ P.upra_text|nb }}</p><small class="rv">{{ P.upra_popisek }}</small></div></section>
+{% endif %}
+<section class="section section--alt">
+  <div class="container">
+    <div class="regions-head"><div><p class="kicker rv">{{ P.regiony_kicker }}</p><h2 class="rv">{{ em(P.regiony_h2) }}</h2></div></div>
+    {% for r in SB.regiony %}
+    <article class="rg" id="{{ r.id }}">
+      <div class="rg__media" data-lb>{% for f in r.fotky[:2] %}<a class="rv" style="--d:{{ loop.index0 * 0.15 }}s" href="{{ B }}{{ f.src }}" data-cap="{{ f.alt|t }}">{{ img(f, sizes='(max-width: 1024px) 45vw, 22vw') }}</a>{% endfor %}</div>
+      <div class="prose">
+        <span class="rg__num rv">{{ '%02d'|format(loop.index) }}</span>
+        <h2 class="rv">{{ r.nazev|t }}</h2>
+        {% if r.podnazev|t %}<p class="rv muted" style="margin-top:-.8rem">{{ r.podnazev|t }}</p>{% endif %}
+        {% for p in (r.text|t)|odstavce %}<p class="rv">{{ p|nb }}</p>{% endfor %}
+        {% if r.kroj|t %}<h3 class="rv">{{ r.kroj_nadpis|t }}</h3><p class="rv">{{ (r.kroj|t)|nb }}</p>{% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% include '_cta.html' %}
+{% endblock %}

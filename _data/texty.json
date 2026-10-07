@@ -1,0 +1,265 @@
+{
+ "cs": {
+  "ui": {
+   "preskocit": "Přeskočit na obsah",
+   "menu_label": "Hlavní menu",
+   "jazyk": "Jazyk",
+   "logo_pod": "Praha 1 · u Karlova mostu",
+   "nav": {
+    "home": "O restauraci",
+    "predstaveni": "Folklórní představení",
+    "sbirka": "Folklórní sbírka",
+    "menu": "Menu",
+    "balicky": "Balíčky",
+    "galerie": "Fotogalerie",
+    "kontakt": "Kontakt",
+    "rezervace": "Rezervace"
+   },
+   "rezervovat": "Rezervovat stůl",
+   "vice": "Více o představení",
+   "kde_nas_najdete": "Kde nás najdete",
+   "cela_sbirka": "Prohlédnout sbírku",
+   "cela_galerie": "Celá fotogalerie",
+   "vsechny_balicky": "Všechny balíčky",
+   "region": "Region",
+   "menu_vecere": "Večeře + folklórní show",
+   "cena_na_dotaz": "Cena na dotaz",
+   "napsat_nam": "Napište nám",
+   "adresa": "Adresa",
+   "telefon": "Telefon",
+   "navigovat": "Navigovat",
+   "rezervace_info": "Rezervace & informace",
+   "web": "Restaurace",
+   "provozuje": "Provozuje",
+   "ico": "IČO",
+   "dic": "DIČ",
+   "zavolat": "Zavolat",
+   "fotogalerie": "Fotogalerie",
+   "zavrit": "Zavřít",
+   "odesilam": "Odesílám…",
+   "form_chyba": {
+    "povinne": "Vyplňte prosím všechna povinná pole.",
+    "email": "E-mailová adresa nevypadá správně.",
+    "souhlas": "Pro odeslání je potřeba souhlas se zpracováním osobních údajů.",
+    "odeslani": "Odeslání se nepovedlo. Zkuste to prosím znovu, nebo nám zavolejte."
+   },
+   "f": {
+    "jmeno": "Jméno",
+    "prijmeni": "Příjmení",
+    "email": "E-mail",
+    "telefon": "Telefon",
+    "datum": "Datum",
+    "cas": "Čas příchodu",
+    "osob": "Počet osob",
+    "predstaveni": "Folklórní představení (19:00–22:00)",
+    "ano_predstaveni": "Ano",
+    "ne_predstaveni": "Ne",
+    "poznamka": "Napište zprávu",
+    "poznamka_ph": "Např. oslava, alergie, dětská židlička…",
+    "souhlas": "Osobní údaje zpracováváme pouze pro vyřízení rezervace. Souhlasím se zpracováním –",
+    "souhlas_odkaz": "ochrana osobních údajů",
+    "dekujeme_h": "Děkujeme!",
+    "dekujeme": "Rezervaci jsme přijali. Potvrdíme Vám ji e-mailem nebo telefonicky – platná je až potvrzená rezervace.",
+    "dekujeme_balicek": "Poptávku jsme přijali, brzy se Vám ozveme."
+   }
+  },
+  "home": {
+   "title": "Restaurant Michal Praha 1 – folklórní představení a česká kuchyně",
+   "description": "Rodinná restaurace v historickém domě pár kroků od Karlova mostu. Česká i mezinárodní kuchyně a večerní folklórní představení s cimbálovou muzikou Alexandra Vrábela.",
+   "hero_kicker": "Náprstkova 8 · Staré Město · u Karlova mostu",
+   "h1": "Rodinná restaurace *Michal*",
+   "hero_text": "Česká i mezinárodní kuchyně v domě s gotickými kořeny, jen pár kroků od kamenných oblouků Karlova mostu. Večer hraje cimbálová muzika a tančí naši krojovaní tanečníci.",
+   "karta_nadpis": "Folklórní představení",
+   "karta_cas": "19:00–22:00",
+   "karta_text": "Cimbálová muzika Alexandra Vrábela a krojovaní tanečníci – folklór Čech, Moravy a Slovenska.",
+   "marquee": [
+    "Folklór Čech, Moravy a Slovenska",
+    "Cimbálová muzika Alexandra Vrábela",
+    "Pár kroků od Karlova mostu",
+    "Česká i mezinárodní kuchyně",
+    "Originální ručně vyšívané kroje"
+   ],
+   "ahr": "Člen Asociace hotelů a restaurací ČR",
+   "onas_kicker": "O restauraci",
+   "onas_h2": "Dům s *gotickými* kořeny",
+   "onas_text": "Restaurant Michal se nachází v jedné z nejstarších částí historické Prahy na pravém břehu Vltavy v Náprstkově ulici, jen pár kroků od kamenných oblouků Karlova mostu. Také tato jeho přítomnost vybízí po čase stráveném u dobrého jídla a pití k příjemné procházce s krásným výhledem na panorama Hradčan.\nDům, ve kterém je restaurace umístěna, byl přestavěn v secesním stylu v druhé polovině 19. století, avšak z interiéru restaurace je patrné, že jeho kořeny sahají až do raně gotického období. Dokladem toho je i jedna z nejstarších pražských ulic Boršov, se kterou restaurace sousedí.",
+   "onas_citat": "",
+   "show_kicker": "Živý folklór",
+   "show_h2": "Originální *folklórní* představení",
+   "show_text": "Během večerních hodin se v restauraci konají živá folklórní představení, která Vám zprostředkuje cimbálová muzika Alexandra Vrábela a naši krojovaní tanečníci.\nPředstavení začíná v 19 hodin a končí ve 22 hodin. Během večera uvidíte průřez folklórem z většiny národopisných regionů Čech, Moravy a Slovenska. Na závěr si hosté mohou zazpívat i své oblíbené písně.",
+   "cisla": [
+    {
+     "cislo": "1997",
+     "plus": "",
+     "popis": "soubor zahájil svou činnost"
+    },
+    {
+     "cislo": "70",
+     "plus": "+",
+     "popis": "originálních ručně vyšívaných krojů ve sbírce"
+    },
+    {
+     "cislo": "100",
+     "plus": "+",
+     "popis": "let – stáří nejstarších krojů"
+    },
+    {
+     "cislo": "19–22",
+     "plus": "",
+     "popis": "hodin trvá večerní představení"
+    }
+   ],
+   "pruh_text": "Celý večer hraje zkušená cimbálová kapela pod vedením primáše Alexandra Vrábela.",
+   "pruh_popisek": "Cimbálová muzika Alexandra Vrábela",
+   "kuchyne_kicker": "Kuchyně",
+   "kuchyne_h2": "Nevšední *gurmánský* zážitek",
+   "kuchyne_text": "Naše nabídka se skládá jak z typicky českých pokrmů, tak také z jídel mezinárodní kuchyně a nezapomněli jsme ani na vegetariány či vyznavače zdravé linie. To vše připravujeme vždy z čerstvých surovin a voňavých bylin.",
+   "fakta": [
+    {
+     "ikona": "bread",
+     "nadpis": "Vlastní pečivo a zákusky",
+     "text": "Veškeré pečivo zaděláváme a pečeme v naší kuchyni, kde připravujeme také vlastní cukrářské výrobky."
+    },
+    {
+     "ikona": "leaf",
+     "nadpis": "Maso z rodinných farem",
+     "text": "Hovězí a vepřové maso a drůbež nám dodávají rodinné farmářské chovy z ČR."
+    },
+    {
+     "ikona": "fish",
+     "nadpis": "Ryby z jižních Čech",
+     "text": "Čerstvé sladkovodní ryby nám dodává rybářství Hůrka z jižních Čech."
+    },
+    {
+     "ikona": "wine",
+     "nadpis": "Moravská vína a české pivo",
+     "text": "Široká nabídka pečlivě vybíraných vín z moravských vinic, české pivo, aperitivy a špičkové destiláty."
+    }
+   ],
+   "sbirka_kicker": "Folklórní sbírka",
+   "sbirka_h2": "Více než *70 krojů* z Čech, Moravy a Slovenska",
+   "sbirka_text": "V restauraci je k vidění neustále se rozrůstající sbírka krojů manželů Kačírkových. Část je vystavena v prosklených vitrínách, které se jednou za rok vyměňují.",
+   "balicky_kicker": "Balíčky a akce",
+   "balicky_h2": "Oslavy, večírky a *svátky*",
+   "balicky_text": "V kombinaci s unikátními prostory restaurace, kvalitním servisem a gurmánskými specialitami pro Vás připravíme akci na špičkové úrovni.",
+   "galerie_kicker": "Fotogalerie",
+   "galerie_h2": "Večery v *Michalu*",
+   "galerie_text": "Tanečníci, muzikanti, kroje, interiér i naše kuchyně – nahlédněte do restaurace ještě před návštěvou.",
+   "cta_kicker": "Rezervace",
+   "cta_h2": "Rezervujte si *stůl* předem",
+   "cta_text": "Rezervace je před návštěvou nutná. Rezervaci potvrdíme e-mailem nebo telefonicky, platná je až potvrzená rezervace.",
+   "partneri": "Naši partneři",
+   "paticka": "Rodinná restaurace s folklórním představením v jedné z nejstarších částí historické Prahy, jen pár kroků od Karlova mostu."
+  },
+  "predstaveni": {
+   "title": "Folklórní představení v Praze – cimbálová muzika a tanečníci | Restaurant Michal",
+   "description": "Představení začíná v 19 a končí ve 22 hodin: průřez folklórem z Čech, Moravy a Slovenska, cimbálová muzika Alexandra Vrábela a tanečníci v originálních krojích.",
+   "kicker": "Večer v Michalu",
+   "h1": "Folklórní *představení*",
+   "perex": "Průřez folklórem z většiny národopisných regionů Čech, Moravy a Slovenska – s cimbálovou muzikou a tanečníky v originálních krojích.",
+   "cas_nadpis": "19:00–22:00",
+   "h2": "Originální folklórní *představení*",
+   "text": "Představení začíná v 19 hodin a končí ve 22 hodin. Během večera naši hosté uvidí průřez folklórem z většiny národopisných regionů Čech, Moravy a Slovenska. Na závěr celého představení si hosté mohou zazpívat i své oblíbené písně.\nCelý večer hraje zkušená cimbálová kapela pod vedením primáše Alexandra Vrábela. Naši tanečníci vystupují v originálních krojích, vždy k dané oblasti, ze které tanec tancují.\nVeškeré choreografie tanců, písní a hudby jsou v naší vlastní úpravě nebo za pomoci profesionálních choreografů. Aktuální novou choreografii z regionu Trenčín a Horehroní nacvičovali naši tanečníci pod vedením profesionálních tanečníků ze souboru Lučnica a uměleckého souboru SĽUK.",
+   "soubor_kicker": "Soubor",
+   "soubor_h2": "Cimbálová muzika *Alexandra Vrábela*",
+   "soubor_text": "Soubor zahájil svou činnost v roce 1997 a rekrutuje se z bývalého Státního souboru písní a tanců. Zabývá se folklórem z různých regionů Čech, Moravy a Slovenska. Svoje náměty a postřehy čerpá ze sbírek Františka Sušila, F. Bartoše, F. Poloczeka, L. Janáčka a jiných sběratelů národních písní.\nMuzika také procestovala velkou část Evropy a na svých vystoupeních používá originální ručně vyšívané kroje. Cimbálová muzika je ustrojena do krojů z Kyjovska. Tanečníci používají originální kroje, které přesně patří k regionu, ze kterého tanec tancují.",
+   "citace_nadpis": "Hosté o představení",
+   "citace": [
+    {
+     "text": "Děkujeme za nádherné představení českých umělců. Bylo to neskutečné.",
+     "zdroj": "facebook.com"
+    },
+    {
+     "text": "Až se vrátíme opět do Prahy, určitě nevynecháme zavítat do vaší restaurace, kde tanečníci předvádějí věci nevídané…",
+     "zdroj": "TripAdvisor.com"
+    },
+    {
+     "text": "Je neuvěřitelné, jak nádherný má zpěvačka hlas. A muzikanti zahrají snad úplně všechno!",
+     "zdroj": "Host restaurace"
+    }
+   ]
+  },
+  "sbirka": {
+   "title": "Folklórní sbírka krojů a obrazů | Restaurant Michal Praha",
+   "description": "Více než 70 originálních ručně vyšívaných krojů, některé přes 100 let staré, a grafické listy Jožky Úprky. Sbírka manželů Kačírkových v Restaurantu Michal.",
+   "kicker": "Sbírka",
+   "h1": "Unikátní folklórní sbírka *krojů a obrazů*",
+   "perex": "V restauraci je k vidění neustále se rozrůstající sbírka krojů z Čech, Moravy a Slovenska.",
+   "kicker2": "Majitelé restaurace",
+   "h2": "Velcí milovníci *folklóru*",
+   "text": "V restauraci je k vidění neustále se rozrůstající sbírka krojů. Majitelé se snaží o její prezentaci a propagaci lidových tradic nejenom v restauraci, ale také při organizaci různých folklórních projektů.\nProstory restaurace jsou přizpůsobeny prezentaci českého, moravského a slovenského folklóru, tak aby naši hosté měli možnost vidět a zažít co nejvíce z různých národopisných oblastí.\nV interiérech se nacházejí obrazy a grafiky našich předních folklórních malířů. V hlavním sále jsou k vidění grafické listy ze sbírky „Pánské kožuchy“ od našeho nejznámějšího malíře folklóru Jožky Úprky (1861–1940). Tento malíř byl kolegou Alfonse Muchy, s jehož pomocí vystavoval své obrazy roku 1894 v Salónu francouzských umělců v Paříži. Zde za obraz „Pouť u Svatého Antonínka“ získal cenu „Mention Honorable“ a slovácký venkov se díky němu stal známým v Evropě.\nMajitelé restaurace, manželé Kačírkovi, jsou velkými milovníky folklóru a jejich sbírka již obsahuje více jak 70 nádherných, originálních, ručně vyšívaných krojů. Některé z nich jsou více jak 100 let staré a mají velkou hodnotu.\nČást této unikátní sbírky je k vidění i v restauraci, a to v prosklených vitrínách, které se jednou za rok vyměňují. Hosté tak mají možnost vidět staré originální ručně vyšívané kroje a jejich součásti ze západních Čech až po východní Slovensko.",
+   "upra_text": "V hlavním sále jsou k vidění grafické listy ze sbírky „Pánské kožuchy“ od Jožky Úprky (1861–1940).",
+   "upra_popisek": "Jožka Úprka, kolega Alfonse Muchy",
+   "regiony_kicker": "Aktuálně v restauraci",
+   "regiony_h2": "Prezentace národopisných *regionů*",
+   "muzeum": "Aranžmá krojů schválili odborníci z Národopisného muzea Národního muzea."
+  },
+  "menu": {
+   "title": "Menu – večeře s folklórní show | Restaurant Michal Praha",
+   "description": "Kompletní menu, ve kterém je zahrnuta večeře a folklórní představení: grilovaná masa, pečená masa nebo rybí menu. Nápoje bez limitu od 19 do 22 hodin.",
+   "kicker": "Večeře + folklórní show",
+   "h1": "Menu – večeře a *folklórní show*",
+   "perex": "Vážení hosté, nabízíme Vám kompletní menu, ve kterém je zahrnuta večeře a folklórní představení.",
+   "text": "Jídla jsou vyrobena u nás v restauraci z čerstvých surovin bez použití přísad a produktů obsahujících chemické konzervanty. Ke všem pokrmům je podáváno domácí pečivo.",
+   "cena_text": "V ceně menu je zahrnuto folklórní představení. Cena menu na vyžádání. Nápoje bez limitu od 19:00 do 22:00 (pivo, lahvové víno, nealkoholické nápoje).",
+   "poznamka": ""
+  },
+  "galerie": {
+   "title": "Fotogalerie – folklórní představení, interiér a kuchyně | Restaurant Michal",
+   "description": "Fotografie z Restaurantu Michal: folklórní představení, cimbálová muzika, kroje ze sbírky, interiér domu u Karlova mostu a naše jídla.",
+   "kicker": "Fotogalerie",
+   "h1": "Foto*galerie*",
+   "perex": "Folklórní představení, interiér restaurace, sbírka krojů a naše kuchyně.",
+   "filtr": "Filtr fotek",
+   "vse": "Vše",
+   "flickr": "Další fotky na Flickru"
+  },
+  "balicky": {
+   "title": "Balíčky a akce – Silvestr, firemní večírky | Restaurant Michal",
+   "description": "Silvestr, firemní večírky a další akce v Restaurantu Michal u Karlova mostu. Nezávazná poptávka online.",
+   "kicker": "Balíčky a akce",
+   "h1": "Balíčky a *akce*",
+   "perex": "Silvestr, firemní večírky a další akce v restauraci u Karlova mostu.",
+   "prazdne": "Právě připravujeme nové balíčky. Napište nám a připravíme akci na míru.",
+   "na_miru_h2": "Akci připravíme *na míru*",
+   "na_miru_text": "V kombinaci s unikátními prostory restaurace, kvalitním servisem a gurmánskými specialitami pro Vás připravíme akci na špičkové úrovni, kterou zaručujeme dlouholetými zkušenostmi a řadou vynikajících referencí.",
+   "v_cene": "Co balíček obsahuje",
+   "termin": "Termín",
+   "cena": "Cena",
+   "kapacita": "Kapacita",
+   "poptat_h": "Nezávazná poptávka",
+   "odeslat": "Odeslat poptávku"
+  },
+  "rezervace": {
+   "title": "Rezervace stolu | Restaurant Michal Praha 1",
+   "description": "Rezervujte si stůl v Restaurantu Michal u Karlova mostu – večeře a folklórní představení 19:00–22:00. Rezervace je před návštěvou nutná.",
+   "kicker": "Rezervace",
+   "h1": "Rezervace *stolu*",
+   "perex": "Rezervace je před návštěvou nutná. Rezervaci potvrdíme e-mailem nebo telefonicky, platná je až potvrzená rezervace.",
+   "form_h": "Rezervační formulář",
+   "form_text": "Vyplňte prosím údaje, ozveme se Vám s potvrzením.",
+   "odeslat": "Odeslat rezervaci",
+   "side_h": "Raději telefonicky?",
+   "side_text": "Platná je až potvrzená rezervace. Potvrdíme Vám ji e-mailem nebo telefonicky."
+  },
+  "kontakt": {
+   "title": "Kontakt – Náprstkova 8, Praha 1 | Restaurant Michal",
+   "description": "Restaurant Michal, Náprstkova 273/8, Staré Město, Praha 1 – pár kroků od Karlova mostu. Rezervace a informace telefonicky i e-mailem.",
+   "kicker": "Kde nás najdete",
+   "h1": "Kontakt",
+   "perex": "Náprstkova 273/8, Staré Město – jen pár kroků od Karlova mostu.",
+   "adresa_h": "Adresa",
+   "poloha": "Restaurace se nachází v jedné z nejstarších částí historické Prahy na pravém břehu Vltavy v Náprstkově ulici, jen pár kroků od kamenných oblouků Karlova mostu. Sousedí s jednou z nejstarších pražských ulic Boršov.",
+   "upozorneni_h": "Důležité upozornění!",
+   "upozorneni": "Rezervace před návštěvou restaurace je nutná a můžete si ji udělat online, telefonicky nebo e-mailem. Děkujeme za pochopení a těšíme se na Vaši návštěvu.",
+   "rezervace_h": "Rezervace & informace",
+   "mapa": "Mapa – Restaurant Michal"
+  },
+  "gdpr": {
+   "title": "Ochrana osobních údajů | Restaurant Michal",
+   "description": "Informace o zpracování osobních údajů – HERMÍNA spol. s r.o., provozovatel Restaurant Michal.",
+   "h1": "Ochrana osobních údajů",
+   "perex": ""
+  }
+ }
+}

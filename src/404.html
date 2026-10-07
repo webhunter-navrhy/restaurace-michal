@@ -1,0 +1,13 @@
+{% extends '_base.html' %}
+{% from '_macros.html' import ic %}
+{% set solid = true %}
+{% block main %}
+<section class="phero phero--plain" style="min-height:70svh">
+  <div class="phero__in">
+    <p class="kicker">404</p>
+    <h1>Stránka nenalezena</h1>
+    <p>Page not found · Seite nicht gefunden · Page introuvable · Página no encontrada · Pagina non trovata · 页面未找到</p>
+    <div style="display:flex;gap:.6rem;flex-wrap:wrap;margin-top:2rem">{% for l in LANGS %}<a class="btn {{ 'btn--accent' if loop.first else 'btn--ghost' }} btn--sm" href="{{ B }}{{ alts[l] }}" lang="{{ HREFLANG[l] }}">{{ LANG_NAME[l] }}</a>{% endfor %}</div>
+  </div>
+</section>
+{% endblock %}

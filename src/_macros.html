@@ -1,0 +1,85 @@
+{% macro ic(name, cls='') -%}
+{%- set P = {
+  'arrow': '<path d="M5 12h14M13 6l6 6-6 6"/>',
+  'phone': '<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/>',
+  'mail': '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>',
+  'pin': '<path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/>',
+  'cal': '<rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
+  'clock': '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  'globe': '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
+  'chev': '<path d="m6 9 6 6 6-6"/>',
+  'x': '<path d="M18 6 6 18M6 6l12 12"/>',
+  'left': '<path d="m15 18-6-6 6-6"/>',
+  'right': '<path d="m9 18 6-6-6-6"/>',
+  'alert': '<path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4M12 17h0"/>',
+  'check': '<circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/>',
+  'music': '<path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/>',
+  'leaf': '<path d="M5 19c0-8 5-14 15-15-1 10-7 15-15 15z"/><path d="M5 19 14 10"/>',
+  'bread': '<path d="M4 11a5 3 0 0 1 16 0v8H4z"/><path d="M8 11v8M12 11v8M16 11v8"/>',
+  'fish': '<path d="M3 12c3-4 7-6 11-6 3 0 5 2 7 6-2 4-4 6-7 6-4 0-8-2-11-6z"/><path d="M3 12 1 9M3 12l-2 3"/><circle cx="16" cy="11" r="1"/>',
+  'wine': '<path d="M8 3h8l-1 7a3 3 0 0 1-6 0z"/><path d="M12 13v8M8 21h8"/>',
+  'users': '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/>',
+  'gift': '<rect x="3" y="8" width="18" height="13" rx="1.5"/><path d="M3 12h18M12 8v13M12 8S10 3 7.5 4 9 8 12 8zm0 0s2-5 4.5-4S15 8 12 8z"/>',
+  'facebook': '<path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/>',
+  'instagram': '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/>',
+  'tripadvisor': '<circle cx="7" cy="13" r="3.5"/><circle cx="17" cy="13" r="3.5"/><path d="M3.5 13a8.5 8.5 0 0 1 17 0M2 9h4M18 9h4M12 7v1"/><circle cx="7" cy="13" r="1"/><circle cx="17" cy="13" r="1"/>',
+  'flickr': '<circle cx="7" cy="12" r="3.5"/><circle cx="17" cy="12" r="3.5"/>',
+  'image': '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/>',
+} -%}
+<svg class="{{ cls }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{{ P[name]|safe }}</svg>
+{%- endmacro %}
+
+{% macro img(f, cls='', sizes='100vw', eager=false, alt=none) -%}
+{%- if f and f.src -%}{%- set f = f -%}
+<img src="{{ B }}{{ f.src }}"{% if f.sm and f.w and f.w > 900 %} srcset="{{ B }}{{ f.sm }} 900w, {{ B }}{{ f.src }} {{ f.w }}w" sizes="{{ sizes }}"{% endif %} width="{{ f.w }}" height="{{ f.h }}" alt="{{ (alt if alt is not none else f.alt|t) }}"{% if cls %} class="{{ cls }}"{% endif %}{% if eager %} fetchpriority="high"{% else %} loading="lazy" decoding="async"{% endif %}>
+{%- endif -%}
+{%- endmacro %}
+
+{% macro split(text) -%}
+{%- set ns = namespace(i=0) -%}
+{%- for part in text.split('*') -%}
+{%- if loop.index is even %}<em>{% endif -%}
+{%- for w in part.split(' ') if w -%}
+<span class="w"><span style="--i:{{ ns.i }}">{{ w }}</span></span>{% set ns.i = ns.i + 1 %}{{ ' ' if not loop.last }}
+{%- endfor -%}
+{%- if loop.index is even %}</em>{% endif %}{{ ' ' if not loop.last and part.endswith(' ') }}
+{%- endfor -%}
+{%- endmacro %}
+
+{% macro em(text) -%}
+{%- for part in text.split('*') -%}{% if loop.index is even %}<em>{{ part }}</em>{% else %}{{ part }}{% endif %}{%- endfor -%}
+{%- endmacro %}
+
+{% macro marquee(items) -%}
+<div class="marquee" aria-hidden="true"><div class="marquee__track">
+{% for _ in range(2) %}<div class="marquee__grp">{% for m in items %}<span>{{ m }}</span><img src="{{ B }}assets/img/kvet.png" alt="" width="34" height="34">{% endfor %}{% for m in items %}<span>{{ m }}</span><img src="{{ B }}assets/img/kvet.png" alt="" width="34" height="34">{% endfor %}</div>{% endfor %}
+</div></div>
+{%- endmacro %}
+
+{% macro crumbs(items) -%}
+<ol class="crumbs">{% for n, h in items %}<li>{% if h %}<a href="{{ B }}{{ h }}">{{ n }}</a>{% else %}<span aria-current="page">{{ n }}</span>{% endif %}</li>{% endfor %}</ol>
+{%- endmacro %}
+
+{% macro pack_card(b, lang, U) -%}
+<a class="pack rv" href="{{ B }}{{ url('balicky', lang, b.slug) }}">
+  <div class="pack__img">{{ img(b.foto, sizes='(max-width: 767px) 100vw, 33vw') }}{% if b.stitek|t %}<span class="pack__tag">{{ b.stitek|t }}</span>{% endif %}</div>
+  <div class="pack__body">
+    <h3>{{ b.nazev|t }}</h3>
+    {% if b.perex|t %}<p>{{ b.perex|t|nb }}</p>{% endif %}
+    <div class="pack__foot"><span>{% if b.termin|t %}{{ b.termin|t }} · {% endif %}<b>{{ (b.cena|t) or U.cena_na_dotaz }}</b></span><span class="pack__go">{{ ic('arrow') }}</span></div>
+  </div>
+</a>
+{%- endmacro %}
+
+{% macro phero(P, page, lang, U, F, trail=none, photo=none) -%}
+{%- set ph = photo or (F.zahlavi|selectattr('stranka', 'equalto', page)|first) -%}
+<section class="phero{% if not ph %} phero--plain{% endif %}">
+  {% if ph %}<div class="phero__img">{{ img(ph, eager=true) }}</div>{% endif %}
+  <div class="phero__in">
+    {{ crumbs([(U.nav.home, url('home', lang))] + (trail or [(P.h1, none)])) }}
+    {% if P.kicker %}<p class="kicker rv">{{ P.kicker }}</p>{% endif %}
+    <h1 class="split">{{ split(P.h1) }}</h1>
+    {% if P.perex %}<p class="rv" style="--d:.4s">{{ P.perex|nb }}</p>{% endif %}
+  </div>
+</section>
+{%- endmacro %}

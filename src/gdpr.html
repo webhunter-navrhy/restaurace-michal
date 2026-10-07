@@ -1,0 +1,12 @@
+{% extends '_base.html' %}
+{% from '_macros.html' import ic, phero %}
+{% set P = T.gdpr %}
+{% set solid = true %}
+{% block main %}
+{{ phero(P, page, lang, U, {'zahlavi': []}) }}
+<section class="section" style="padding-top:0">
+  <div class="narrow prose">
+    {% for p in (G.text|t)|odstavce %}{% if p.startswith('## ') %}<h2>{{ p[3:] }}</h2>{% else %}<p>{{ p|nb }}</p>{% endif %}{% endfor %}
+  </div>
+</section>
+{% endblock %}

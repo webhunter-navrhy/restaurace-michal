@@ -1,0 +1,43 @@
+{% extends '_base.html' %}
+{% from '_macros.html' import ic, img, em, phero %}
+{% set P = T.rezervace %}
+{% block main %}
+{{ phero(P, page, lang, U, F) }}
+<section class="section" style="padding-top:clamp(3rem,6vw,5rem)">
+  <div class="container resv">
+    <div class="resv__card formbox rv">
+      <h2 style="font-size:clamp(1.7rem,3vw,2.4rem);margin-bottom:.6rem">{{ P.form_h }}</h2>
+      <p class="muted" style="margin-bottom:2rem">{{ P.form_text|nb }}</p>
+      <form class="form" data-form="rezervace" novalidate>
+        <div class="f f--3"><label for="rj">{{ U.f.jmeno }} <i>*</i></label><input id="rj" name="jmeno" autocomplete="given-name" required></div>
+        <div class="f f--3"><label for="rp">{{ U.f.prijmeni }} <i>*</i></label><input id="rp" name="prijmeni" autocomplete="family-name" required></div>
+        <div class="f f--3"><label for="re">{{ U.f.email }} <i>*</i></label><input id="re" name="email" type="email" autocomplete="email" required></div>
+        <div class="f f--3"><label for="rt">{{ U.f.telefon }} <i>*</i></label><input id="rt" name="telefon" type="tel" autocomplete="tel" required></div>
+        <div class="f f--2"><label for="rd">{{ U.f.datum }} <i>*</i></label><input id="rd" name="datum" type="date" required></div>
+        <div class="f f--2 f-half"><label for="rc">{{ U.f.cas }} <i>*</i></label><select id="rc" name="cas" required><option value="">–</option>{% for c in SITE.formular.casy %}<option>{{ c }}</option>{% endfor %}</select></div>
+        <div class="f f--2 f-half"><label for="ro">{{ U.f.osob }} <i>*</i></label><input id="ro" name="osob" type="number" min="1" max="{{ SITE.formular.max_osob }}" inputmode="numeric" required></div>
+        <div class="f"><span class="lbl">{{ U.f.predstaveni }}</span>
+          <div class="choice"><label><input type="radio" name="predstaveni" value="ano" checked> {{ U.f.ano_predstaveni }}</label><label><input type="radio" name="predstaveni" value="ne"> {{ U.f.ne_predstaveni }}</label></div></div>
+        <div class="f"><label for="rz">{{ U.f.poznamka }}</label><textarea id="rz" name="poznamka" rows="3" placeholder="{{ U.f.poznamka_ph }}"></textarea></div>
+        <label class="f consent"><input type="checkbox" name="souhlas" required><span>{{ U.f.souhlas }} <a href="{{ B }}{{ url('gdpr', lang) }}" target="_blank">{{ U.f.souhlas_odkaz }}</a>.</span></label>
+        <input class="hp" name="web" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <p class="form__msg" role="status"></p>
+        <button class="btn btn--accent" type="submit">{{ P.odeslat }} {{ ic('arrow') }}</button>
+      </form>
+      <div class="form-ok">{{ ic('check') }}<h3>{{ U.f.dekujeme_h }}</h3><p>{{ U.f.dekujeme|nb }}</p></div>
+    </div>
+    <aside class="resv__side">
+      {% if F.rezervace %}<div class="arch rv">{{ img(F.rezervace[0], sizes='30vw') }}</div>{% endif %}
+      <h3 class="rv" style="margin-bottom:1rem">{{ P.side_h }}</h3>
+      <ul class="side-list rv">
+        <li>{{ ic('clock') }}<span>{{ T.home.karta_nadpis }}: <b>{{ T.home.karta_cas }}</b></span></li>
+        {% for t in tels %}<li>{{ ic('phone') }}<a href="{{ t.href }}">{{ t.cislo }}</a></li>{% endfor %}
+        <li>{{ ic('mail') }}<a href="mailto:{{ SITE.email }}">{{ SITE.email }}</a></li>
+        <li>{{ ic('pin') }}<span>{{ SITE.ulice }}, {{ SITE.psc }} {{ SITE.mesto }}</span></li>
+      </ul>
+      <div class="warn rv">{{ ic('alert') }}<span>{{ P.side_text|nb }}</span></div>
+      {% if BAL %}<p class="rv" style="margin-top:1.6rem"><a class="link" href="{{ B }}{{ url('balicky', lang) }}">{{ U.vsechny_balicky }} {{ ic('arrow') }}</a></p>{% endif %}
+    </aside>
+  </div>
+</section>
+{% endblock %}

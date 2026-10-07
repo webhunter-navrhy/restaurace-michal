@@ -1,0 +1,169 @@
+{% extends '_base.html' %}
+{% from '_macros.html' import ic, img, split, em, marquee, pack_card %}
+{% set H = T.home %}
+{% block main %}
+<section class="hero">
+  <div class="hero__img">{{ img(F.hero[0], eager=true) }}</div>
+  <div class="hero__in">
+    <div>
+      <p class="kicker rv">{{ H.hero_kicker }}</p>
+      <h1 class="split">{{ split(H.h1) }}</h1>
+      <p class="hero__lead rv" style="--d:.5s">{{ H.hero_text|nb }}</p>
+      <div class="hero__cta rv" style="--d:.65s">
+        <a class="btn btn--accent" href="{{ B }}{{ url('rezervace', lang) }}">{{ U.rezervovat }} {{ ic('arrow') }}</a>
+        <a class="btn btn--light" href="{{ B }}{{ url('predstaveni', lang) }}">{{ U.nav.predstaveni }}</a>
+      </div>
+    </div>
+    <aside class="show-card rv" style="--d:.9s">
+      <small>{{ H.karta_nadpis }}</small>
+      <b>{{ H.karta_cas }}</b>
+      <p>{{ H.karta_text|nb }}</p>
+    </aside>
+  </div>
+  <span class="scroll-ind" aria-hidden="true"></span>
+</section>
+
+{{ marquee(H.marquee) }}
+
+<section class="section" id="o-restauraci">
+  <div class="container about">
+    <div class="about__media">
+      <div class="arch-frame rv"><div class="arch">{{ img(F.onas[0], sizes='(max-width: 1024px) 90vw, 40vw') }}</div></div>
+      {% if SITE.ahr %}<div class="about__badge rv" style="--d:.3s"><img src="{{ B }}assets/img/ahr.png" alt="AHR ČR" width="80" height="80" loading="lazy">{{ H.ahr }}</div>{% endif %}
+    </div>
+    <div class="about__text">
+      <p class="kicker rv">{{ H.onas_kicker }}</p>
+      <h2 class="rv">{{ em(H.onas_h2) }}</h2>
+      {% for p in H.onas_text|odstavce %}<p class="rv{{ ' lead' if loop.first }}">{{ p|nb }}</p>{% endfor %}
+      {% if H.onas_citat %}<p class="about__quote rv">{{ H.onas_citat|nb }}</p>{% endif %}
+      <a class="link rv" href="{{ B }}{{ url('kontakt', lang) }}">{{ U.kde_nas_najdete }} {{ ic('arrow') }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section dark" id="predstaveni">
+  <div class="container">
+    <div class="show">
+      <div class="show__head">
+        <p class="kicker rv">{{ H.show_kicker }}</p>
+        <h2 class="rv">{{ em(H.show_h2) }}</h2>
+      </div>
+      <div class="show__text">
+        {% for p in H.show_text|odstavce %}<p class="rv">{{ p|nb }}</p>{% endfor %}
+        <div class="rv" style="display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2rem">
+          <a class="btn btn--accent" href="{{ B }}{{ url('rezervace', lang) }}">{{ U.rezervovat }} {{ ic('arrow') }}</a>
+          <a class="btn btn--light" href="{{ B }}{{ url('predstaveni', lang) }}">{{ U.vice }}</a>
+        </div>
+      </div>
+    </div>
+    <div class="stats">
+      {% for s in H.cisla %}<div class="stat rv" style="--d:{{ loop.index0 * 0.1 }}s"><b><span data-count="{{ s.cislo }}">{{ s.cislo }}</span>{% if s.plus %}<sup>{{ s.plus }}</sup>{% endif %}</b><span>{{ s.popis|nb }}</span></div>{% endfor %}
+    </div>
+    <div class="quotes">
+      {% for q in T.predstaveni.citace %}<figure class="quote rv" style="--d:{{ loop.index0 * 0.12 }}s"><blockquote>{{ q.text|nb }}</blockquote><figcaption>{{ q.zdroj }}</figcaption></figure>{% endfor %}
+    </div>
+  </div>
+</section>
+
+{% if F.pruh %}
+<section class="break" aria-label="{{ H.pruh_popisek }}">
+  {{ img(F.pruh[0]) }}
+  <div class="break__cap"><p class="rv">{{ H.pruh_text|nb }}</p><small class="rv" style="--d:.2s">{{ H.pruh_popisek }}</small></div>
+</section>
+{% endif %}
+
+<section class="section" id="kuchyne">
+  <div class="container kitchen">
+    <div class="kitchen__media">
+      <div class="ph clip">{{ img(F.kuchyne[0], sizes='(max-width: 1024px) 90vw, 45vw') }}</div>
+      {% if F.kuchyne|length > 1 %}<div class="ph-sm rv" style="--d:.4s">{{ img(F.kuchyne[1], sizes='25vw') }}</div>{% endif %}
+    </div>
+    <div>
+      <p class="kicker rv">{{ H.kuchyne_kicker }}</p>
+      <h2 class="rv">{{ em(H.kuchyne_h2) }}</h2>
+      <div style="margin-top:1.8rem">{% for p in H.kuchyne_text|odstavce %}<p class="rv">{{ p|nb }}</p>{% endfor %}</div>
+      <ul class="facts">
+        {% for f in H.fakta %}<li class="rv">{{ ic(f.ikona) }}<div><b>{{ f.nadpis }}</b><span>{{ f.text|nb }}</span></div></li>{% endfor %}
+      </ul>
+      <div class="menus rv">
+        {% for s in MENU.sady if not s.skryta %}<a href="{{ B }}{{ url('menu', lang) }}#{{ s.id }}"><small>{{ U.menu_vecere }}</small><b>{{ s.nazev|t }}</b></a>{% endfor %}
+      </div>
+      <p class="rv muted" style="margin-top:1.2rem;font-size:.92rem">{{ T.menu.cena_text|nb }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="sbirka">
+  <div class="container">
+    <div class="regions-head">
+      <div>
+        <p class="kicker rv">{{ H.sbirka_kicker }}</p>
+        <h2 class="rv">{{ em(H.sbirka_h2) }}</h2>
+      </div>
+      <div style="max-width:46ch">
+        <p class="rv">{{ H.sbirka_text|nb }}</p>
+        <a class="link rv" href="{{ B }}{{ url('sbirka', lang) }}">{{ U.cela_sbirka }} {{ ic('arrow') }}</a>
+      </div>
+    </div>
+    <div class="regions">
+      {% for r in SB.regiony[:4] %}<a class="region rv" style="--d:{{ loop.index0 * 0.1 }}s" href="{{ B }}{{ url('sbirka', lang) }}#{{ r.id }}">
+        <div class="region__img arch">{{ img(r.fotky[0], sizes='(max-width: 767px) 50vw, 25vw') }}</div>
+        <small>{{ U.region }} {{ loop.index }}</small><h3>{{ r.nazev|t }}</h3><p>{{ (r.kroj|t)|nb }}</p>
+      </a>{% endfor %}
+    </div>
+  </div>
+</section>
+
+{% if BAL %}
+<section class="section" id="balicky">
+  <div class="container">
+    <div class="regions-head">
+      <div><p class="kicker rv">{{ H.balicky_kicker }}</p><h2 class="rv">{{ em(H.balicky_h2) }}</h2></div>
+      <div style="max-width:46ch"><p class="rv">{{ H.balicky_text|nb }}</p><a class="link rv" href="{{ B }}{{ url('balicky', lang) }}">{{ U.vsechny_balicky }} {{ ic('arrow') }}</a></div>
+    </div>
+    <div class="packs">{% for b in BAL[:3] %}{{ pack_card(b, lang, U) }}{% endfor %}</div>
+  </div>
+</section>
+{% endif %}
+
+<section class="section section--paper" id="galerie">
+  <div class="container">
+    <div class="regions-head">
+      <div><p class="kicker rv">{{ H.galerie_kicker }}</p><h2 class="rv">{{ em(H.galerie_h2) }}</h2></div>
+      <div style="max-width:46ch"><p class="rv">{{ H.galerie_text|nb }}</p><a class="link rv" href="{{ B }}{{ url('galerie', lang) }}">{{ U.cela_galerie }} {{ ic('arrow') }}</a></div>
+    </div>
+    <div class="bento" data-lb>
+      {% for f in F.uvod_galerie[:5] %}<a class="rv" style="--d:{{ (loop.index0 % 3) * 0.08 }}s" href="{{ B }}{{ f.src }}" data-cap="{{ f.alt|t }}">{{ img(f, sizes='(max-width: 767px) 50vw, 25vw') }}</a>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section dark" id="rezervace">
+  <div class="container cta">
+    <div>
+      <p class="kicker rv">{{ H.cta_kicker }}</p>
+      <h2 class="rv">{{ em(H.cta_h2) }}</h2>
+      <p class="rv lead" style="margin-top:1.6rem;color:rgba(243,234,219,.85)">{{ H.cta_text|nb }}</p>
+      <div class="rv" style="display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2rem"><a class="btn btn--accent" href="{{ B }}{{ url('rezervace', lang) }}">{{ U.rezervovat }} {{ ic('arrow') }}</a></div>
+    </div>
+    <div class="cta__card rv" style="--d:.2s">
+      <dl>
+        <div><dt>{{ U.adresa }}</dt><dd>{{ SITE.ulice }}<br>{{ SITE.psc }} {{ SITE.mesto }}</dd></div>
+        <div><dt>{{ U.telefon }}</dt><dd>{% for t in tels %}<a href="{{ t.href }}">{{ t.cislo }}</a>{% if not loop.last %}<br>{% endif %}{% endfor %}</dd></div>
+        <div><dt>E-mail</dt><dd><a href="mailto:{{ SITE.email }}">{{ SITE.email }}</a></dd></div>
+        <div><dt>{{ H.karta_nadpis }}</dt><dd>{{ H.karta_cas }}</dd></div>
+      </dl>
+      <div class="warn">{{ ic('alert') }}<span>{{ T.kontakt.upozorneni|nb }}</span></div>
+    </div>
+  </div>
+</section>
+
+{% if SITE.partneri %}
+<section class="section" style="padding-block:clamp(3.5rem,7vw,5rem)">
+  <div class="container">
+    <p class="kicker rv" style="display:flex;justify-content:center">{{ H.partneri }}</p>
+    <div class="partners rv">{% for p in SITE.partneri %}<a href="{{ p.url }}" target="_blank" rel="noopener">{% if p.logo %}<img src="{{ B }}{{ p.logo }}" alt="{{ p.nazev }}" loading="lazy" height="56">{% else %}{{ p.nazev }}{% endif %}</a>{% endfor %}</div>
+  </div>
+</section>
+{% endif %}
+{% endblock %}

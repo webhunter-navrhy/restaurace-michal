@@ -1,0 +1,40 @@
+{% extends '_base.html' %}
+{% from '_macros.html' import ic, img, em, phero, marquee %}
+{% set P = T.predstaveni %}
+{% block main %}
+{{ phero(P, page, lang, U, F) }}
+{{ marquee(T.home.marquee) }}
+<section class="section">
+  <div class="container show" style="align-items:center">
+    <div class="prose">
+      <p class="kicker rv">{{ P.cas_nadpis }}</p>
+      <h2 class="rv" style="font-size:clamp(2rem,4vw,3.4rem);margin:0 0 1.6rem">{{ em(P.h2) }}</h2>
+      {% for p in P.text|odstavce %}<p class="rv{{ ' lead' if loop.first }}">{{ p|nb }}</p>{% endfor %}
+      <div class="rv" style="display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2rem"><a class="btn btn--accent" href="{{ B }}{{ url('rezervace', lang) }}">{{ U.rezervovat }} {{ ic('arrow') }}</a></div>
+    </div>
+    <div class="about__media" style="margin-top:0">
+      <div class="arch-frame rv"><div class="arch" style="aspect-ratio:4/5.2;overflow:hidden">{{ img(F.predstaveni[0], sizes='(max-width: 1024px) 90vw, 40vw') }}</div></div>
+    </div>
+  </div>
+</section>
+<section class="section dark">
+  <div class="container">
+    <div class="show">
+      <div class="show__head"><p class="kicker rv">{{ P.soubor_kicker }}</p><h2 class="rv">{{ em(P.soubor_h2) }}</h2></div>
+      <div class="show__text">{% for p in P.soubor_text|odstavce %}<p class="rv">{{ p|nb }}</p>{% endfor %}</div>
+    </div>
+    <div class="stats">{% for s in T.home.cisla %}<div class="stat rv" style="--d:{{ loop.index0 * 0.1 }}s"><b><span data-count="{{ s.cislo }}">{{ s.cislo }}</span>{% if s.plus %}<sup>{{ s.plus }}</sup>{% endif %}</b><span>{{ s.popis|nb }}</span></div>{% endfor %}</div>
+    <h2 class="rv" style="font-size:clamp(1.8rem,3vw,2.6rem);margin-top:clamp(4rem,8vw,7rem)">{{ P.citace_nadpis }}</h2>
+    <div class="quotes" style="margin-top:2.5rem">{% for q in P.citace %}<figure class="quote rv" style="--d:{{ loop.index0 * 0.12 }}s"><blockquote>{{ q.text|nb }}</blockquote><figcaption>{{ q.zdroj }}</figcaption></figure>{% endfor %}</div>
+  </div>
+</section>
+{% if F.predstaveni|length > 1 %}
+<section class="section section--paper">
+  <div class="container">
+    <div class="bento" data-lb>{% for f in F.predstaveni[1:6] %}<a class="rv" href="{{ B }}{{ f.src }}" data-cap="{{ f.alt|t }}">{{ img(f, sizes='(max-width: 767px) 50vw, 25vw') }}</a>{% endfor %}</div>
+    <p class="rv" style="margin-top:2rem;text-align:center"><a class="link" href="{{ B }}{{ url('galerie', lang) }}">{{ U.cela_galerie }} {{ ic('arrow') }}</a></p>
+  </div>
+</section>
+{% endif %}
+{% include '_cta.html' %}
+{% endblock %}

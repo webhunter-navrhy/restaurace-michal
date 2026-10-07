@@ -1,0 +1,41 @@
+{% extends '_base.html' %}
+{% from '_macros.html' import ic, img, em, phero %}
+{% set P = T.balicky %}
+{% set Bp = {'h1': b.nazev|t, 'perex': b.perex|t, 'kicker': (b.stitek|t) or P.h1} %}
+{% block main %}
+{{ phero(Bp, page, lang, U, F, trail=[(P.h1, url('balicky', lang)), (b.nazev|t, none)], photo=b.foto if b.foto and b.foto.src else none) }}
+<section class="section">
+  <div class="container pdetail">
+    <div class="prose">
+      {% for p in (b.text|t)|odstavce %}<p class="rv{{ ' lead' if loop.first }}">{{ p|nb }}</p>{% endfor %}
+      {% set items = b.polozky|t %}
+      {% if items %}<h2 class="rv">{{ (b.polozky_nadpis|t) or P.v_cene }}</h2><ul class="pitems">{% for i in items %}<li class="rv">{{ i|nb }}</li>{% endfor %}</ul>{% endif %}
+      {% if b.pozn|t %}<p class="note rv">{{ (b.pozn|t)|nb }}</p>{% endif %}
+      {% if b.fotky %}<div class="masonry" data-lb style="margin-top:2.5rem;columns:2 240px">{% for f in b.fotky %}<a href="{{ B }}{{ f.src }}" data-cap="{{ f.alt|t }}">{{ img(f, sizes='30vw') }}</a>{% endfor %}</div>{% endif %}
+    </div>
+    <aside class="pinfo rv" id="poptavka">
+      <dl>
+        {% if b.termin|t %}<div><dt>{{ P.termin }}</dt><dd>{{ b.termin|t }}</dd></div>{% endif %}
+        <div><dt>{{ P.cena }}</dt><dd>{{ (b.cena|t) or U.cena_na_dotaz }}</dd></div>
+        {% if b.kapacita|t %}<div><dt>{{ P.kapacita }}</dt><dd>{{ b.kapacita|t }}</dd></div>{% endif %}
+      </dl>
+      <h3 style="margin-bottom:1.2rem">{{ P.poptat_h }}</h3>
+      <div class="formbox">
+      <form class="form" data-form="balicek" data-listing='{{ {"id": b.slug, "title": b.nazev|t, "url": DOM ~ "/" ~ rel}|tojson }}' novalidate>
+        <div class="f"><label for="pj">{{ U.f.jmeno }} <i>*</i></label><input id="pj" name="jmeno" autocomplete="name" required></div>
+        <div class="f f--3"><label for="pe">{{ U.f.email }} <i>*</i></label><input id="pe" name="email" type="email" autocomplete="email" required></div>
+        <div class="f f--3"><label for="pt">{{ U.f.telefon }}</label><input id="pt" name="telefon" type="tel" autocomplete="tel"></div>
+        <div class="f f--3"><label for="pd">{{ U.f.datum }}</label><input id="pd" name="datum" type="date"></div>
+        <div class="f f--3"><label for="po">{{ U.f.osob }}</label><input id="po" name="osob" type="number" min="1" max="500" inputmode="numeric"></div>
+        <div class="f"><label for="pz">{{ U.f.poznamka }}</label><textarea id="pz" name="poznamka" rows="3"></textarea></div>
+        <label class="f consent"><input type="checkbox" name="souhlas" required><span>{{ U.f.souhlas }} <a href="{{ B }}{{ url('gdpr', lang) }}" target="_blank">{{ U.f.souhlas_odkaz }}</a>.</span></label>
+        <input class="hp" name="web" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <p class="form__msg" role="status"></p>
+        <button class="btn btn--accent" type="submit">{{ P.odeslat }} {{ ic('arrow') }}</button>
+      </form>
+      <div class="form-ok">{{ ic('check') }}<h3>{{ U.f.dekujeme_h }}</h3><p>{{ U.f.dekujeme_balicek|nb }}</p></div>
+      </div>
+    </aside>
+  </div>
+</section>
+{% endblock %}

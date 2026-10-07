@@ -1,0 +1,32 @@
+{% extends '_base.html' %}
+{% from '_macros.html' import ic, img, em, phero %}
+{% set P = T.menu %}
+{% block main %}
+{{ phero(P, page, lang, U, F) }}
+<section class="section">
+  <div class="container">
+    <div class="show" style="margin-bottom:clamp(3rem,6vw,5rem)">
+      <div class="prose">{% for p in P.text|odstavce %}<p class="rv{{ ' lead' if loop.first }}">{{ p|nb }}</p>{% endfor %}</div>
+      <div><div class="note rv">{{ P.cena_text|nb }}</div><a class="btn btn--accent rv" style="margin-top:1.4rem" href="{{ B }}{{ url('rezervace', lang) }}">{{ U.rezervovat }} {{ ic('arrow') }}</a></div>
+    </div>
+    {% for s in MENU.sady if not s.skryta %}
+    <article class="mset" id="{{ s.id }}">
+      <div class="mset__head">
+        <small class="rv">{{ U.menu_vecere }}</small>
+        <h2 class="rv">{{ s.nazev|t }}</h2>
+        {% if s.popis|t %}<p class="rv muted" style="margin-top:1rem">{{ (s.popis|t)|nb }}</p>{% endif %}
+        {% if s.foto and s.foto.src %}<div class="ph clip">{{ img(s.foto, sizes='(max-width: 1024px) 90vw, 30vw') }}</div>{% endif %}
+      </div>
+      <div>
+        <ul class="courses">
+          {% for c in s.chody %}<li class="course rv"><small>{{ (c.nazev|t) or ('%02d'|format(loop.index)) }}</small><div>{% for p in (c.text|t)|odstavce %}<p>{{ p|nb }}</p>{% endfor %}</div></li>{% endfor %}
+        </ul>
+        <div class="mprice rv"><span class="muted">{{ s.pozn|t }}</span><b>{{ (s.cena|t) or U.cena_na_dotaz }}</b></div>
+      </div>
+    </article>
+    {% endfor %}
+    {% if P.poznamka %}<p class="rv muted" style="margin-top:3rem;font-size:.92rem;max-width:70ch">{{ P.poznamka|nb }}</p>{% endif %}
+  </div>
+</section>
+{% include '_cta.html' %}
+{% endblock %}

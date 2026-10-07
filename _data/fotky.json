@@ -1,0 +1,988 @@
+{
+ "hero": [
+  {
+   "src": "img/foto/tanecnici-11.webp",
+   "sm": "img/foto/tanecnici-11-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Kroje – region jihočeská Blata",
+    "en": "Folk costumes – South Bohemian Blata region"
+   }
+  }
+ ],
+ "onas": [
+  {
+   "src": "img/foto/dum-01.webp",
+   "sm": "img/foto/dum-01-sm.webp",
+   "w": 2000,
+   "h": 1185,
+   "alt": {
+    "cs": "Vchod do Restaurantu Michal, Náprstkova 8",
+    "en": "Entrance to Restaurant Michal, Náprstkova 8"
+   }
+  }
+ ],
+ "predstaveni": [
+  {
+   "src": "img/foto/tanecnici-05.webp",
+   "sm": "img/foto/tanecnici-05-sm.webp",
+   "w": 1486,
+   "h": 2000,
+   "alt": {
+    "cs": "Kroje – region Staré Město",
+    "en": "Folk costumes – Staré Město region"
+   }
+  },
+  {
+   "src": "img/foto/tanecnici-07.webp",
+   "sm": "img/foto/tanecnici-07-sm.webp",
+   "w": 2000,
+   "h": 1786,
+   "alt": {
+    "cs": "Kroje – region Staré Město",
+    "en": "Folk costumes – Staré Město region"
+   }
+  },
+  {
+   "src": "img/foto/tanecnici-02.webp",
+   "sm": "img/foto/tanecnici-02-sm.webp",
+   "w": 2000,
+   "h": 1402,
+   "alt": {
+    "cs": "Cimbálová muzika Alexandra Vrábela",
+    "en": "Dulcimer band of Alexandr Vrábel"
+   }
+  },
+  {
+   "src": "img/foto/tanecnici-10.webp",
+   "sm": "img/foto/tanecnici-10-sm.webp",
+   "w": 2000,
+   "h": 1684,
+   "alt": {
+    "cs": "Kroje – region jihočeská Blata",
+    "en": "Folk costumes – South Bohemian Blata region"
+   }
+  },
+  {
+   "src": "img/foto/tanecnici-08.webp",
+   "sm": "img/foto/tanecnici-08-sm.webp",
+   "w": 2000,
+   "h": 1918,
+   "alt": {
+    "cs": "Kroje – region Staré Město",
+    "en": "Folk costumes – Staré Město region"
+   }
+  },
+  {
+   "src": "img/foto/tanecnici-14.webp",
+   "sm": "img/foto/tanecnici-14-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Kroje – region jihočeská Blata",
+    "en": "Folk costumes – South Bohemian Blata region"
+   }
+  },
+  {
+   "src": "img/foto/tanecnici-01.webp",
+   "sm": "img/foto/tanecnici-01-sm.webp",
+   "w": 2000,
+   "h": 1325,
+   "alt": {
+    "cs": "Kroje – region Vlčnov",
+    "en": "Folk costumes – Vlčnov region"
+   }
+  }
+ ],
+ "pruh": [
+  {
+   "src": "img/foto/folklor-13.webp",
+   "sm": "img/foto/folklor-13-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Happening „Cimbály na ulicích“",
+    "en": "“Cimbály na ulicích” happening"
+   }
+  }
+ ],
+ "kuchyne": [
+  {
+   "src": "img/foto/jidlo-16.webp",
+   "sm": "img/foto/jidlo-16-sm.webp",
+   "w": 2000,
+   "h": 1334,
+   "alt": {
+    "cs": "Český talíř se dvěma druhy zelí a dvěma druhy knedlíků (pečené vepřové, uzená domácí šunka, pečená kachna)",
+    "en": "Czech plate (baked pork, homemade smoked ham, baked duck) with two kinds of cabbage and dumplings)"
+   }
+  },
+  {
+   "src": "img/foto/jidlo-01.webp",
+   "sm": "img/foto/jidlo-01-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Košíček z lineckého těsta s krémem z bílé čokolády a tvarohu, zdobený ovocem",
+    "en": "shortbread tart filled with sweet cottage cheese and white chocolate garnished with fresh fruits"
+   }
+  }
+ ],
+ "sbirka": [
+  {
+   "src": "img/foto/interier-07.webp",
+   "sm": "img/foto/interier-07-sm.webp",
+   "w": 2000,
+   "h": 1201,
+   "alt": {
+    "cs": "Interiér Restaurantu Michal s obrazy",
+    "en": "Interior of Restaurant Michal with paintings"
+   }
+  }
+ ],
+ "rezervace": [
+  {
+   "src": "img/foto/tanecnici-16.webp",
+   "sm": "img/foto/tanecnici-16-sm.webp",
+   "w": 1335,
+   "h": 2000,
+   "alt": {
+    "cs": "Kroje – region jihočeská Blata",
+    "en": "Folk costumes – South Bohemian Blata region"
+   }
+  }
+ ],
+ "uvod_galerie": [
+  {
+   "src": "img/foto/folklor-02.webp",
+   "sm": "img/foto/folklor-02-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Kroje – region Staré Město",
+    "en": "Folk costumes – Staré Město region"
+   }
+  },
+  {
+   "src": "img/foto/interier-05.webp",
+   "sm": "img/foto/interier-05-sm.webp",
+   "w": 2000,
+   "h": 1309,
+   "alt": {
+    "cs": "Interiér Restaurantu Michal",
+    "en": "Interior of Restaurant Michal"
+   }
+  },
+  {
+   "src": "img/foto/jidlo-07.webp",
+   "sm": "img/foto/jidlo-07-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Krevety s omáčkou z krvavých pomerančů",
+    "en": "Prawns with blood orange sauce"
+   }
+  },
+  {
+   "src": "img/foto/tanecnici-09.webp",
+   "sm": "img/foto/tanecnici-09-sm.webp",
+   "w": 1335,
+   "h": 2000,
+   "alt": {
+    "cs": "Kroje – region Staré Město",
+    "en": "Folk costumes – Staré Město region"
+   }
+  },
+  {
+   "src": "img/foto/jidlo-05.webp",
+   "sm": "img/foto/jidlo-05-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Chřestový krém s vejcem",
+    "en": "Asparagus cream with egg"
+   }
+  }
+ ],
+ "zahlavi": [
+  {
+   "src": "img/foto/folklor-01.webp",
+   "sm": "img/foto/folklor-01-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Kroje – region Chodsko",
+    "en": "Folk costumes – Chodsko region"
+   },
+   "stranka": "predstaveni"
+  },
+  {
+   "src": "img/foto/folklor-05.webp",
+   "sm": "img/foto/folklor-05-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Kroje – region Staré Město (detail)",
+    "en": "Folk costumes – Staré Město region (detail)"
+   },
+   "stranka": "sbirka"
+  },
+  {
+   "src": "img/foto/jidlo-12.webp",
+   "sm": "img/foto/jidlo-12-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Pečená masa -konfitované kachní stehno, marinovaný bůček, telecí roláda, červené zelí, karlovarský a bramboroví knedlík , bramboráček",
+    "en": "Roasted meats - confit duck leg, marinated pork belly, veal roulade, red cabbage, dumplings, potato pancakes"
+   },
+   "stranka": "menu"
+  },
+  {
+   "src": "img/foto/folklor-10.webp",
+   "sm": "img/foto/folklor-10-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Happening „Cimbály na ulicích“",
+    "en": "“Cimbály na ulicích” happening"
+   },
+   "stranka": "galerie"
+  },
+  {
+   "src": "img/foto/interier-05.webp",
+   "sm": "img/foto/interier-05-sm.webp",
+   "w": 2000,
+   "h": 1309,
+   "alt": {
+    "cs": "Interiér Restaurantu Michal",
+    "en": "Interior of Restaurant Michal"
+   },
+   "stranka": "balicky"
+  },
+  {
+   "src": "img/foto/interier-06.webp",
+   "sm": "img/foto/interier-06-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Interiér Restaurantu Michal",
+    "en": "Interior of Restaurant Michal"
+   },
+   "stranka": "rezervace"
+  },
+  {
+   "src": "img/foto/dum-02.webp",
+   "sm": "img/foto/dum-02-sm.webp",
+   "w": 2000,
+   "h": 1394,
+   "alt": {
+    "cs": "Vchod do Restaurantu Michal, Náprstkova 8",
+    "en": "Entrance to Restaurant Michal, Náprstkova 8"
+   },
+   "stranka": "kontakt"
+  }
+ ],
+ "galerie": [
+  {
+   "src": "img/foto/tanecnici-01.webp",
+   "sm": "img/foto/tanecnici-01-sm.webp",
+   "w": 2000,
+   "h": 1325,
+   "alt": {
+    "cs": "Kroje – region Vlčnov",
+    "en": "Folk costumes – Vlčnov region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-02.webp",
+   "sm": "img/foto/tanecnici-02-sm.webp",
+   "w": 2000,
+   "h": 1402,
+   "alt": {
+    "cs": "Cimbálová muzika Alexandra Vrábela",
+    "en": "Dulcimer band of Alexandr Vrábel"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-03.webp",
+   "sm": "img/foto/tanecnici-03-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Tanečníci v krojích – region Staré Město a jihočeská Blata",
+    "en": "Dancers in folk costumes – Staré Město and South Bohemian Blata regions"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-04.webp",
+   "sm": "img/foto/tanecnici-04-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Kroje – region Staré Město",
+    "en": "Folk costumes – Staré Město region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-05.webp",
+   "sm": "img/foto/tanecnici-05-sm.webp",
+   "w": 1486,
+   "h": 2000,
+   "alt": {
+    "cs": "Kroje – region Staré Město",
+    "en": "Folk costumes – Staré Město region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-06.webp",
+   "sm": "img/foto/tanecnici-06-sm.webp",
+   "w": 2000,
+   "h": 1501,
+   "alt": {
+    "cs": "Kroje – region Staré Město",
+    "en": "Folk costumes – Staré Město region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-07.webp",
+   "sm": "img/foto/tanecnici-07-sm.webp",
+   "w": 2000,
+   "h": 1786,
+   "alt": {
+    "cs": "Kroje – region Staré Město",
+    "en": "Folk costumes – Staré Město region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-08.webp",
+   "sm": "img/foto/tanecnici-08-sm.webp",
+   "w": 2000,
+   "h": 1918,
+   "alt": {
+    "cs": "Kroje – region Staré Město",
+    "en": "Folk costumes – Staré Město region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-09.webp",
+   "sm": "img/foto/tanecnici-09-sm.webp",
+   "w": 1335,
+   "h": 2000,
+   "alt": {
+    "cs": "Kroje – region Staré Město",
+    "en": "Folk costumes – Staré Město region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-10.webp",
+   "sm": "img/foto/tanecnici-10-sm.webp",
+   "w": 2000,
+   "h": 1684,
+   "alt": {
+    "cs": "Kroje – region jihočeská Blata",
+    "en": "Folk costumes – South Bohemian Blata region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-11.webp",
+   "sm": "img/foto/tanecnici-11-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Kroje – region jihočeská Blata",
+    "en": "Folk costumes – South Bohemian Blata region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-12.webp",
+   "sm": "img/foto/tanecnici-12-sm.webp",
+   "w": 1335,
+   "h": 2000,
+   "alt": {
+    "cs": "Kroje – region jihočeská Blata",
+    "en": "Folk costumes – South Bohemian Blata region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-13.webp",
+   "sm": "img/foto/tanecnici-13-sm.webp",
+   "w": 2000,
+   "h": 1701,
+   "alt": {
+    "cs": "Kroje – region jihočeská Blata",
+    "en": "Folk costumes – South Bohemian Blata region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-14.webp",
+   "sm": "img/foto/tanecnici-14-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Kroje – region jihočeská Blata",
+    "en": "Folk costumes – South Bohemian Blata region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-15.webp",
+   "sm": "img/foto/tanecnici-15-sm.webp",
+   "w": 1398,
+   "h": 2000,
+   "alt": {
+    "cs": "Kroje – region jihočeská Blata",
+    "en": "Folk costumes – South Bohemian Blata region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/tanecnici-16.webp",
+   "sm": "img/foto/tanecnici-16-sm.webp",
+   "w": 1335,
+   "h": 2000,
+   "alt": {
+    "cs": "Kroje – region jihočeská Blata",
+    "en": "Folk costumes – South Bohemian Blata region"
+   },
+   "kat": "predstaveni"
+  },
+  {
+   "src": "img/foto/folklor-01.webp",
+   "sm": "img/foto/folklor-01-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Kroje – region Chodsko",
+    "en": "Folk costumes – Chodsko region"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-02.webp",
+   "sm": "img/foto/folklor-02-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Kroje – region Staré Město",
+    "en": "Folk costumes – Staré Město region"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-03.webp",
+   "sm": "img/foto/folklor-03-sm.webp",
+   "w": 1333,
+   "h": 2000,
+   "alt": {
+    "cs": "Kroje – region Detva",
+    "en": "Folk costumes – Detva region"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-04.webp",
+   "sm": "img/foto/folklor-04-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Kroje – region Chodsko (podzimní kroj)",
+    "en": "Folk costumes – Chodsko region (autumn costume)"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-05.webp",
+   "sm": "img/foto/folklor-05-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Kroje – region Staré Město (detail)",
+    "en": "Folk costumes – Staré Město region (detail)"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-06.webp",
+   "sm": "img/foto/folklor-06-sm.webp",
+   "w": 1333,
+   "h": 2000,
+   "alt": {
+    "cs": "Kroje – region Staré Město (detail šátků)",
+    "en": "Folk costumes – Staré Město region (headscarves detail)"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-07.webp",
+   "sm": "img/foto/folklor-07-sm.webp",
+   "w": 1333,
+   "h": 2000,
+   "alt": {
+    "cs": "Kroje – region Detva (detail)",
+    "en": "Folk costumes – Detva region (detail)"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-08.webp",
+   "sm": "img/foto/folklor-08-sm.webp",
+   "w": 1333,
+   "h": 2000,
+   "alt": {
+    "cs": "Folklórní kroje",
+    "en": "Folk costumes"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-09.webp",
+   "sm": "img/foto/folklor-09-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Happening „Cimbály na ulicích“",
+    "en": "“Cimbály na ulicích” happening"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-10.webp",
+   "sm": "img/foto/folklor-10-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Happening „Cimbály na ulicích“",
+    "en": "“Cimbály na ulicích” happening"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-11.webp",
+   "sm": "img/foto/folklor-11-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Happening „Cimbály na ulicích“",
+    "en": "“Cimbály na ulicích” happening"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-12.webp",
+   "sm": "img/foto/folklor-12-sm.webp",
+   "w": 1333,
+   "h": 2000,
+   "alt": {
+    "cs": "Happening „Cimbály na ulicích“",
+    "en": "“Cimbály na ulicích” happening"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-13.webp",
+   "sm": "img/foto/folklor-13-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Happening „Cimbály na ulicích“",
+    "en": "“Cimbály na ulicích” happening"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-14.webp",
+   "sm": "img/foto/folklor-14-sm.webp",
+   "w": 1333,
+   "h": 2000,
+   "alt": {
+    "cs": "Happening „Cimbály na ulicích“",
+    "en": "“Cimbály na ulicích” happening"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/folklor-15.webp",
+   "sm": "img/foto/folklor-15-sm.webp",
+   "w": 1333,
+   "h": 2000,
+   "alt": {
+    "cs": "Happening „Cimbály na ulicích“",
+    "en": "“Cimbály na ulicích” happening"
+   },
+   "kat": "folklor"
+  },
+  {
+   "src": "img/foto/interier-01.webp",
+   "sm": "img/foto/interier-01-sm.webp",
+   "w": 2000,
+   "h": 1209,
+   "alt": {
+    "cs": "Interiér Restaurantu Michal",
+    "en": "Interior of Restaurant Michal"
+   },
+   "kat": "interier"
+  },
+  {
+   "src": "img/foto/interier-02.webp",
+   "sm": "img/foto/interier-02-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Interiér Restaurantu Michal",
+    "en": "Interior of Restaurant Michal"
+   },
+   "kat": "interier"
+  },
+  {
+   "src": "img/foto/interier-03.webp",
+   "sm": "img/foto/interier-03-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Interiér Restaurantu Michal",
+    "en": "Interior of Restaurant Michal"
+   },
+   "kat": "interier"
+  },
+  {
+   "src": "img/foto/interier-04.webp",
+   "sm": "img/foto/interier-04-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Interiér Restaurantu Michal",
+    "en": "Interior of Restaurant Michal"
+   },
+   "kat": "interier"
+  },
+  {
+   "src": "img/foto/interier-05.webp",
+   "sm": "img/foto/interier-05-sm.webp",
+   "w": 2000,
+   "h": 1309,
+   "alt": {
+    "cs": "Interiér Restaurantu Michal",
+    "en": "Interior of Restaurant Michal"
+   },
+   "kat": "interier"
+  },
+  {
+   "src": "img/foto/interier-06.webp",
+   "sm": "img/foto/interier-06-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Interiér Restaurantu Michal",
+    "en": "Interior of Restaurant Michal"
+   },
+   "kat": "interier"
+  },
+  {
+   "src": "img/foto/interier-07.webp",
+   "sm": "img/foto/interier-07-sm.webp",
+   "w": 2000,
+   "h": 1201,
+   "alt": {
+    "cs": "Interiér Restaurantu Michal s obrazy",
+    "en": "Interior of Restaurant Michal with paintings"
+   },
+   "kat": "interier"
+  },
+  {
+   "src": "img/foto/interier-08.webp",
+   "sm": "img/foto/interier-08-sm.webp",
+   "w": 2000,
+   "h": 1097,
+   "alt": {
+    "cs": "Interiér Restaurantu Michal s obrazy",
+    "en": "Interior of Restaurant Michal with paintings"
+   },
+   "kat": "interier"
+  },
+  {
+   "src": "img/foto/dum-01.webp",
+   "sm": "img/foto/dum-01-sm.webp",
+   "w": 2000,
+   "h": 1185,
+   "alt": {
+    "cs": "Vchod do Restaurantu Michal, Náprstkova 8",
+    "en": "Entrance to Restaurant Michal, Náprstkova 8"
+   },
+   "kat": "interier"
+  },
+  {
+   "src": "img/foto/dum-02.webp",
+   "sm": "img/foto/dum-02-sm.webp",
+   "w": 2000,
+   "h": 1394,
+   "alt": {
+    "cs": "Vchod do Restaurantu Michal, Náprstkova 8",
+    "en": "Entrance to Restaurant Michal, Náprstkova 8"
+   },
+   "kat": "interier"
+  },
+  {
+   "src": "img/foto/jidlo-01.webp",
+   "sm": "img/foto/jidlo-01-sm.webp",
+   "w": 2000,
+   "h": 1335,
+   "alt": {
+    "cs": "Košíček z lineckého těsta s krémem z bílé čokolády a tvarohu, zdobený ovocem",
+    "en": "shortbread tart filled with sweet cottage cheese and white chocolate garnished with fresh fruits"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-02.webp",
+   "sm": "img/foto/jidlo-02-sm.webp",
+   "w": 1333,
+   "h": 2000,
+   "alt": {
+    "cs": "Pistáciový dort",
+    "en": "Pistachio cake"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-03.webp",
+   "sm": "img/foto/jidlo-03-sm.webp",
+   "w": 2000,
+   "h": 1334,
+   "alt": {
+    "cs": "Rybí cevish",
+    "en": "Fish ceviche"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-04.webp",
+   "sm": "img/foto/jidlo-04-sm.webp",
+   "w": 2000,
+   "h": 1505,
+   "alt": {
+    "cs": "Rybí carpaccio",
+    "en": "Fish carpaccio"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-05.webp",
+   "sm": "img/foto/jidlo-05-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Chřestový krém s vejcem",
+    "en": "Asparagus cream with egg"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-06.webp",
+   "sm": "img/foto/jidlo-06-sm.webp",
+   "w": 1333,
+   "h": 2000,
+   "alt": {
+    "cs": "Zapečený lilek se sýrem a rajčaty",
+    "en": "Baked aubergine with cheese and tomatoes"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-07.webp",
+   "sm": "img/foto/jidlo-07-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Krevety s omáčkou z krvavých pomerančů",
+    "en": "Prawns with blood orange sauce"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-08.webp",
+   "sm": "img/foto/jidlo-08-sm.webp",
+   "w": 2000,
+   "h": 1360,
+   "alt": {
+    "cs": "Bramborová polévka s houbami",
+    "en": "Potato soup with mushrooms"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-09.webp",
+   "sm": "img/foto/jidlo-09-sm.webp",
+   "w": 1608,
+   "h": 2000,
+   "alt": {
+    "cs": "Smažené kousky ryby a zeleniny",
+    "en": "Fried pieces of fish and vegetables"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-10.webp",
+   "sm": "img/foto/jidlo-10-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Hráškovo - chřestové risotto s krevetou",
+    "en": "Pea - asparagus risotto with shrimp"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-11.webp",
+   "sm": "img/foto/jidlo-11-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Plněná taštička kachním masem, pyré z červeného zelí",
+    "en": "Stuffed duck meat pouch, red cabbage puree"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-12.webp",
+   "sm": "img/foto/jidlo-12-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Pečená masa -konfitované kachní stehno, marinovaný bůček, telecí roláda, červené zelí, karlovarský a bramboroví knedlík , bramboráček",
+    "en": "Roasted meats - confit duck leg, marinated pork belly, veal roulade, red cabbage, dumplings, potato pancakes"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-13.webp",
+   "sm": "img/foto/jidlo-13-sm.webp",
+   "w": 2000,
+   "h": 1333,
+   "alt": {
+    "cs": "Marinovaná vepřová žebra v černém pivě a bylinkách",
+    "en": "Pork ribs with herbs marinated on black beer"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-14.webp",
+   "sm": "img/foto/jidlo-14-sm.webp",
+   "w": 1333,
+   "h": 2000,
+   "alt": {
+    "cs": "Grilovaná masa - Kuřecí prso, vepřová panenka, hovězí Ryb- eye steak, pyré ze žluté mrkve a květáku, brokolice, chřest, telecí demi- glace",
+    "en": "Grilled meats - Chicken breast, pork tenderloin, beef fish-eye steak, yellow carrot and cauliflower puree, broccoli, asparagus, veal demi-glace"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-15.webp",
+   "sm": "img/foto/jidlo-15-sm.webp",
+   "w": 2000,
+   "h": 1246,
+   "alt": {
+    "cs": "Pečená kachna s červaným zelím s jablky",
+    "en": "Baked duck, red cabbage with apples, bread dumplings"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-16.webp",
+   "sm": "img/foto/jidlo-16-sm.webp",
+   "w": 2000,
+   "h": 1334,
+   "alt": {
+    "cs": "Český talíř se dvěma druhy zelí a dvěma druhy knedlíků (pečené vepřové, uzená domácí šunka, pečená kachna)",
+    "en": "Czech plate (baked pork, homemade smoked ham, baked duck) with two kinds of cabbage and dumplings)"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-17.webp",
+   "sm": "img/foto/jidlo-17-sm.webp",
+   "w": 2000,
+   "h": 1355,
+   "alt": {
+    "cs": "Vepřové koleno pečené na černém pivě s křenem, hořčicí a zelným salátem",
+    "en": "Pork knee baked in dark beer with horseradish, mustard and coleslaw salad"
+   },
+   "kat": "jidlo"
+  },
+  {
+   "src": "img/foto/jidlo-18.webp",
+   "sm": "img/foto/jidlo-18-sm.webp",
+   "w": 1736,
+   "h": 2000,
+   "alt": {
+    "cs": "Variace předkrmů - telecí tataráček, grilovaný lilek plněný čerstvým sýrem, kachní rilet s cibulovou marmeládou, konfitovaný husí žaludek",
+    "en": "Variations of appetizers - veal tartare, grilled eggplant stuffed with fresh cheese, duck rillet with onion marmalade, confit foie gras"
+   },
+   "kat": "jidlo"
+  }
+ ],
+ "kategorie": [
+  {
+   "id": "predstaveni",
+   "nazev": {
+    "cs": "Tanečníci a muzika",
+    "en": "Dancers & musicians",
+    "de": "Tänzer & Musiker",
+    "fr": "Danseurs et musiciens",
+    "es": "Bailarines y músicos",
+    "it": "Ballerini e musicisti",
+    "zh": "舞者与乐手"
+   }
+  },
+  {
+   "id": "folklor",
+   "nazev": {
+    "cs": "Folklór a kroje",
+    "en": "Folklore & costumes",
+    "de": "Folklore & Trachten",
+    "fr": "Folklore et costumes",
+    "es": "Folclore y trajes",
+    "it": "Folclore e costumi",
+    "zh": "民俗与服饰"
+   }
+  },
+  {
+   "id": "interier",
+   "nazev": {
+    "cs": "Interiér",
+    "en": "Interior",
+    "de": "Interieur",
+    "fr": "Intérieur",
+    "es": "Interior",
+    "it": "Interni",
+    "zh": "餐厅内景"
+   }
+  },
+  {
+   "id": "jidlo",
+   "nazev": {
+    "cs": "Jídlo",
+    "en": "Food",
+    "de": "Speisen",
+    "fr": "Cuisine",
+    "es": "Comida",
+    "it": "Cucina",
+    "zh": "美食"
+   }
+  }
+ ]
+}

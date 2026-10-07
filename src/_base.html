@@ -1,0 +1,119 @@
+{% from '_macros.html' import ic %}<!DOCTYPE html>
+<html lang="{{ hreflang }}" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ title }}</title>
+{% if description %}<meta name="description" content="{{ description }}">{% endif %}
+{% if not SITE.indexovat or noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+<meta name="theme-color" content="#1B1411">
+{% if rel != '404.html' %}<link rel="canonical" href="{{ DOM }}/{{ rel }}">
+{% for l in LANGS %}<link rel="alternate" hreflang="{{ HREFLANG[l] }}" href="{{ DOM }}/{{ alts[l] }}">
+{% endfor %}<link rel="alternate" hreflang="x-default" href="{{ DOM }}/{{ alts['cs'] }}">
+{% endif %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ SITE.nazev }}">
+<meta property="og:title" content="{{ title }}">
+{% if description %}<meta property="og:description" content="{{ description }}">{% endif %}
+<meta property="og:url" content="{{ DOM }}/{{ rel }}">
+<meta property="og:locale" content="{{ og_locale }}">
+<meta property="og:image" content="{{ DOM }}/{{ SITE.og_foto }}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="{{ B }}assets/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="{{ B }}assets/img/apple-touch-icon.png">
+<link rel="preload" href="{{ B }}assets/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ B }}assets/fonts/manrope-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+{% if lang == 'zh' %}<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300..600&family=Noto+Serif+SC:wght@300..600&display=swap">{% endif %}
+{% for p in preload or [] %}<link rel="preload" as="image" href="{{ B }}{{ p }}" fetchpriority="high">
+{% endfor %}
+<link rel="stylesheet" href="{{ B }}assets/css/web.css?v={{ V.css }}">
+{% if jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endif %}
+<script>document.documentElement.classList.remove('no-js')</script>
+</head>
+<body class="p-{{ page }}">
+<a class="skip" href="#obsah">{{ U.preskocit }}</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><clipPath id="gothic" clipPathUnits="objectBoundingBox"><path d="M0,1 V.34 C0,.15 .3,.04 .5,0 C.7,.04 1,.15 1,.34 V1 Z"/></clipPath></defs></svg>
+
+<header class="hdr{% if solid %} hdr--solid{% endif %}" id="hdr">
+  <div class="hdr__in">
+    <a class="logo" href="{{ B }}{{ url('home', lang) }}" aria-label="{{ SITE.nazev }} – {{ U.nav.home }}">
+      <img class="logo-d" src="{{ B }}assets/img/logo.png" alt="" width="184" height="56"><img class="logo-l" src="{{ B }}assets/img/logo-light.png" alt="" width="184" height="56">
+      <span class="logo__txt"><b>Restaurant Michal</b><small>{{ U.logo_pod }}</small></span>
+    </a>
+    <nav class="nav" aria-label="{{ U.menu_label }}">
+      {% for k in NAV[1:] %}<a href="{{ B }}{{ url(k, lang) }}"{% if page == k %} aria-current="page"{% endif %}>{{ U.nav[k] }}</a>
+      {% endfor %}
+    </nav>
+    <div class="hdr__act">
+      <div class="lang" id="lang">
+        <button type="button" aria-expanded="false" aria-haspopup="true" aria-label="{{ U.jazyk }}">{{ ic('globe') }}{{ LANG_SHORT[lang] }}{{ ic('chev') }}</button>
+        <ul>{% for l in LANGS %}<li><a href="{{ B }}{{ alts[l] }}" hreflang="{{ HREFLANG[l] }}" lang="{{ HREFLANG[l] }}"{% if l == lang %} aria-current="true"{% endif %}>{{ LANG_NAME[l] }}<span>{{ LANG_SHORT[l] }}</span></a></li>{% endfor %}</ul>
+      </div>
+      <a class="btn btn--accent btn--sm btn--resv" href="{{ B }}{{ url('rezervace', lang) }}"{% if page == 'rezervace' %} aria-current="page"{% endif %}>{{ U.nav.rezervace }}</a>
+      <button class="burger" type="button" aria-label="{{ U.menu_label }}" aria-expanded="false" aria-controls="mnav"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mnav" id="mnav">
+  <nav aria-label="{{ U.menu_label }}">
+    {% for k in NAV %}<a href="{{ B }}{{ url(k, lang) }}"{% if page == k %} aria-current="page"{% endif %}>{{ U.nav[k] }}</a>
+    {% endfor %}<a href="{{ B }}{{ url('rezervace', lang) }}"{% if page == 'rezervace' %} aria-current="page"{% endif %}>{{ U.nav.rezervace }}</a>
+  </nav>
+  <div class="mnav__langs">{% for l in LANGS %}<a href="{{ B }}{{ alts[l] }}" hreflang="{{ HREFLANG[l] }}" lang="{{ HREFLANG[l] }}"{% if l == lang %} aria-current="true"{% endif %}>{{ LANG_NAME[l] }}</a>{% endfor %}</div>
+  <div class="mnav__contact">{{ SITE.ulice }}, {{ SITE.psc }} {{ SITE.mesto }}<br>{% for t in tels %}<a href="{{ t.href }}">{{ t.cislo }}</a>{{ ' · ' if not loop.last }}{% endfor %}<br><a href="mailto:{{ SITE.email }}">{{ SITE.email }}</a></div>
+</div>
+
+<main id="obsah">
+{% block main %}{% endblock %}
+</main>
+
+<footer class="ftr">
+  <div class="container">
+    <div class="ftr__top">
+      <div class="ftr__brand">
+        <img src="{{ B }}assets/img/logo-light.png" alt="{{ SITE.nazev }}" width="184" height="56" loading="lazy">
+        <p>{{ T.home.paticka|nb }}</p>
+        <div class="socials">
+          {% for k in ('facebook', 'instagram', 'tripadvisor', 'flickr') if SITE.socialni[k] %}<a href="{{ SITE.socialni[k] }}" target="_blank" rel="noopener" aria-label="{{ k|capitalize }}">{{ ic(k) }}</a>{% endfor %}
+        </div>
+      </div>
+      <div>
+        <h4>{{ U.adresa }}</h4>
+        <p>{{ SITE.nazev }}<br>{{ SITE.ulice }}<br>{{ SITE.psc }} {{ SITE.mesto }}</p>
+        <a class="link" href="{{ SITE.mapy_url }}" target="_blank" rel="noopener">{{ U.navigovat }} {{ ic('arrow') }}</a>
+      </div>
+      <div>
+        <h4>{{ U.rezervace_info }}</h4>
+        <ul>{% for t in tels %}<li><a href="{{ t.href }}">{{ t.cislo }}</a></li>{% endfor %}<li><a href="mailto:{{ SITE.email }}">{{ SITE.email }}</a></li></ul>
+        <a class="btn btn--accent btn--sm" style="margin-top:1rem" href="{{ B }}{{ url('rezervace', lang) }}">{{ U.rezervovat }}</a>
+      </div>
+      <div>
+        <h4>{{ U.web }}</h4>
+        <ul>{% for k in NAV %}<li><a href="{{ B }}{{ url(k, lang) }}">{{ U.nav[k] }}</a></li>{% endfor %}<li><a href="{{ B }}{{ url('gdpr', lang) }}">{{ T.gdpr.h1 }}</a></li></ul>
+      </div>
+    </div>
+    <div class="ftr__bot">
+      <p>© 2006–{{ year }} {{ SITE.nazev }} · {{ U.provozuje }}: {{ SITE.provozovatel }}, {{ SITE.ulice }}, {{ SITE.psc }} {{ SITE.mesto }} · {{ U.ico }} {{ SITE.ico }}, {{ U.dic }} {{ SITE.dic }}{% if SITE.rejstrik|t %} · {{ SITE.rejstrik|t }}{% endif %}{% if U.eet %}<br>{{ U.eet }}{% endif %}</p>
+      <div class="ftr__langs">{% for l in LANGS %}<a href="{{ B }}{{ alts[l] }}" hreflang="{{ HREFLANG[l] }}" lang="{{ HREFLANG[l] }}">{{ LANG_NAME[l] }}</a>{% endfor %}</div>
+    </div>
+  </div>
+</footer>
+
+<div class="mbar" id="mbar">
+  {% if tels %}<a href="{{ tels[-1].href }}">{{ ic('phone') }}{{ U.zavolat }}</a>{% else %}<a href="mailto:{{ SITE.email }}">{{ ic('mail') }}E-mail</a>{% endif %}
+  <a href="{{ B }}{{ url('rezervace', lang) }}">{{ ic('cal') }}{{ U.nav.rezervace }}</a>
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="{{ U.fotogalerie }}">
+  <button class="lb-x" type="button" aria-label="{{ U.zavrit }}">{{ ic('x') }}</button>
+  <button class="lb-p" type="button" aria-label="←">{{ ic('left') }}</button>
+  <img alt="">
+  <button class="lb-n" type="button" aria-label="→">{{ ic('right') }}</button>
+  <p></p>
+</div>
+<script>window.RM = {{ {'api': SITE.formular.api, 'id': SITE.formular.id, 'lang': lang, 'err': U.form_chyba, 'sending': U.odesilam}|tojson }};</script>
+<script src="{{ B }}assets/js/web.js?v={{ V.js }}" defer></script>
+</body>
+</html>

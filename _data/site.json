@@ -1,0 +1,34 @@
+{
+ "nazev": "Restaurant Michal",
+ "domena": "https://www.restaurant-michal.cz",
+ "indexovat": false,
+ "ulice": "Náprstkova 273/8",
+ "psc": "110 00",
+ "mesto": "Praha 1 – Staré Město",
+ "gps": {"lat": 50.0843267, "lon": 14.4151091},
+ "telefony": ["+420 222 222 630", "+420 603 153 728"],
+ "email": "info@restaurant-michal.cz",
+ "mapy_url": "https://www.google.com/maps/search/?api=1&query=Restaurant+Michal%2C+N%C3%A1prstkova+273%2F8%2C+Praha",
+ "mapa_embed": "https://www.google.com/maps?q=Restaurant%20Michal%2C%20N%C3%A1prstkova%20273%2F8%2C%20110%2000%20Praha&z=16&output=embed",
+ "logo": "assets/img/logo.png",
+ "og_foto": "img/foto/tanecnici-11.webp",
+ "kuchyne": ["Czech", "International"],
+ "ahr": true,
+ "socialni": {
+  "facebook": "https://www.facebook.com/FolkloreInPrague",
+  "instagram": "https://www.instagram.com/restaurant_michal_prague/",
+  "tripadvisor": "",
+  "flickr": "https://www.flickr.com/photos/148601840@N05/albums"
+ },
+ "partneri": [],
+ "provozovatel": "HERMÍNA spol. s r.o.",
+ "ico": "45477914",
+ "dic": "CZ45477914",
+ "rejstrik": {"cs": "sp. zn. C 92734 vedená u rejstříkového soudu v Praze", "en": "registered at the Prague court, file C 92734"},
+ "formular": {
+  "api": "https://webhunter-admin.webhunter.workers.dev",
+  "id": "restaurace-michal",
+  "casy": ["17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30", "21:00"],
+  "max_osob": 200
+ }
+}

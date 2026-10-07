@@ -1,0 +1,124 @@
+{
+ "regiony": [
+  {
+   "id": "chodsko",
+   "nazev": {
+    "cs": "Region Chodsko"
+   },
+   "podnazev": {
+    "cs": "západní Čechy"
+   },
+   "text": {
+    "cs": "Národopisná (etnografická) oblast Chodsko se rozkládá v západních Čechách v okolí Domažlic. Chodové byli svobodní sedláci, kteří byli v minulosti pověřeni ochranou zemských hranic. K typickým znakům Chodska patří velmi bohatá lidová tradice – lidová píseň, dudácká hudba. Lidový folklór představují různé slavnosti, např. Chodské slavnosti v Domažlicích. Známé jsou také vyhlášené chodské koláče a lidová keramika s typickým chodským vzorem."
+   },
+   "kroj_nadpis": {
+    "cs": "Chodský kroj"
+   },
+   "kroj": {
+    "cs": "Žena a muž oblečení do krojů ze západočeského Dolního Chodska, které se nosily ve vesnicích Mrákov, Klíčov, Tlumačov, Nevolice, Stráž, Chrastavice, Luženice, Újezd, Petrovice, Draženov, Pasečnice, Havlovice, Bořice, Záhořany, Milavče, i v městském prostředí Domažlic. Hlavu ženy zdobí typicky uvázaný a vyšitý chodský šátek."
+   },
+   "fotky": [
+    {
+     "src": "img/sbirka/chodsko.webp",
+     "sm": "img/sbirka/chodsko-sm.webp",
+     "w": 876,
+     "h": 2000,
+     "alt": {
+      "cs": "Chodský kroj ve vitríně restaurace",
+      "en": "Chodsko folk costume in the restaurant showcase"
+     }
+    }
+   ]
+  },
+  {
+   "id": "kozacko",
+   "nazev": {
+    "cs": "Region Kozácko"
+   },
+   "podnazev": {
+    "cs": "Táborsko-Milevsko, jižní Čechy"
+   },
+   "text": {
+    "cs": "Národopisná (etnografická) oblast Kozácko (Táborsko-Milevsko), nazývaná také Táborsko, se nachází v severní části jižních Čech. Je známá jedinečnou a dodnes udržovanou tradicí „obcházení lucek“, která se váže k 13. prosinci, kdy má svátek Lucie. Známé jsou i lidové písně z Kozácka, které sesbíral středoškolský profesor Čeněk Holas (10. 2. 1855 – 8. 2. 1939), básník a sběratel lidových písní a tanců, které zapsal do své sbírky „České národní písně a tance“ (6 svazků, Praha 1908–1910)."
+   },
+   "kroj_nadpis": {
+    "cs": "Kroj regionu Kozácko"
+   },
+   "kroj": {
+    "cs": "Žena oblečená do kroje z jihočeského regionu Táborsko (Kozácko). Kroj je zdobený bílou prolamovanou výšivkou."
+   },
+   "fotky": [
+    {
+     "src": "img/sbirka/kozacko.webp",
+     "sm": "img/sbirka/kozacko-sm.webp",
+     "w": 1306,
+     "h": 2000,
+     "alt": {
+      "cs": "Kroj regionu Kozácko ve vitríně",
+      "en": "Kozácko folk costume in the showcase"
+     }
+    }
+   ]
+  },
+  {
+   "id": "blata",
+   "nazev": {
+    "cs": "Region jihočeská Blata"
+   },
+   "podnazev": {
+    "cs": "jižní Čechy"
+   },
+   "text": {
+    "cs": "Národopisná (etnografická) oblast Blata leží v jižních Čechách. Je pro ni charakteristické velké množství rybníků, založených v 16. století. K hlavním znakům oblasti patří zděná bohatá lidová architektura s typickými štukovými reliéfy (tzv. selské baroko)."
+   },
+   "kroj_nadpis": {
+    "cs": "Kroj regionu jihočeská Blata"
+   },
+   "kroj": {
+    "cs": "Žena a muž oblečení do krojů z jihočeského regionu Blata. Hlavu ženy zdobí typický prvek této oblasti – rozměrná plena, zdobená bohatou výšivkou."
+   },
+   "fotky": [
+    {
+     "src": "img/sbirka/blata.webp",
+     "sm": "img/sbirka/blata-sm.webp",
+     "w": 1326,
+     "h": 2000,
+     "alt": {
+      "cs": "Kroje regionu jihočeská Blata ve vitríně",
+      "en": "South Bohemian Blata folk costumes in the showcase"
+     }
+    }
+   ]
+  },
+  {
+   "id": "policka",
+   "nazev": {
+    "cs": "Region Polička"
+   },
+   "podnazev": {
+    "cs": "východní Čechy"
+   },
+   "text": {
+    "cs": "Národopisná (etnografická) oblast Polička leží ve východních Čechách, v okrese Svitavy. Město Polička se nachází v blízkosti zemské hranice Čech a Moravy a je v něm mnoho krásných památek, např. radnice, která je národní kulturní památkou. Město je známé i dvěma velkými osobnostmi, které pocházely přímo z Poličky: česko-rakouským těsnopiscem Hynkem Jakubem Hegerem (5. 7. 1808 – 11. 5. 1854), autorem první české těsnopisné soustavy, a především Bohuslavem Martinů (8. 12. 1890 – 28. 8. 1959), světově proslulým hudebním skladatelem, který je např. autorem nádherné kantáty Otvírání studánek."
+   },
+   "kroj_nadpis": {
+    "cs": "Kroj regionu Polička"
+   },
+   "kroj": {
+    "cs": "Žena a muž oblečení do krojů z východočeského regionu Polička. Žena má oblečenou typickou modrou zástěru, zdobenou bílou výšivkou. Mužský kroj zdobí rekonstrukce opasku. Mužský opasek byl v minulosti zdoben výšivkou s pavím brkem."
+   },
+   "fotky": [
+    {
+     "src": "img/sbirka/policka.webp",
+     "sm": "img/sbirka/policka-sm.webp",
+     "w": 1368,
+     "h": 2000,
+     "alt": {
+      "cs": "Kroje regionu Polička ve vitríně",
+      "en": "Polička folk costumes in the showcase"
+     }
+    }
+   ]
+  }
+ ]
+}

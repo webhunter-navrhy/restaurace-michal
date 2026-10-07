@@ -1,0 +1,88 @@
+[
+ {
+  "slug": "silvestr",
+  "skryty": false,
+  "foto": {
+   "src": "img/foto/interier-05.webp",
+   "sm": "img/foto/interier-05-sm.webp",
+   "alt": {
+    "cs": "Sál Restaurantu Michal",
+    "en": "Dining hall of Restaurant Michal"
+   }
+  },
+  "stitek": {
+   "cs": "Silvestr"
+  },
+  "nazev": {
+   "cs": "Silvestr v Restaurantu Michal"
+  },
+  "perex": {
+   "cs": "Oslavte konec roku v historickém domě pár kroků od Karlova mostu."
+  },
+  "text": {
+   "cs": "Program, menu a cenu silvestrovského večera doplníte v administraci.\nNapište nám nezávaznou poptávku a pošleme Vám podrobnosti."
+  },
+  "termin": {
+   "cs": "31. 12. 2026"
+  },
+  "cena": {
+   "cs": ""
+  },
+  "kapacita": {
+   "cs": ""
+  },
+  "polozky_nadpis": {
+   "cs": ""
+  },
+  "polozky": {
+   "cs": []
+  },
+  "pozn": {
+   "cs": ""
+  },
+  "fotky": []
+ },
+ {
+  "slug": "firemni-vecirky",
+  "skryty": false,
+  "foto": {
+   "src": "img/foto/interier-06.webp",
+   "sm": "img/foto/interier-06-sm.webp",
+   "alt": {
+    "cs": "Klenutý sál s cimbálem",
+    "en": "Vaulted hall with a cimbalom"
+   }
+  },
+  "stitek": {
+   "cs": "Pro firmy"
+  },
+  "nazev": {
+   "cs": "Firemní večírky"
+  },
+  "perex": {
+   "cs": "Firemní a vánoční večírky v prostorách restaurace u Karlova mostu."
+  },
+  "text": {
+   "cs": "V kombinaci s unikátními prostory restaurace, kvalitním servisem a gurmánskými specialitami pro Vás připravíme akci na špičkové úrovni, kterou zaručujeme dlouholetými zkušenostmi a řadou vynikajících referencí.\nProgram, menu a cenu doplníte v administraci."
+  },
+  "termin": {
+   "cs": ""
+  },
+  "cena": {
+   "cs": ""
+  },
+  "kapacita": {
+   "cs": ""
+  },
+  "polozky_nadpis": {
+   "cs": ""
+  },
+  "polozky": {
+   "cs": []
+  },
+  "pozn": {
+   "cs": ""
+  },
+  "fotky": []
+ }
+]
