@@ -61,7 +61,8 @@
     "dekujeme_h": "Děkujeme!",
     "dekujeme": "Rezervaci jsme přijali. Potvrdíme Vám ji e-mailem nebo telefonicky – platná je až potvrzená rezervace.",
     "dekujeme_balicek": "Poptávku jsme přijali, brzy se Vám ozveme."
-   }
+   },
+   "popup_btn": "Zjistit více"
   },
   "home": {
    "title": "Restaurant Michal Praha 1 – folklórní představení a česká kuchyně",
@@ -324,7 +325,8 @@
     "dekujeme_h": "Vielen Dank!",
     "dekujeme": "Wir haben Ihre Reservierung erhalten. Wir bestätigen sie Ihnen per E-Mail oder telefonisch – gültig ist erst die bestätigte Reservierung.",
     "dekujeme_balicek": "Wir haben Ihre Anfrage erhalten und melden uns in Kürze bei Ihnen."
-   }
+   },
+   "popup_btn": "Mehr erfahren"
   },
   "home": {
    "title": "Restaurant Michal Prag – Folkloreshow & böhmische Küche",
@@ -587,7 +589,8 @@
     "dekujeme_h": "Thank you!",
     "dekujeme": "We have received your reservation. We will confirm it by e-mail or phone – a reservation is only valid once confirmed.",
     "dekujeme_balicek": "We have received your enquiry and will get back to you shortly."
-   }
+   },
+   "popup_btn": "Find out more"
   },
   "home": {
    "title": "Restaurant Michal Prague 1 – Folklore Show & Czech Cuisine",
@@ -850,7 +853,8 @@
     "dekujeme_h": "¡Muchas gracias!",
     "dekujeme": "Hemos recibido su reserva. Se la confirmaremos por correo electrónico o por teléfono; la reserva solo es válida una vez confirmada.",
     "dekujeme_balicek": "Hemos recibido su solicitud y nos pondremos en contacto con usted en breve."
-   }
+   },
+   "popup_btn": "Más información"
   },
   "home": {
    "title": "Restaurant Michal Praga – espectáculo folclórico y cocina checa",
@@ -1113,7 +1117,8 @@
     "dekujeme_h": "Merci !",
     "dekujeme": "Nous avons bien reçu votre réservation. Nous vous la confirmerons par e-mail ou par téléphone – seule une réservation confirmée est valable.",
     "dekujeme_balicek": "Nous avons bien reçu votre demande et reviendrons vers vous très prochainement."
-   }
+   },
+   "popup_btn": "En savoir plus"
   },
   "home": {
    "title": "Restaurant Michal Prague – spectacle folklorique, cuisine tchèque",
@@ -1376,7 +1381,8 @@
     "dekujeme_h": "Grazie!",
     "dekujeme": "Abbiamo ricevuto la Sua prenotazione. Gliela confermeremo via e-mail o per telefono: la prenotazione è valida solo dopo la nostra conferma.",
     "dekujeme_balicek": "Abbiamo ricevuto la Sua richiesta e La ricontatteremo al più presto."
-   }
+   },
+   "popup_btn": "Scopri di più"
   },
   "home": {
    "title": "Restaurant Michal Praga – spettacolo folcloristico e cucina ceca",
@@ -1639,7 +1645,8 @@
     "dekujeme_h": "谢谢！",
     "dekujeme": "我们已收到您的预订，将通过电子邮件或电话向您确认——预订须经确认后方为有效。",
     "dekujeme_balicek": "我们已收到您的咨询，将尽快与您联系。"
-   }
+   },
+   "popup_btn": "了解更多"
   },
   "home": {
    "title": "迈克尔餐厅 Restaurant Michal｜布拉格民俗表演与捷克美食",

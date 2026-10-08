@@ -27,7 +27,7 @@
   "facebook": "https://www.facebook.com/FolkloreInPrague",
   "instagram": "https://www.instagram.com/restaurant_michal_prague/",
   "tripadvisor": "https://www.tripadvisor.cz/Restaurant_Review-g274707-d3524241-Reviews-Restaurant_Michal-Prague_Bohemia.html",
-  "flickr": "https://www.flickr.com/photos/148601840@N05/albums"
+  "flickr": "https://www.flickr.com/photos/148601840@N05/albums/72157685439247516/"
  },
  "partneri": [
   {
@@ -52,6 +52,18 @@
   "api": "https://webhunter-admin.webhunter.workers.dev",
   "id": "restaurace-michal",
   "casy": [
+   "11:00",
+   "11:30",
+   "12:00",
+   "12:30",
+   "13:00",
+   "13:30",
+   "14:00",
+   "14:30",
+   "15:00",
+   "15:30",
+   "16:00",
+   "16:30",
    "17:00",
    "17:30",
    "18:00",
@@ -63,5 +75,9 @@
    "21:00"
   ],
   "max_osob": 200
+ },
+ "popup": {
+  "aktivni": true,
+  "balicek": "silvestr"
  }
 }
