@@ -10,6 +10,7 @@
       {% for p in (b.text|t)|odstavce %}<p class="rv{{ ' lead' if loop.first }}">{{ p|nb }}</p>{% endfor %}
       {% set items = b.polozky|t %}
       {% if items %}<h2 class="rv">{{ (b.polozky_nadpis|t) or P.v_cene }}</h2><ul class="pitems">{% for i in items %}<li class="rv">{{ i|nb }}</li>{% endfor %}</ul>{% endif %}
+      {% if b.bloky %}<div class="pblocks">{% for bl in b.bloky %}{% set it = bl.polozky|t %}{% if it %}<section class="pblock rv"><h3>{{ (bl.nadpis|t)|nb }}</h3><ul>{% for i in it %}<li>{{ i|nb }}</li>{% endfor %}</ul></section>{% endif %}{% endfor %}</div>{% endif %}
       {% if b.pozn|t %}<p class="note rv">{{ (b.pozn|t)|nb }}</p>{% endif %}
       {% if b.fotky %}<div class="masonry" data-lb style="margin-top:2.5rem;columns:2 240px">{% for f in b.fotky %}<a href="{{ B }}{{ f.src }}" data-cap="{{ f.alt|t }}">{{ img(f, sizes='30vw') }}</a>{% endfor %}</div>{% endif %}
     </div>

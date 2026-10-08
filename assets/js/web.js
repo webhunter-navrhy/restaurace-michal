@@ -43,6 +43,8 @@
 
   /* nadpisy po slovech + odhalování při scrollu */
   requestAnimationFrame(() => $$('.split').forEach((el) => el.classList.add('is-in')));
+  /* po doběhnutí animace už slova neořezávat (kurzíva přesahuje svůj rámeček) */
+  setTimeout(() => $$('.split').forEach((el) => el.classList.add('is-done')), 2600);
   const io = new IntersectionObserver((ents) => ents.forEach((en) => {
     if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); if (en.target.querySelector('[data-count]')) count(en.target); }
   }), { rootMargin: '0px 0px -8% 0px', threshold: .08 });
@@ -101,6 +103,44 @@
     let sx = 0;
     lb.addEventListener('touchstart', (e) => { sx = e.touches[0].clientX; }, { passive: true });
     lb.addEventListener('touchend', (e) => { const d = e.changedTouches[0].clientX - sx; if (Math.abs(d) > 50) show(idx + (d < 0 ? 1 : -1)); });
+  }
+
+  /* pop-up z administrace: jednou za návštěvu (sessionStorage), ?popup = ukázat vždy */
+  const pop = $('#pop');
+  if (pop) {
+    const key = 'rm_pop_' + pop.dataset.key;
+    const force = /[?&]popup\b/.test(location.search);
+    let seen = false;
+    try { seen = !!sessionStorage.getItem(key); } catch (e) { /* soukromý režim */ }
+    let back = null;
+    const focusables = () => $$('a[href], button', pop);
+    const openPop = () => {
+      if (doc.classList.contains('menu-open') || lb?.classList.contains('open') || lang?.classList.contains('open') || document.activeElement?.matches('input, textarea, select')) { setTimeout(openPop, 4000); return; }
+      try { sessionStorage.setItem(key, '1'); } catch (e) { /* nic */ }
+      back = document.activeElement;
+      pop.hidden = false;
+      requestAnimationFrame(() => requestAnimationFrame(() => pop.classList.add('open')));
+      document.body.style.overflow = 'hidden';
+      $('.pop__x', pop).focus({ preventScroll: true });
+    };
+    const closePop = () => {
+      pop.classList.remove('open');
+      document.body.style.overflow = '';
+      setTimeout(() => { pop.hidden = true; }, 400);
+      back?.focus?.({ preventScroll: true });
+    };
+    $('.pop__x', pop).addEventListener('click', closePop);
+    pop.addEventListener('click', (e) => { if (e.target === pop) closePop(); });
+    $('a.btn', pop)?.addEventListener('click', () => { document.body.style.overflow = ''; });
+    pop.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') { e.preventDefault(); closePop(); }
+      if (e.key === 'Tab') {
+        const f = focusables(), i = f.indexOf(document.activeElement);
+        if (e.shiftKey && i <= 0) { e.preventDefault(); f[f.length - 1].focus(); }
+        else if (!e.shiftKey && i === f.length - 1) { e.preventDefault(); f[0].focus(); }
+      }
+    });
+    if (!seen || force) setTimeout(openPop, force ? 600 : (+pop.dataset.delay || 0) * 1000);
   }
 
   /* galerie: filtr kategorií */

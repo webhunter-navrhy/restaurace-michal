@@ -16,7 +16,7 @@
         <a class="btn btn--accent" href="{{ B }}{{ url('rezervace', lang) }}">{{ U.rezervovat }} {{ ic('arrow') }}</a>
         <a class="btn btn--ghost" href="{{ SITE.mapy_url }}" target="_blank" rel="noopener">{{ U.navigovat }}</a>
       </div>
-      <div class="socials rv" style="margin-top:2.4rem">{% for k in ('facebook', 'instagram', 'tripadvisor', 'flickr') if SITE.socialni[k] %}<a href="{{ SITE.socialni[k] }}" target="_blank" rel="noopener" aria-label="{{ k|capitalize }}" style="border-color:var(--line)">{{ ic(k) }}</a>{% endfor %}</div>
+      <div class="socials rv" style="margin-top:2.4rem">{% for k in ('facebook', 'instagram', 'flickr', 'tripadvisor') if SITE.socialni[k] %}<a href="{{ SITE.socialni[k] }}" target="_blank" rel="noopener" aria-label="{{ k|capitalize }}" title="{{ k|capitalize }}" style="border-color:var(--line)">{{ ic(k) }}</a>{% endfor %}</div>
     </div>
     <div class="rv">
       <div class="map"><iframe src="{{ SITE.mapa_embed }}" title="{{ P.mapa }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>

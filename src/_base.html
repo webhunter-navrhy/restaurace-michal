@@ -1,4 +1,4 @@
-{% from '_macros.html' import ic %}<!DOCTYPE html>
+{% from '_macros.html' import ic, img %}<!DOCTYPE html>
 <html lang="{{ hreflang }}" class="no-js">
 <head>
 <meta charset="utf-8">
@@ -46,6 +46,7 @@
       {% endfor %}
     </nav>
     <div class="hdr__act">
+      <div class="hdr__soc">{% for k in ('facebook', 'instagram', 'flickr') if SITE.socialni[k] %}<a href="{{ SITE.socialni[k] }}" target="_blank" rel="noopener" aria-label="{{ k|capitalize }}" title="{{ k|capitalize }}">{{ ic(k) }}</a>{% endfor %}</div>
       <div class="lang" id="lang">
         <button type="button" aria-expanded="false" aria-haspopup="true" aria-label="{{ U.jazyk }}">{{ ic('globe') }}{{ LANG_SHORT[lang] }}{{ ic('chev') }}</button>
         <ul>{% for l in LANGS %}<li><a href="{{ B }}{{ alts[l] }}" hreflang="{{ HREFLANG[l] }}" lang="{{ HREFLANG[l] }}"{% if l == lang %} aria-current="true"{% endif %}>{{ LANG_NAME[l] }}<span>{{ LANG_SHORT[l] }}</span></a></li>{% endfor %}</ul>
@@ -62,6 +63,7 @@
     {% endfor %}<a href="{{ B }}{{ url('rezervace', lang) }}"{% if page == 'rezervace' %} aria-current="page"{% endif %}>{{ U.nav.rezervace }}</a>
   </nav>
   <div class="mnav__langs">{% for l in LANGS %}<a href="{{ B }}{{ alts[l] }}" hreflang="{{ HREFLANG[l] }}" lang="{{ HREFLANG[l] }}"{% if l == lang %} aria-current="true"{% endif %}>{{ LANG_NAME[l] }}</a>{% endfor %}</div>
+  <div class="socials" aria-label="{{ U.sledujte }}">{% for k in ('facebook', 'instagram', 'flickr', 'tripadvisor') if SITE.socialni[k] %}<a href="{{ SITE.socialni[k] }}" target="_blank" rel="noopener" aria-label="{{ k|capitalize }}" title="{{ k|capitalize }}">{{ ic(k) }}</a>{% endfor %}</div>
   <div class="mnav__contact">{{ SITE.ulice }}, {{ SITE.psc }} {{ SITE.mesto }}<br>{% for t in tels %}<a href="{{ t.href }}">{{ t.cislo }}</a>{{ ' · ' if not loop.last }}{% endfor %}<br><a href="mailto:{{ SITE.email }}">{{ SITE.email }}</a></div>
 </div>
 
@@ -75,8 +77,9 @@
       <div class="ftr__brand">
         <img src="{{ B }}assets/img/logo-light.png" alt="{{ SITE.nazev }}" width="184" height="56" loading="lazy">
         <p>{{ T.home.paticka|nb }}</p>
+        <p class="ftr__follow">{{ U.sledujte }}</p>
         <div class="socials">
-          {% for k in ('facebook', 'instagram', 'tripadvisor', 'flickr') if SITE.socialni[k] %}<a href="{{ SITE.socialni[k] }}" target="_blank" rel="noopener" aria-label="{{ k|capitalize }}">{{ ic(k) }}</a>{% endfor %}
+          {% for k in ('facebook', 'instagram', 'flickr', 'tripadvisor') if SITE.socialni[k] %}<a href="{{ SITE.socialni[k] }}" target="_blank" rel="noopener" aria-label="{{ k|capitalize }}" title="{{ k|capitalize }}">{{ ic(k) }}</a>{% endfor %}
         </div>
       </div>
       <div>
@@ -106,6 +109,21 @@
   <a href="{{ B }}{{ url('rezervace', lang) }}">{{ ic('cal') }}{{ U.nav.rezervace }}</a>
 </div>
 
+{% if POP %}
+<div class="pop{% if not POP.foto %} pop--noimg{% endif %}" id="pop" role="dialog" aria-modal="true" aria-labelledby="pop-h" data-key="{{ POP.key }}" data-delay="{{ POP.delay }}" hidden>
+  <div class="pop__box">
+    <button class="pop__x" type="button" aria-label="{{ U.zavrit }}">{{ ic('x') }}</button>
+    {% if POP.foto %}<div class="pop__img">{{ img(POP.foto, sizes='(max-width: 767px) 100vw, 380px', alt='') }}</div>{% endif %}
+    <div class="pop__body">
+      {% if POP.stitek %}<p class="kicker">{{ POP.stitek }}</p>{% endif %}
+      <h2 id="pop-h">{{ POP.nadpis|nb }}</h2>
+      {% if POP.meta %}<p class="pop__meta">{{ POP.meta|nb }}</p>{% endif %}
+      {% if POP.text %}<p>{{ POP.text|nb }}</p>{% endif %}
+      {% if POP.href %}<a class="btn btn--accent" href="{{ POP.href }}">{{ POP.tlacitko }} {{ ic('arrow') }}</a>{% endif %}
+    </div>
+  </div>
+</div>
+{% endif %}
 <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="{{ U.fotogalerie }}">
   <button class="lb-x" type="button" aria-label="{{ U.zavrit }}">{{ ic('x') }}</button>
   <button class="lb-p" type="button" aria-label="←">{{ ic('left') }}</button>

@@ -23,7 +23,7 @@
   'facebook': '<path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/>',
   'instagram': '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/>',
   'tripadvisor': '<circle cx="7" cy="13" r="3.5"/><circle cx="17" cy="13" r="3.5"/><path d="M3.5 13a8.5 8.5 0 0 1 17 0M2 9h4M18 9h4M12 7v1"/><circle cx="7" cy="13" r="1"/><circle cx="17" cy="13" r="1"/>',
-  'flickr': '<circle cx="7" cy="12" r="3.5"/><circle cx="17" cy="12" r="3.5"/>',
+  'flickr': '<circle cx="7" cy="12" r="3.5" fill="currentColor"/><circle cx="17" cy="12" r="3.5"/>',
   'image': '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/>',
 } -%}
 <svg class="{{ cls }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{{ P[name]|safe }}</svg>
@@ -37,7 +37,7 @@
 
 {% macro split(text) -%}
 {%- set ns = namespace(i=0) -%}
-{%- for part in text.split('*') -%}
+{%- for part in (text|nb).split('*') -%}
 {%- if loop.index is even %}<em>{% endif -%}
 {%- for w in part.split(' ') if w -%}
 <span class="w"><span style="--i:{{ ns.i }}">{{ w }}</span></span>{% set ns.i = ns.i + 1 %}{{ ' ' if not loop.last }}
@@ -47,7 +47,7 @@
 {%- endmacro %}
 
 {% macro em(text) -%}
-{%- for part in text.split('*') -%}{% if loop.index is even %}<em>{{ part }}</em>{% else %}{{ part }}{% endif %}{%- endfor -%}
+{%- for part in (text|nb).split('*') -%}{% if loop.index is even %}<em>{{ part }}</em>{% else %}{{ part }}{% endif %}{%- endfor -%}
 {%- endmacro %}
 
 {% macro marquee(items) -%}

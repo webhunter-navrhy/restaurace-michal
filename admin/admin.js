@@ -11,8 +11,8 @@ const CFG = {
   id: 'restaurace-michal', site: '../',
   api: /^(localhost|127\.0\.0\.1)$/.test(location.hostname) && location.search.includes('local') ? 'http://localhost:8787' : 'https://webhunter-admin.webhunter.workers.dev',
 };
-const FILES = { balicky: '_data/balicky.json', menu: '_data/menu.json', texty: '_data/texty.json', sbirka: '_data/sbirka.json', fotky: '_data/fotky.json', site: '_data/site.json', gdpr: '_data/gdpr.json' };
-const LABEL = { balicky: 'Balíčky', menu: 'Menu', texty: 'Texty', sbirka: 'Folklórní sbírka', fotky: 'Fotky', site: 'Kontakty', gdpr: 'Ochrana údajů' };
+const FILES = { balicky: '_data/balicky.json', menu: '_data/menu.json', texty: '_data/texty.json', sbirka: '_data/sbirka.json', fotky: '_data/fotky.json', site: '_data/site.json', gdpr: '_data/gdpr.json', popup: '_data/popup.json' };
+const LABEL = { balicky: 'Balíčky', menu: 'Menu', texty: 'Texty', sbirka: 'Folklórní sbírka', fotky: 'Fotky', site: 'Kontakty', gdpr: 'Ochrana údajů', popup: 'Pop-up okno' };
 const LANGS = ['cs', 'en', 'de', 'fr', 'es', 'it', 'zh'];
 const LANG_NAME = { cs: 'Čeština', en: 'Angličtina', de: 'Němčina', fr: 'Francouzština', es: 'Španělština', it: 'Italština', zh: 'Čínština' };
 const LANG_SHORT = { cs: 'CZ', en: 'EN', de: 'DE', fr: 'FR', es: 'ES', it: 'IT', zh: '中文' };
@@ -36,6 +36,7 @@ const IC = {
   doc: I('<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/>'),
   gear: I('<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8 2 2 0 1 1-2.8 2.8 1.7 1.7 0 0 0-2.8 1.2 2 2 0 1 1-4 0 1.7 1.7 0 0 0-2.8-1.2 2 2 0 1 1-2.8-2.8A1.7 1.7 0 0 0 3.3 14a2 2 0 1 1 0-4 1.7 1.7 0 0 0 1.2-2.8 2 2 0 1 1 2.8-2.8A1.7 1.7 0 0 0 10 3.3a2 2 0 1 1 4 0 1.7 1.7 0 0 0 2.8 1.2 2 2 0 1 1 2.8 2.8A1.7 1.7 0 0 0 20.7 10a2 2 0 1 1 0 4 1.7 1.7 0 0 0-1.3 1z"/>'),
   help: I('<circle cx="12" cy="12" r="9"/><path d="M12 16v-4M12 8h0"/>'),
+  popup: I('<rect x="3" y="4" width="18" height="16" rx="2"/><rect x="7" y="8" width="10" height="8" rx="1"/><path d="m14.5 9.5-1 1M13.5 9.5l1 1"/>'),
   ext: I('<path d="M14 4h6v6M20 4L10 14"/><path d="M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/>'),
   menu: I('<path d="M4 7h16M4 12h16M4 17h16"/>'),
   x: I('<path d="M18 6L6 18M6 6l12 12"/>'),
@@ -438,14 +439,14 @@ const seo = (page) => h('details', { style: 'margin-top:.6rem' }, h('summary', {
 /* ---------------------------------------------------------------- pohledy */
 const NAV = [
   ['', 'Přehled', 'home'], ['rezervace', 'Rezervace a poptávky', 'inbox'], ['-'],
-  ['balicky', 'Balíčky (Silvestr, večírky…)', 'gift', 'balicky'], ['menu', 'Menu', 'fork', 'menu'], ['texty', 'Texty stránek', 'text', 'texty'],
+  ['balicky', 'Balíčky (Silvestr, večírky…)', 'gift', 'balicky'], ['popup', 'Pop-up okno', 'popup', 'popup'], ['menu', 'Menu', 'fork', 'menu'], ['texty', 'Texty stránek', 'text', 'texty'],
   ['sbirka', 'Folklórní sbírka', 'music', 'sbirka'], ['fotky', 'Fotky a galerie', 'image', 'fotky'], ['seo', 'Vyhledávače (SEO)', 'search', 'texty'],
   ['kontakty', 'Kontakty a rezervace', 'phone', 'site'], ['gdpr', 'Ochrana osobních údajů', 'doc', 'gdpr'], ['-'],
   ['napoveda', 'Návod', 'help'], ['nastaveni', 'Heslo a odhlášení', 'gear'],
 ];
 
 function vDash() {
-  const tiles = [['rezervace', 'Rezervace', 'inbox', 'Přehled rezervací z webu'], ['balicky', 'Balíčky', 'gift', 'Silvestr, firemní večírky…'], ['menu', 'Menu', 'fork', 'Menu s představením'],
+  const tiles = [['rezervace', 'Rezervace', 'inbox', 'Přehled rezervací z webu'], ['balicky', 'Balíčky', 'gift', 'Silvestr, firemní večírky…'], ['popup', 'Pop-up okno', 'popup', 'Upoutávka na akci'], ['menu', 'Menu', 'fork', 'Menu s představením'],
     ['texty', 'Texty', 'text', 'Všech 7 jazyků'], ['fotky', 'Fotky', 'image', 'Úvod, galerie, záhlaví'], ['kontakty', 'Kontakty', 'phone', 'Telefony, adresa, časy']]
     .map(([id, label, ic, sub]) => h('a.tile', { href: '#/' + id }, h('span', { html: IC[ic] }), h('b', {}, label), h('small', {}, sub)));
   const newBox = h('div');
@@ -502,7 +503,7 @@ function vBalicky() {
     fList(S.D.balicky, {
       title: (b) => (b.nazev?.cs || '(bez názvu)') + (b.skryty ? ' · skrytý' : ''), sub: (b) => [b.termin?.cs, b.cena?.cs || 'cena na dotaz'].filter(Boolean).join(' · '), thumb: (b) => b.foto?.src,
       addLabel: 'Přidat balíček',
-      make: () => ({ slug: '', skryty: true, foto: { src: '' }, stitek: { cs: '' }, nazev: { cs: 'Nový balíček' }, perex: { cs: '' }, text: { cs: '' }, termin: { cs: '' }, cena: { cs: '' }, kapacita: { cs: '' }, polozky_nadpis: { cs: '' }, polozky: { cs: [] }, pozn: { cs: '' } }),
+      make: () => ({ slug: '', skryty: true, foto: { src: '' }, stitek: { cs: '' }, nazev: { cs: 'Nový balíček' }, perex: { cs: '' }, text: { cs: '' }, termin: { cs: '' }, cena: { cs: '' }, kapacita: { cs: '' }, polozky_nadpis: { cs: '' }, polozky: { cs: [] }, bloky: [], pozn: { cs: '' } }),
       body: (b, el, r) => el.append(
         fCheck(b, 'skryty', 'Skrýt na webu (balíček zatím nebude vidět)', r),
         fT(b, 'nazev', 'Název', { on: r, ph: 'Silvestr 2026' }), fT(b, 'stitek', 'Štítek na fotce (nepovinné)', { ph: 'Novinka' }),
@@ -511,11 +512,34 @@ function vBalicky() {
         row2(fT(b, 'termin', 'Termín', { on: r, ph: '31. 12. 2026' }), fT(b, 'cena', 'Cena', { on: r, ph: 'např. 2 490 Kč / osoba – prázdné = „cena na dotaz“' })),
         fT(b, 'kapacita', 'Kapacita (nepovinné)', { ph: 'až 120 hostů' }),
         fT(b, 'polozky_nadpis', 'Nadpis seznamu (nepovinné)', { ph: 'V ceně balíčku' }), fTList(b, 'polozky', 'Co balíček obsahuje (odrážky)'),
+        h('div.field', {}, h('span', {}, 'Další bloky na stránce (menu, nápoje, podmínky…)'), fList(b.bloky = b.bloky || [], {
+          title: (x) => x.nadpis?.cs || '(blok bez nadpisu)', sub: (x) => `${(x.polozky?.cs || []).length} řádků`, addLabel: 'Přidat blok', make: () => ({ nadpis: { cs: '' }, polozky: { cs: [] } }),
+          body: (x, b2, r2) => b2.append(fT(x, 'nadpis', 'Nadpis bloku', { on: r2, ph: 'Menu' }), fTList(x, 'polozky', 'Řádky bloku')) })),
         fT(b, 'pozn', 'Poznámka (rámeček pod textem)', { multi: true, rows: 2 }),
         fImage(b.foto, 'src', 'Hlavní fotka', b.nazev?.cs || 'balicek', { dims: ['w', 'h'], on: r }),
         h('div.field', {}, h('span', {}, 'Další fotky na stránce balíčku'), fPhotos(b.fotky = b.fotky || [], { hint: b.slug || 'balicek' })),
         fText(b, 'slug', 'Adresa stránky (bez diakritiky)', { ph: 'silvestr', hint: b.slug ? `Stránka: ${new URL(CFG.site, location.href).href}balicky/${b.slug}/ (v ostatních jazycích /en/packages/${b.slug}/ …)` : 'Vyplní se samo z názvu.' })),
     }));
+}
+
+/* ---------------------------------------------------------------- pop-up */
+function vPopup() {
+  const P = S.D.popup;
+  if (!P.foto || typeof P.foto !== 'object') P.foto = { src: '' };
+  const opts = [['', '— vlastní obsah (bez balíčku) —'], ...S.D.balicky.map((b) => [b.slug, (b.nazev?.cs || b.slug) + (b.skryty ? ' (skrytý – pop-up se neukáže)' : '')])];
+  view('Pop-up okno', 'Okno, které se návštěvníkovi ukáže chvíli po příchodu na web – jednou za návštěvu, zavře se křížkem. Na stránce rezervace a na stránce samotného balíčku se neukazuje. Nejjednodušší je vybrat balíček: nadpis, text, fotka, termín a cena se převezmou z něj ve všech jazycích.',
+    langBar(),
+    card('Zobrazení', null,
+      fCheck(P, 'zapnuto', 'Zobrazovat pop-up na webu'),
+      fSelect(P, 'balicek', 'Co pop-up ukazuje', opts, { on: () => route() }),
+      fText(P, 'zpozdeni', 'Zobrazit po kolika sekundách', { type: 'number', inputmode: 'numeric', hint: 'Doporučujeme 3–5 sekund.' })),
+    card('Vlastní obsah (nepovinné)', P.balicek ? 'Prázdné políčko = text z balíčku. Vyplňte jen to, co chcete mít v pop-upu jinak.' : 'Bez balíčku vyplňte nadpis, text a kam má vést tlačítko.',
+      fT(P, 'nadpis', 'Nadpis', { ph: P.balicek ? 'z balíčku' : 'Silvestr 2026' }), fT(P, 'text', 'Text', { multi: true, rows: 3 }),
+      fT(P, 'tlacitko', 'Text tlačítka', { ph: 'Zobrazit nabídku' }),
+      P.balicek ? null : fText(P, 'odkaz', 'Kam vede tlačítko', { ph: 'https://… nebo např. menu/' }),
+      fImage(P.foto, 'src', P.balicek ? 'Fotka (prázdné = fotka balíčku)' : 'Fotka (nepovinné)', 'popup', { dims: ['w', 'h'] }),
+      P.foto.src ? h('button.btn.btn-sm.btn-ghost', { type: 'button', onclick: () => { P.foto = { src: '' }; bump(); route(); } }, 'Odebrat fotku') : null),
+    h('p.hint', { html: `Náhled po uložení: <a href="${CFG.site}?popup" target="_blank" rel="noopener">otevřít web s pop-upem</a> (s ?popup v adrese se ukáže vždy, i když jste ho už zavřela).` }));
 }
 
 /* ---------------------------------------------------------------- menu */
@@ -630,6 +654,7 @@ function vGdpr() {
 function vNapoveda() {
   view('Návod', null,
     card('Nový balíček (např. Silvestr)', null, h('div.help', { html: '<ol><li>Otevřete <b>Balíčky</b> a klikněte na <b>Přidat balíček</b>.</li><li>Vyplňte název, krátký popis, text, termín a cenu (prázdná cena = „cena na dotaz“). Nahrajte fotku.</li><li>Nový balíček je nejdřív skrytý – až bude hotový, odškrtněte <b>Skrýt na webu</b>.</li><li>Uložte změny. Balíček dostane vlastní stránku s formulářem poptávky.</li><li>Překlady: nahoře přepněte jazyk (EN, DE…) a vyplňte texty. Co nevyplníte, web ukáže anglicky, případně česky.</li></ol>' })),
+    card('Pop-up okno', null, h('div.help', { html: '<ol><li>Otevřete <b>Pop-up okno</b>.</li><li>Zaškrtněte <b>Zobrazovat pop-up na webu</b> a vyberte balíček (např. Silvestr) – texty a fotka se převezmou z něj ve všech jazycích.</li><li>Chcete-li v pop-upu jiný text nebo fotku, vyplňte je níže. Pop-up vypnete odškrtnutím.</li><li>Uložte změny.</li></ol>' })),
     card('Rezervace', null, h('div.help', { html: '<ol><li>Rezervace z webu najdete v sekci <b>Rezervace a poptávky</b>.</li><li>Kliknutím otevřete detail, nastavíte stav (Potvrzená, Vyřízená…) a můžete si připsat poznámku.</li><li>Hostovi odpovězte e-mailem nebo telefonem – kontakty jsou v detailu.</li></ol>' })),
     card('Úprava textu', null, h('div.help', { html: '<ol><li>V menu vyberte <b>Texty stránek</b>, nahoře stránku a jazyk.</li><li>Přepište text. Slovo mezi *hvězdičkami* se v nadpisu zvýrazní kurzívou.</li><li>Dole klikněte na <b>Uložit změny</b>. Za minutu je změna na webu.</li></ol>' })),
     card('Něco nejde?', null, h('p', {}, 'Napište nám na weboviny@email.cz – rádi pomůžeme.')));
@@ -676,7 +701,7 @@ function updateSavebar() {
   bar.querySelectorAll('button').forEach((b) => { b.disabled = S.saving; });
   document.querySelectorAll('.nav a[data-key]').forEach((a) => { a.querySelector('.dot')?.remove(); if (keys.includes(a.dataset.key)) a.append(h('i.dot')); });
 }
-const VIEWS = { '': vDash, rezervace: vRezervace, balicky: vBalicky, menu: vMenu, texty: vTexty, seo: vSeo, sbirka: vSbirka, fotky: vFotky, kontakty: vKontakty, gdpr: vGdpr, napoveda: vNapoveda, nastaveni: vSettings };
+const VIEWS = { '': vDash, rezervace: vRezervace, balicky: vBalicky, popup: vPopup, menu: vMenu, texty: vTexty, seo: vSeo, sbirka: vSbirka, fotky: vFotky, kontakty: vKontakty, gdpr: vGdpr, napoveda: vNapoveda, nastaveni: vSettings };
 function route() {
   const [id, arg] = location.hash.replace(/^#\/?/, '').split('/');
   (VIEWS[id] || vDash)(arg);

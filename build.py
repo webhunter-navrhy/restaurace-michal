@@ -44,6 +44,7 @@ def load(name):
 
 
 SITE, T, MENU, BAL, SB, F, G = (load(n + '.json') for n in ('site', 'texty', 'menu', 'balicky', 'sbirka', 'fotky', 'gdpr'))
+POPUP = load('popup.json') if (ROOT / '_data' / 'popup.json').exists() else {}
 DOM = SITE['domena'].rstrip('/')
 
 
@@ -159,6 +160,36 @@ for b in BAL:
 BAL_VIS = [b for b in BAL if not b.get('skryty')]
 
 tels = [{'cislo': t, 'href': tel_href(t)} for t in SITE.get('telefony', []) if t]
+if POPUP.get('foto', {}).get('src'):
+    fix_img(POPUP['foto'])
+
+
+def popup(lang, TT, page, extra):
+    """pop-up okno z _data/popup.json: buď balíček (texty a fotka z něj), nebo vlastní obsah s odkazem"""
+    P = POPUP
+    if not P.get('zapnuto'):
+        return None
+    b = next((x for x in BAL_VIS if x['slug'] == P.get('balicek')), None) if P.get('balicek') else None
+    if P.get('balicek') and not b:
+        return None                                   # balíček je skrytý nebo smazaný
+    if page in ('rezervace', 'gdpr'):
+        return None                                   # nerušit při rezervaci
+    if b and page == 'balicky' and extra == b['slug']:
+        return None                                   # na stránce samotného balíčku nemá smysl
+    nadpis = tr(P.get('nadpis'), lang) or (tr(b['nazev'], lang) if b else '')
+    if not nadpis:
+        return None
+    odkaz = (P.get('odkaz') or '').strip()
+    href = B + url('balicky', lang, b['slug']) if b else (odkaz if re.match(r'^(https?:|mailto:|/)', odkaz) else (B + odkaz.lstrip('/') if odkaz else ''))
+    foto = P['foto'] if P.get('foto', {}).get('src') else (b.get('foto') if b and b.get('foto', {}).get('src') else None)
+    out = {'nadpis': nadpis, 'text': tr(P.get('text'), lang) or (tr(b.get('perex'), lang) if b else ''), 'href': href,
+           'tlacitko': tr(P.get('tlacitko'), lang) or TT['ui']['popup_tlacitko'], 'foto': foto,
+           'stitek': tr(b.get('stitek'), lang) if b else '',
+           'meta': ' · '.join(x for x in ((tr(b.get('termin'), lang), tr(b.get('cena'), lang)) if b else ()) if x),
+           'delay': max(0, min(60, int(P.get('zpozdeni') or 0)))}
+    # klíč obsahu: po změně pop-upu se návštěvníkovi ukáže znovu
+    out['key'] = hashlib.md5(json.dumps([P, b and b.get('slug'), out['nadpis']], ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:8]
+    return out
 
 
 def jsonld(lang, TT, extra=None):
@@ -212,6 +243,7 @@ def build():
         ctx = dict(lang=lang, T=TT, U=TT['ui'], page=page, rel=rel, alts=alts, hreflang=HREFLANG[lang], og_locale=OG_LOCALE[lang])
         ctx.update(kw)
         ctx.setdefault('jsonld', jsonld(lang, TT))
+        ctx.setdefault('POP', popup(lang, TT, page, extra))
         out.write_text(env.get_template(tpl).render(**ctx), encoding='utf-8')
         sitemap.append(alts)
 
@@ -233,7 +265,7 @@ def build():
     # 404 (česky + odkazy na jazyky)
     env.filters['nb'] = lambda s: nb(s, 'cs'); env.filters['t'] = lambda v: tr(v, 'cs')
     (OUT / '404.html').write_text(env.get_template('404.html').render(lang='cs', T=T['cs'], U=T['cs']['ui'], page='404', rel='404.html',
-        alts={l: url('home', l) for l in LANGS}, hreflang='cs', og_locale='cs_CZ', title='404 – ' + SITE['nazev'], description='', jsonld=None, noindex=True), encoding='utf-8')
+        alts={l: url('home', l) for l in LANGS}, hreflang='cs', og_locale='cs_CZ', title='404 – ' + SITE['nazev'], description='', jsonld=None, noindex=True, POP=None), encoding='utf-8')
     # staré adresy Wixu → nové (menu-1 byla druhá stránka menu)
     for old, new in (('menu-1', url('menu', 'cs')), ('o-restauraci', '')):
         d = OUT / old; d.mkdir(parents=True, exist_ok=True)
