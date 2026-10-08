@@ -333,7 +333,7 @@ function fList(arr, o) {
       el.append(head, body); items.append(el); refresh();
       if (i === openIdx) toggle();
     });
-    wrap.append(items, o.make ? h('button.btn.add', { type: 'button', onclick: () => { arr.push(o.make()); bump(); render(arr.length - 1); }, html: IC.plus + (o.addLabel || 'Přidat') }) : null);
+    wrap.append(...[items, o.make ? h('button.btn.add', { type: 'button', onclick: () => { arr.push(o.make()); bump(); render(arr.length - 1); }, html: IC.plus + (o.addLabel || 'Přidat') }) : null].filter(Boolean));
   };
   render();
   return wrap;
@@ -351,7 +351,7 @@ function fStrList(arr, label, o = {}) {
         h('button.btn.btn-icon.btn-ghost', { type: 'button', 'aria-label': 'Smazat', onclick: () => { arr.splice(i, 1); bump(); render(); }, html: IC.trash }));
     }), h('button.btn.btn-sm', { type: 'button', onclick: () => { arr.push(''); bump(); render(); }, html: IC.plus + (o.add || 'Přidat') }));
   };
-  render(); box.append(list, o.hint ? h('small', {}, o.hint) : null);
+  render(); box.append(...[list, o.hint ? h('small', {}, o.hint) : null].filter(Boolean));
   return box;
 }
 /** tabulka řádků (ceník): cols = [[klíč, popisek, placeholder, typ]] */
