@@ -122,7 +122,7 @@
       ]
     },
     "pozn": {
-      "cs": " dítě do 12 let 50 % sleva, dítě do 6 let zdarma",
+      "cs": " dítě do 12 let 50 % sleva, dítě do 6 let zdarma\n\nZáloha ve výši 50% z celkového počtu osob při rezervaci . Zbytek úhrady klient v den akce na místě.\n\nUhrazením zálohy jsou místa garantovaná .",
       "de": "",
       "en": "",
       "es": "",
@@ -430,7 +430,7 @@
       },
       {
         "nadpis": {
-          "cs": "Storno podmínky",
+          "cs": "Platební a storno podmínky",
           "en": "Cancellation policy",
           "de": "Stornobedingungen",
           "fr": "Conditions d’annulation",
@@ -440,6 +440,7 @@
         },
         "polozky": {
           "cs": [
+            "Rezervace je závazná po uhrazení zálohy 50 % z celkové ceny, tím jsou vaše místa garantovaná. Doplatek uhradíte v den akce na místě kartou nebo hotově.",
             "Storno od 23. do 26. prosince: storno poplatek ve výši 50 % z celkové ceny.",
             "Storno od 27. prosince: storno poplatek ve výši 100 % z celkové ceny."
           ],
