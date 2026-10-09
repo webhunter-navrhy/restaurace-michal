@@ -1,578 +1,578 @@
 [
- {
-  "slug": "silvestr",
-  "skryty": false,
-  "foto": {
-   "src": "img/foto/tanecnici-14.webp",
-   "sm": "img/foto/tanecnici-14-sm.webp",
-   "w": 2000,
-   "h": 1335,
-   "alt": {
-    "cs": "Tanečníci v krojích v sále Restaurantu Michal",
-    "en": "Dancers in folk costumes in the hall of Restaurant Michal"
-   }
-  },
-  "stitek": {
-   "cs": "Silvestr",
-   "de": "Silvester",
-   "en": "New Year's Eve",
-   "es": "Nochevieja",
-   "fr": "Saint-Sylvestre",
-   "it": "San Silvestro",
-   "zh": "跨年夜"
-  },
-  "nazev": {
-   "cs": "Silvestr s folklórními tanci",
-   "en": "New Year's Eve with Folk Dances",
-   "de": "Silvester mit Volkstänzen",
-   "fr": "Saint-Sylvestre avec danses folkloriques",
-   "es": "Nochevieja con bailes folclóricos",
-   "it": "San Silvestro con danze folcloristiche",
-   "zh": "民俗舞蹈跨年夜"
-  },
-  "perex": {
-   "cs": "Oslavte Silvestra s folklórní hudbou a tanci a vychutnejte si tradiční českou večeři s výběrem ze dvou menu.",
-   "en": "Celebrate New Year's Eve with folk music and dancing and enjoy a traditional Czech dinner with a choice of two menus.",
-   "de": "Feiern Sie Silvester mit Volksmusik und Volkstänzen und genießen Sie ein traditionelles tschechisches Abendessen mit zwei Menüs zur Auswahl.",
-   "fr": "Fêtez la Saint-Sylvestre en musique et en danses folkloriques et savourez un dîner tchèque traditionnel avec deux menus au choix.",
-   "es": "Celebre la Nochevieja con música y bailes folclóricos y disfrute de una cena checa tradicional con dos menús a elegir.",
-   "it": "Festeggi San Silvestro con musica e danze folcloristiche e gusti una cena tradizionale ceca con due menu a scelta.",
-   "zh": "伴着民俗音乐与舞蹈欢度跨年夜，享用传统捷克晚餐，两种套餐任选其一。"
-  },
-  "text": {
-   "cs": "Folklórní hudba, písně a tance patří k české i slovenské kultuře. Přijďte si tyto tradice připomenout do pražské restaurace Michal v samém srdci Starého Města, která pořádá večeře s folklórním vystoupením.\nBěhem folklórních večerů tu muzikanti hrají na cimbál, housle a basu melodie z různých regionů Čech, Moravy i Slovenska. Doprovázejí je zpěváci a tanečníci, oblečení v tradičních barevných a ručně šitých krojích z Česka i Slovenska. Jistě oceníte živý rytmus folklórní hudby i eleganci a švih tradičních tanečních kroků.\nKaždý z přítomných hostů se také může zapojit do různých zpestřujících aktivit a her, které si pro Vás umělci připravili. Zábava a srdečná atmosféra jsou krédem tohoto večera.\nBěhem vystoupení Vám na stůl bude servírována večeře, a to zcela v duchu českých tradic. Pochutnat si budete moci na typicky českých pokrmech servírovaných v nádherných malovaných keramických mísách.",
-   "en": "Folk music, songs and dances are part of both Czech and Slovak culture. Come and celebrate these traditions at Restaurant Michal in the very heart of Prague's Old Town, which hosts dinners with a folklore show.\nDuring the folklore evenings, musicians play melodies from various regions of Bohemia, Moravia and Slovakia on the cimbalom, violin and double bass. They are accompanied by singers and dancers dressed in traditional colourful, hand-sewn costumes from the Czech Republic and Slovakia. You will surely appreciate the lively rhythm of the folk music as well as the elegance and verve of the traditional dance steps.\nEvery guest can also join in the various activities and games the performers have prepared for you. Fun and a warm atmosphere are the motto of the evening.\nDuring the show, dinner is served at your table in true Czech tradition. You can enjoy typical Czech dishes served in beautiful hand-painted ceramic bowls.",
-   "de": "Volksmusik, Lieder und Tänze gehören zur tschechischen wie zur slowakischen Kultur. Erleben Sie diese Traditionen im Prager Restaurant Michal im Herzen der Altstadt, das Abendessen mit Folkloreprogramm veranstaltet.\nAn den Folkloreabenden spielen die Musiker auf Zimbal, Geige und Bass Melodien aus verschiedenen Regionen Böhmens, Mährens und der Slowakei. Begleitet werden sie von Sängern und Tänzern in traditionellen, farbenfrohen und handgenähten Trachten aus Tschechien und der Slowakei. Sie werden den lebendigen Rhythmus der Volksmusik ebenso schätzen wie die Eleganz und den Schwung der traditionellen Tanzschritte.\nJeder Gast kann außerdem bei verschiedenen Aktivitäten und Spielen mitmachen, die die Künstler für Sie vorbereitet haben. Spaß und eine herzliche Atmosphäre sind das Motto dieses Abends.\nWährend der Vorstellung wird Ihnen ganz im Sinne tschechischer Tradition das Abendessen am Tisch serviert. Sie genießen typisch tschechische Gerichte, serviert in wunderschön bemalten Keramikschüsseln.",
-   "fr": "La musique, les chants et les danses folkloriques font partie de la culture tchèque comme de la culture slovaque. Venez renouer avec ces traditions au Restaurant Michal, au cœur même de la Vieille Ville de Prague, qui organise des dîners avec spectacle folklorique.\nLors des soirées folkloriques, les musiciens jouent au cymbalum, au violon et à la contrebasse des mélodies de différentes régions de Bohême, de Moravie et de Slovaquie. Ils sont accompagnés de chanteurs et de danseurs vêtus de costumes traditionnels colorés et cousus main de Tchéquie et de Slovaquie. Vous apprécierez sans aucun doute le rythme entraînant de la musique folklorique ainsi que l’élégance et l’entrain des pas de danse traditionnels.\nChaque convive peut aussi participer aux différentes animations et aux jeux que les artistes ont préparés pour vous. Divertissement et atmosphère chaleureuse sont la devise de cette soirée.\nPendant le spectacle, le dîner vous est servi à table, dans la plus pure tradition tchèque. Vous dégusterez des plats typiquement tchèques servis dans de magnifiques plats en céramique peinte.",
-   "es": "La música, las canciones y los bailes folclóricos forman parte de la cultura checa y eslovaca. Venga a revivir estas tradiciones al Restaurant Michal, en pleno corazón de la Ciudad Vieja de Praga, que organiza cenas con espectáculo folclórico.\nDurante las veladas folclóricas, los músicos tocan con címbalo, violín y contrabajo melodías de distintas regiones de Bohemia, Moravia y Eslovaquia. Les acompañan cantantes y bailarines vestidos con coloridos trajes tradicionales cosidos a mano de Chequia y Eslovaquia. Sin duda apreciará el ritmo vivo de la música folclórica y la elegancia y el brío de los pasos de baile tradicionales.\nCada invitado puede además participar en las diversas actividades y juegos que los artistas le han preparado. La diversión y un ambiente cordial son el lema de esta velada.\nDurante el espectáculo se le servirá la cena en la mesa, fiel a la tradición checa. Podrá disfrutar de platos típicamente checos servidos en preciosas fuentes de cerámica pintada.",
-   "it": "Musica, canti e danze popolari fanno parte della cultura ceca e slovacca. Venga a riscoprire queste tradizioni al Restaurant Michal, nel cuore della Città Vecchia di Praga, che organizza cene con spettacolo folcloristico.\nDurante le serate folcloristiche i musicisti suonano al cymbalom, al violino e al contrabbasso melodie di diverse regioni della Boemia, della Moravia e della Slovacchia. Li accompagnano cantanti e ballerini in costumi tradizionali colorati e cuciti a mano della Repubblica Ceca e della Slovacchia. Apprezzerà sicuramente il ritmo vivace della musica popolare e l'eleganza e lo slancio dei passi di danza tradizionali.\nOgni ospite può inoltre partecipare alle varie attività e ai giochi preparati per Lei dagli artisti. Divertimento e un'atmosfera calorosa sono il motto di questa serata.\nDurante lo spettacolo Le verrà servita la cena al tavolo, nel pieno spirito della tradizione ceca. Potrà gustare piatti tipici cechi serviti in splendide ciotole di ceramica dipinta.",
-   "zh": "民俗音乐、歌曲和舞蹈是捷克和斯洛伐克文化的重要组成部分。欢迎来到位于布拉格老城中心的迈克尔餐厅（Restaurant Michal），在民俗表演晚宴中重温这些传统。\n民俗之夜上，乐手们用扬琴、小提琴和低音提琴演奏波西米亚、摩拉维亚和斯洛伐克各地的旋律，身着色彩鲜艳、手工缝制的捷克和斯洛伐克传统服饰的歌手和舞者随乐表演。您一定会喜欢民俗音乐欢快的节奏，以及传统舞步的优雅与活力。\n每位来宾还可以参与艺术家们为您精心准备的各种互动活动和游戏。欢乐与热情是这个夜晚的主旋律。\n表演期间，我们将按照捷克传统为您上菜。您可以品尝盛放在精美彩绘陶瓷碗中的地道捷克美食。"
-  },
-  "termin": {
-   "cs": "31. 12. 2026 od 20:00",
-   "en": "31 December 2026 from 20:00",
-   "de": "31.12.2026 ab 20:00 Uhr",
-   "fr": "31 décembre 2026 à partir de 20:00",
-   "es": "31 de diciembre de 2026 desde las 20:00",
-   "it": "31 dicembre 2026 dalle 20:00",
-   "zh": "2026年12月31日 20:00起"
-  },
-  "cena": {
-   "cs": "3 200 Kč / osoba",
-   "en": "CZK 3,200 per person",
-   "de": "3.200 CZK pro Person",
-   "fr": "3 200 CZK par personne",
-   "es": "3.200 CZK por persona",
-   "it": "3.200 CZK a persona",
-   "zh": "每人3,200捷克克朗"
-  },
-  "kapacita": {
-   "cs": "",
-   "de": "",
-   "en": "",
-   "es": "",
-   "fr": "",
-   "it": "",
-   "zh": ""
-  },
-  "polozky_nadpis": {
-   "cs": "Na co se můžete těšit",
-   "en": "What to look forward to",
-   "de": "Darauf können Sie sich freuen",
-   "fr": "Ce qui vous attend",
-   "es": "Lo que le espera",
-   "it": "Cosa La aspetta",
-   "zh": "活动亮点"
-  },
-  "polozky": {
-   "cs": [
-    "Oslavte Silvestra s folklórní hudbou a tanci",
-    "Vychutnejte si tradiční českou večeři s výběrem ze dvou různých menu",
-    "Během vystoupení (20:00–00:00) můžete neomezeně konzumovat pivo, rozlévané lahvové víno a nealkoholické nápoje"
-   ],
-   "en": [
-    "Celebrate New Year's Eve with folk music and dancing",
-    "Enjoy a traditional Czech dinner with a choice of two different menus",
-    "During the show (20:00–00:00) beer, bottled wine served by the glass and soft drinks are unlimited"
-   ],
-   "de": [
-    "Feiern Sie Silvester mit Volksmusik und Volkstänzen",
-    "Genießen Sie ein traditionelles tschechisches Abendessen mit zwei verschiedenen Menüs zur Auswahl",
-    "Während der Vorstellung (20:00–00:00 Uhr) sind Bier, offener Flaschenwein und alkoholfreie Getränke unbegrenzt inbegriffen"
-   ],
-   "fr": [
-    "Fêtez la Saint-Sylvestre en musique et en danses folkloriques",
-    "Savourez un dîner tchèque traditionnel avec deux menus différents au choix",
-    "Pendant le spectacle (20:00–00:00), bière, vin en bouteille servi au verre et boissons sans alcool à volonté"
-   ],
-   "es": [
-    "Celebre la Nochevieja con música y bailes folclóricos",
-    "Disfrute de una cena checa tradicional con dos menús diferentes a elegir",
-    "Durante el espectáculo (20:00–00:00), cerveza, vino embotellado servido por copas y refrescos sin límite"
-   ],
-   "it": [
-    "Festeggi San Silvestro con musica e danze folcloristiche",
-    "Gusti una cena tradizionale ceca con due menu diversi a scelta",
-    "Durante lo spettacolo (20:00–00:00) birra, vino in bottiglia servito al bicchiere e bevande analcoliche senza limiti"
-   ],
-   "zh": [
-    "伴着民俗音乐与舞蹈欢度跨年夜",
-    "享用传统捷克晚餐，两种不同套餐任选其一",
-    "表演期间（20:00–00:00）啤酒、瓶装葡萄酒（按杯供应）和软饮料无限畅饮"
-   ]
-  },
-  "pozn": {
-   "cs": "",
-   "de": "",
-   "en": "",
-   "es": "",
-   "fr": "",
-   "it": "",
-   "zh": ""
-  },
-  "fotky": [
-   {
-    "src": "img/foto/tanecnici-02.webp",
-    "sm": "img/foto/tanecnici-02-sm.webp",
-    "w": 2000,
-    "h": 1402,
-    "alt": {
-     "cs": "Cimbálová muzika Alexandra Vrábela",
-     "en": "Cimbalom band of Alexandr Vrábel"
-    }
-   },
-   {
-    "src": "img/foto/tanecnici-10.webp",
-    "sm": "img/foto/tanecnici-10-sm.webp",
-    "w": 2000,
-    "h": 1684,
-    "alt": {
-     "cs": "Folklórní tanec v Restaurantu Michal",
-     "en": "Folk dance at Restaurant Michal"
-    }
-   },
-   {
-    "src": "img/foto/interier-05.webp",
-    "sm": "img/foto/interier-05-sm.webp",
-    "w": 2000,
-    "h": 1309,
-    "alt": {
-     "cs": "Sál Restaurantu Michal",
-     "en": "Dining hall of Restaurant Michal"
-    }
-   },
-   {
-    "src": "img/foto/jidlo-16.webp",
-    "sm": "img/foto/jidlo-16-sm.webp",
-    "w": 2000,
-    "h": 1334,
-    "alt": {
-     "cs": "Tradiční česká kuchyně",
-     "en": "Traditional Czech cuisine"
-    }
-   }
-  ],
-  "bloky": [
-   {
-    "nadpis": {
-     "cs": "Tradiční menu s telecím masem",
-     "en": "Traditional menu with veal",
-     "de": "Traditionelles Menü mit Kalbfleisch",
-     "fr": "Menu traditionnel au veau",
-     "es": "Menú tradicional con ternera",
-     "it": "Menu tradizionale con vitello",
-     "zh": "传统小牛肉套餐"
+  {
+    "slug": "silvestr",
+    "skryty": false,
+    "foto": {
+      "src": "img/foto/tanecnici-14.webp",
+      "sm": "img/foto/tanecnici-14-sm.webp",
+      "w": 2000,
+      "h": 1335,
+      "alt": {
+        "cs": "Tanečníci v krojích v sále Restaurantu Michal",
+        "en": "Dancers in folk costumes in the hall of Restaurant Michal"
+      }
+    },
+    "stitek": {
+      "cs": "Silvestr",
+      "de": "Silvester",
+      "en": "New Year's Eve",
+      "es": "Nochevieja",
+      "fr": "Saint-Sylvestre",
+      "it": "San Silvestro",
+      "zh": "跨年夜"
+    },
+    "nazev": {
+      "cs": "Silvestr s folklórními tanci",
+      "en": "New Year's Eve with Folk Dances",
+      "de": "Silvester mit Volkstänzen",
+      "fr": "Saint-Sylvestre avec danses folkloriques",
+      "es": "Nochevieja con bailes folclóricos",
+      "it": "San Silvestro con danze folcloristiche",
+      "zh": "民俗舞蹈跨年夜"
+    },
+    "perex": {
+      "cs": "Oslavte Silvestra s folklórní hudbou a tanci a vychutnejte si tradiční českou večeři s výběrem ze dvou menu.",
+      "en": "Celebrate New Year's Eve with folk music and dancing and enjoy a traditional Czech dinner with a choice of two menus.",
+      "de": "Feiern Sie Silvester mit Volksmusik und Volkstänzen und genießen Sie ein traditionelles tschechisches Abendessen mit zwei Menüs zur Auswahl.",
+      "fr": "Fêtez la Saint-Sylvestre en musique et en danses folkloriques et savourez un dîner tchèque traditionnel avec deux menus au choix.",
+      "es": "Celebre la Nochevieja con música y bailes folclóricos y disfrute de una cena checa tradicional con dos menús a elegir.",
+      "it": "Festeggi San Silvestro con musica e danze folcloristiche e gusti una cena tradizionale ceca con due menu a scelta.",
+      "zh": "伴着民俗音乐与舞蹈欢度跨年夜，享用传统捷克晚餐，两种套餐任选其一。"
+    },
+    "text": {
+      "cs": "Folklórní hudba, písně a tance patří k české i slovenské kultuře. Přijďte si tyto tradice připomenout do pražské restaurace Michal v samém srdci Starého Města, která pořádá večeře s folklórním vystoupením.\nBěhem folklórních večerů tu muzikanti hrají na cimbál, housle a basu melodie z různých regionů Čech, Moravy i Slovenska. Doprovázejí je zpěváci a tanečníci, oblečení v tradičních barevných a ručně šitých krojích z Česka i Slovenska. Jistě oceníte živý rytmus folklórní hudby i eleganci a švih tradičních tanečních kroků.\nKaždý z přítomných hostů se také může zapojit do různých zpestřujících aktivit a her, které si pro Vás umělci připravili. Zábava a srdečná atmosféra jsou krédem tohoto večera.\nBěhem vystoupení Vám na stůl bude servírována večeře, a to zcela v duchu českých tradic. Pochutnat si budete moci na typicky českých pokrmech servírovaných v nádherných malovaných keramických mísách.",
+      "en": "Folk music, songs and dances are part of both Czech and Slovak culture. Come and celebrate these traditions at Restaurant Michal in the very heart of Prague's Old Town, which hosts dinners with a folklore show.\nDuring the folklore evenings, musicians play melodies from various regions of Bohemia, Moravia and Slovakia on the cimbalom, violin and double bass. They are accompanied by singers and dancers dressed in traditional colourful, hand-sewn costumes from the Czech Republic and Slovakia. You will surely appreciate the lively rhythm of the folk music as well as the elegance and verve of the traditional dance steps.\nEvery guest can also join in the various activities and games the performers have prepared for you. Fun and a warm atmosphere are the motto of the evening.\nDuring the show, dinner is served at your table in true Czech tradition. You can enjoy typical Czech dishes served in beautiful hand-painted ceramic bowls.",
+      "de": "Volksmusik, Lieder und Tänze gehören zur tschechischen wie zur slowakischen Kultur. Erleben Sie diese Traditionen im Prager Restaurant Michal im Herzen der Altstadt, das Abendessen mit Folkloreprogramm veranstaltet.\nAn den Folkloreabenden spielen die Musiker auf Zimbal, Geige und Bass Melodien aus verschiedenen Regionen Böhmens, Mährens und der Slowakei. Begleitet werden sie von Sängern und Tänzern in traditionellen, farbenfrohen und handgenähten Trachten aus Tschechien und der Slowakei. Sie werden den lebendigen Rhythmus der Volksmusik ebenso schätzen wie die Eleganz und den Schwung der traditionellen Tanzschritte.\nJeder Gast kann außerdem bei verschiedenen Aktivitäten und Spielen mitmachen, die die Künstler für Sie vorbereitet haben. Spaß und eine herzliche Atmosphäre sind das Motto dieses Abends.\nWährend der Vorstellung wird Ihnen ganz im Sinne tschechischer Tradition das Abendessen am Tisch serviert. Sie genießen typisch tschechische Gerichte, serviert in wunderschön bemalten Keramikschüsseln.",
+      "fr": "La musique, les chants et les danses folkloriques font partie de la culture tchèque comme de la culture slovaque. Venez renouer avec ces traditions au Restaurant Michal, au cœur même de la Vieille Ville de Prague, qui organise des dîners avec spectacle folklorique.\nLors des soirées folkloriques, les musiciens jouent au cymbalum, au violon et à la contrebasse des mélodies de différentes régions de Bohême, de Moravie et de Slovaquie. Ils sont accompagnés de chanteurs et de danseurs vêtus de costumes traditionnels colorés et cousus main de Tchéquie et de Slovaquie. Vous apprécierez sans aucun doute le rythme entraînant de la musique folklorique ainsi que l’élégance et l’entrain des pas de danse traditionnels.\nChaque convive peut aussi participer aux différentes animations et aux jeux que les artistes ont préparés pour vous. Divertissement et atmosphère chaleureuse sont la devise de cette soirée.\nPendant le spectacle, le dîner vous est servi à table, dans la plus pure tradition tchèque. Vous dégusterez des plats typiquement tchèques servis dans de magnifiques plats en céramique peinte.",
+      "es": "La música, las canciones y los bailes folclóricos forman parte de la cultura checa y eslovaca. Venga a revivir estas tradiciones al Restaurant Michal, en pleno corazón de la Ciudad Vieja de Praga, que organiza cenas con espectáculo folclórico.\nDurante las veladas folclóricas, los músicos tocan con címbalo, violín y contrabajo melodías de distintas regiones de Bohemia, Moravia y Eslovaquia. Les acompañan cantantes y bailarines vestidos con coloridos trajes tradicionales cosidos a mano de Chequia y Eslovaquia. Sin duda apreciará el ritmo vivo de la música folclórica y la elegancia y el brío de los pasos de baile tradicionales.\nCada invitado puede además participar en las diversas actividades y juegos que los artistas le han preparado. La diversión y un ambiente cordial son el lema de esta velada.\nDurante el espectáculo se le servirá la cena en la mesa, fiel a la tradición checa. Podrá disfrutar de platos típicamente checos servidos en preciosas fuentes de cerámica pintada.",
+      "it": "Musica, canti e danze popolari fanno parte della cultura ceca e slovacca. Venga a riscoprire queste tradizioni al Restaurant Michal, nel cuore della Città Vecchia di Praga, che organizza cene con spettacolo folcloristico.\nDurante le serate folcloristiche i musicisti suonano al cymbalom, al violino e al contrabbasso melodie di diverse regioni della Boemia, della Moravia e della Slovacchia. Li accompagnano cantanti e ballerini in costumi tradizionali colorati e cuciti a mano della Repubblica Ceca e della Slovacchia. Apprezzerà sicuramente il ritmo vivace della musica popolare e l'eleganza e lo slancio dei passi di danza tradizionali.\nOgni ospite può inoltre partecipare alle varie attività e ai giochi preparati per Lei dagli artisti. Divertimento e un'atmosfera calorosa sono il motto di questa serata.\nDurante lo spettacolo Le verrà servita la cena al tavolo, nel pieno spirito della tradizione ceca. Potrà gustare piatti tipici cechi serviti in splendide ciotole di ceramica dipinta.",
+      "zh": "民俗音乐、歌曲和舞蹈是捷克和斯洛伐克文化的重要组成部分。欢迎来到位于布拉格老城中心的迈克尔餐厅（Restaurant Michal），在民俗表演晚宴中重温这些传统。\n民俗之夜上，乐手们用扬琴、小提琴和低音提琴演奏波西米亚、摩拉维亚和斯洛伐克各地的旋律，身着色彩鲜艳、手工缝制的捷克和斯洛伐克传统服饰的歌手和舞者随乐表演。您一定会喜欢民俗音乐欢快的节奏，以及传统舞步的优雅与活力。\n每位来宾还可以参与艺术家们为您精心准备的各种互动活动和游戏。欢乐与热情是这个夜晚的主旋律。\n表演期间，我们将按照捷克传统为您上菜。您可以品尝盛放在精美彩绘陶瓷碗中的地道捷克美食。"
+    },
+    "termin": {
+      "cs": "31. 12. 2026 od 20:00",
+      "en": "31 December 2026 from 20:00",
+      "de": "31.12.2026 ab 20:00 Uhr",
+      "fr": "31 décembre 2026 à partir de 20:00",
+      "es": "31 de diciembre de 2026 desde las 20:00",
+      "it": "31 dicembre 2026 dalle 20:00",
+      "zh": "2026年12月31日 20:00起"
+    },
+    "cena": {
+      "cs": "3 200 Kč / osoba, dítě do 12 let 50 % sleva, dítě do 6 let zdarma",
+      "en": "CZK 3,200 per person",
+      "de": "3.200 CZK pro Person",
+      "fr": "3 200 CZK par personne",
+      "es": "3.200 CZK por persona",
+      "it": "3.200 CZK a persona",
+      "zh": "每人3,200捷克克朗"
+    },
+    "kapacita": {
+      "cs": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "it": "",
+      "zh": ""
+    },
+    "polozky_nadpis": {
+      "cs": "Na co se můžete těšit",
+      "en": "What to look forward to",
+      "de": "Darauf können Sie sich freuen",
+      "fr": "Ce qui vous attend",
+      "es": "Lo que le espera",
+      "it": "Cosa La aspetta",
+      "zh": "活动亮点"
     },
     "polozky": {
-     "cs": [
-      "Aperitiv: Hanácká Karpatka 4 cl",
-      "Variace studených předkrmů",
-      "Hovězí consomé z oháňky s petrželkovými noky a zeleninou",
-      "Kroketa plněná trhanou vepřovou panenkou",
-      "Telecí s omáčkou z portského vína, topinamburové pyré, zelenina",
-      "Hrušková tartaletka",
-      "Sýrová variace s vlašskými ořechy a ovocem",
-      "Káva nebo čaj"
-     ],
-     "en": [
-      "Aperitif: Hanácká Karpatka 4 cl",
-      "Selection of cold starters",
-      "Oxtail beef consommé with parsley gnocchi and vegetables",
-      "Croquette filled with pulled pork tenderloin",
-      "Veal with port wine sauce, Jerusalem artichoke purée, vegetables",
-      "Pear tartlet",
-      "Cheese selection with walnuts and fruit",
-      "Coffee or tea"
-     ],
-     "de": [
-      "Aperitif: Hanácká Karpatka 4 cl",
-      "Variation kalter Vorspeisen",
-      "Rinderconsommé vom Ochsenschwanz mit Petersiliennocken und Gemüse",
-      "Krokette gefüllt mit gezupftem Schweinefilet",
-      "Kalb mit Portweinsauce, Topinamburpüree, Gemüse",
-      "Birnentartelette",
-      "Käsevariation mit Walnüssen und Obst",
-      "Kaffee oder Tee"
-     ],
-     "fr": [
-      "Apéritif : Hanácká Karpatka 4 cl",
-      "Assortiment d’entrées froides",
-      "Consommé de queue de bœuf, quenelles au persil et légumes",
-      "Croquette farcie de filet mignon de porc effiloché",
-      "Veau, sauce au porto, purée de topinambour, légumes",
-      "Tartelette aux poires",
-      "Assortiment de fromages aux noix et aux fruits",
-      "Café ou thé"
-     ],
-     "es": [
-      "Aperitivo: Hanácká Karpatka 4 cl",
-      "Variado de entrantes fríos",
-      "Consomé de rabo de buey con ñoquis de perejil y verduras",
-      "Croqueta rellena de solomillo de cerdo deshilachado",
-      "Ternera con salsa de oporto, puré de tupinambo, verduras",
-      "Tartaleta de pera",
-      "Surtido de quesos con nueces y fruta",
-      "Café o té"
-     ],
-     "it": [
-      "Aperitivo: Hanácká Karpatka 4 cl",
-      "Selezione di antipasti freddi",
-      "Consommé di coda di manzo con gnocchetti al prezzemolo e verdure",
-      "Crocchetta ripiena di filetto di maiale sfilacciato",
-      "Vitello con salsa al porto, purè di topinambur, verdure",
-      "Tartelletta alle pere",
-      "Selezione di formaggi con noci e frutta",
-      "Caffè o tè"
-     ],
-     "zh": [
-      "开胃酒：Hanácká Karpatka 4 cl",
-      "什锦冷盘",
-      "牛尾清汤配欧芹小团子和蔬菜",
-      "手撕猪里脊馅可乐饼",
-      "小牛肉配波特酒酱汁、菊芋泥和蔬菜",
-      "梨挞",
-      "奶酪拼盘配核桃和水果",
-      "咖啡或茶"
-     ]
-    }
-   },
-   {
-    "nadpis": {
-     "cs": "Tradiční menu s grilovaným lososem",
-     "en": "Traditional menu with grilled salmon",
-     "de": "Traditionelles Menü mit gegrilltem Lachs",
-     "fr": "Menu traditionnel au saumon grillé",
-     "es": "Menú tradicional con salmón a la parrilla",
-     "it": "Menu tradizionale con salmone alla griglia",
-     "zh": "传统烤三文鱼套餐"
+      "cs": [
+        "Oslavte Silvestra s folklórní hudbou a tanci",
+        "Vychutnejte si tradiční českou večeři s výběrem ze dvou různých menu",
+        "Během vystoupení (20:00–00:00) můžete neomezeně konzumovat pivo, rozlévané lahvové víno a nealkoholické nápoje"
+      ],
+      "en": [
+        "Celebrate New Year's Eve with folk music and dancing",
+        "Enjoy a traditional Czech dinner with a choice of two different menus",
+        "During the show (20:00–00:00) beer, bottled wine served by the glass and soft drinks are unlimited"
+      ],
+      "de": [
+        "Feiern Sie Silvester mit Volksmusik und Volkstänzen",
+        "Genießen Sie ein traditionelles tschechisches Abendessen mit zwei verschiedenen Menüs zur Auswahl",
+        "Während der Vorstellung (20:00–00:00 Uhr) sind Bier, offener Flaschenwein und alkoholfreie Getränke unbegrenzt inbegriffen"
+      ],
+      "fr": [
+        "Fêtez la Saint-Sylvestre en musique et en danses folkloriques",
+        "Savourez un dîner tchèque traditionnel avec deux menus différents au choix",
+        "Pendant le spectacle (20:00–00:00), bière, vin en bouteille servi au verre et boissons sans alcool à volonté"
+      ],
+      "es": [
+        "Celebre la Nochevieja con música y bailes folclóricos",
+        "Disfrute de una cena checa tradicional con dos menús diferentes a elegir",
+        "Durante el espectáculo (20:00–00:00), cerveza, vino embotellado servido por copas y refrescos sin límite"
+      ],
+      "it": [
+        "Festeggi San Silvestro con musica e danze folcloristiche",
+        "Gusti una cena tradizionale ceca con due menu diversi a scelta",
+        "Durante lo spettacolo (20:00–00:00) birra, vino in bottiglia servito al bicchiere e bevande analcoliche senza limiti"
+      ],
+      "zh": [
+        "伴着民俗音乐与舞蹈欢度跨年夜",
+        "享用传统捷克晚餐，两种不同套餐任选其一",
+        "表演期间（20:00–00:00）啤酒、瓶装葡萄酒（按杯供应）和软饮料无限畅饮"
+      ]
+    },
+    "pozn": {
+      "cs": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "it": "",
+      "zh": ""
+    },
+    "fotky": [
+      {
+        "src": "img/foto/tanecnici-02.webp",
+        "sm": "img/foto/tanecnici-02-sm.webp",
+        "w": 2000,
+        "h": 1402,
+        "alt": {
+          "cs": "Cimbálová muzika Alexandra Vrábela",
+          "en": "Cimbalom band of Alexandr Vrábel"
+        }
+      },
+      {
+        "src": "img/foto/tanecnici-10.webp",
+        "sm": "img/foto/tanecnici-10-sm.webp",
+        "w": 2000,
+        "h": 1684,
+        "alt": {
+          "cs": "Folklórní tanec v Restaurantu Michal",
+          "en": "Folk dance at Restaurant Michal"
+        }
+      },
+      {
+        "src": "img/foto/interier-05.webp",
+        "sm": "img/foto/interier-05-sm.webp",
+        "w": 2000,
+        "h": 1309,
+        "alt": {
+          "cs": "Sál Restaurantu Michal",
+          "en": "Dining hall of Restaurant Michal"
+        }
+      },
+      {
+        "src": "img/foto/jidlo-16.webp",
+        "sm": "img/foto/jidlo-16-sm.webp",
+        "w": 2000,
+        "h": 1334,
+        "alt": {
+          "cs": "Tradiční česká kuchyně",
+          "en": "Traditional Czech cuisine"
+        }
+      }
+    ],
+    "bloky": [
+      {
+        "nadpis": {
+          "cs": "Tradiční menu s telecím masem",
+          "en": "Traditional menu with veal",
+          "de": "Traditionelles Menü mit Kalbfleisch",
+          "fr": "Menu traditionnel au veau",
+          "es": "Menú tradicional con ternera",
+          "it": "Menu tradizionale con vitello",
+          "zh": "传统小牛肉套餐"
+        },
+        "polozky": {
+          "cs": [
+            "Aperitiv: Hanácká Karpatka 4 cl",
+            "Variace studených předkrmů",
+            "Hovězí consomé z oháňky s petrželkovými noky a zeleninou",
+            "Kroketa plněná trhanou vepřovou panenkou",
+            "Telecí s omáčkou z portského vína, topinamburové pyré, zelenina",
+            "Hrušková tartaletka",
+            "Sýrová variace s vlašskými ořechy a ovocem",
+            "Káva nebo čaj"
+          ],
+          "en": [
+            "Aperitif: Hanácká Karpatka 4 cl",
+            "Selection of cold starters",
+            "Oxtail beef consommé with parsley gnocchi and vegetables",
+            "Croquette filled with pulled pork tenderloin",
+            "Veal with port wine sauce, Jerusalem artichoke purée, vegetables",
+            "Pear tartlet",
+            "Cheese selection with walnuts and fruit",
+            "Coffee or tea"
+          ],
+          "de": [
+            "Aperitif: Hanácká Karpatka 4 cl",
+            "Variation kalter Vorspeisen",
+            "Rinderconsommé vom Ochsenschwanz mit Petersiliennocken und Gemüse",
+            "Krokette gefüllt mit gezupftem Schweinefilet",
+            "Kalb mit Portweinsauce, Topinamburpüree, Gemüse",
+            "Birnentartelette",
+            "Käsevariation mit Walnüssen und Obst",
+            "Kaffee oder Tee"
+          ],
+          "fr": [
+            "Apéritif : Hanácká Karpatka 4 cl",
+            "Assortiment d’entrées froides",
+            "Consommé de queue de bœuf, quenelles au persil et légumes",
+            "Croquette farcie de filet mignon de porc effiloché",
+            "Veau, sauce au porto, purée de topinambour, légumes",
+            "Tartelette aux poires",
+            "Assortiment de fromages aux noix et aux fruits",
+            "Café ou thé"
+          ],
+          "es": [
+            "Aperitivo: Hanácká Karpatka 4 cl",
+            "Variado de entrantes fríos",
+            "Consomé de rabo de buey con ñoquis de perejil y verduras",
+            "Croqueta rellena de solomillo de cerdo deshilachado",
+            "Ternera con salsa de oporto, puré de tupinambo, verduras",
+            "Tartaleta de pera",
+            "Surtido de quesos con nueces y fruta",
+            "Café o té"
+          ],
+          "it": [
+            "Aperitivo: Hanácká Karpatka 4 cl",
+            "Selezione di antipasti freddi",
+            "Consommé di coda di manzo con gnocchetti al prezzemolo e verdure",
+            "Crocchetta ripiena di filetto di maiale sfilacciato",
+            "Vitello con salsa al porto, purè di topinambur, verdure",
+            "Tartelletta alle pere",
+            "Selezione di formaggi con noci e frutta",
+            "Caffè o tè"
+          ],
+          "zh": [
+            "开胃酒：Hanácká Karpatka 4 cl",
+            "什锦冷盘",
+            "牛尾清汤配欧芹小团子和蔬菜",
+            "手撕猪里脊馅可乐饼",
+            "小牛肉配波特酒酱汁、菊芋泥和蔬菜",
+            "梨挞",
+            "奶酪拼盘配核桃和水果",
+            "咖啡或茶"
+          ]
+        }
+      },
+      {
+        "nadpis": {
+          "cs": "Tradiční menu s grilovaným lososem",
+          "en": "Traditional menu with grilled salmon",
+          "de": "Traditionelles Menü mit gegrilltem Lachs",
+          "fr": "Menu traditionnel au saumon grillé",
+          "es": "Menú tradicional con salmón a la parrilla",
+          "it": "Menu tradizionale con salmone alla griglia",
+          "zh": "传统烤三文鱼套餐"
+        },
+        "polozky": {
+          "cs": [
+            "Aperitiv: Hanácká Karpatka 4 cl",
+            "Variace studených předkrmů",
+            "Hovězí consomé z oháňky s petrželkovými noky a zeleninou",
+            "Kroketa plněná trhanou vepřovou panenkou",
+            "Losos na grilu, pyré z fialových brambor, zelenina, bylinky",
+            "Hrušková tartaletka",
+            "Sýrová variace s vlašskými ořechy a ovocem",
+            "Káva nebo čaj"
+          ],
+          "en": [
+            "Aperitif: Hanácká Karpatka 4 cl",
+            "Selection of cold starters",
+            "Oxtail beef consommé with parsley gnocchi and vegetables",
+            "Croquette filled with pulled pork tenderloin",
+            "Grilled salmon, purple potato purée, vegetables, herbs",
+            "Pear tartlet",
+            "Cheese selection with walnuts and fruit",
+            "Coffee or tea"
+          ],
+          "de": [
+            "Aperitif: Hanácká Karpatka 4 cl",
+            "Variation kalter Vorspeisen",
+            "Rinderconsommé vom Ochsenschwanz mit Petersiliennocken und Gemüse",
+            "Krokette gefüllt mit gezupftem Schweinefilet",
+            "Gegrillter Lachs, Püree von violetten Kartoffeln, Gemüse, Kräuter",
+            "Birnentartelette",
+            "Käsevariation mit Walnüssen und Obst",
+            "Kaffee oder Tee"
+          ],
+          "fr": [
+            "Apéritif : Hanácká Karpatka 4 cl",
+            "Assortiment d’entrées froides",
+            "Consommé de queue de bœuf, quenelles au persil et légumes",
+            "Croquette farcie de filet mignon de porc effiloché",
+            "Saumon grillé, purée de pommes de terre violettes, légumes, herbes",
+            "Tartelette aux poires",
+            "Assortiment de fromages aux noix et aux fruits",
+            "Café ou thé"
+          ],
+          "es": [
+            "Aperitivo: Hanácká Karpatka 4 cl",
+            "Variado de entrantes fríos",
+            "Consomé de rabo de buey con ñoquis de perejil y verduras",
+            "Croqueta rellena de solomillo de cerdo deshilachado",
+            "Salmón a la parrilla, puré de patatas moradas, verduras, hierbas",
+            "Tartaleta de pera",
+            "Surtido de quesos con nueces y fruta",
+            "Café o té"
+          ],
+          "it": [
+            "Aperitivo: Hanácká Karpatka 4 cl",
+            "Selezione di antipasti freddi",
+            "Consommé di coda di manzo con gnocchetti al prezzemolo e verdure",
+            "Crocchetta ripiena di filetto di maiale sfilacciato",
+            "Salmone alla griglia, purè di patate viola, verdure, erbe aromatiche",
+            "Tartelletta alle pere",
+            "Selezione di formaggi con noci e frutta",
+            "Caffè o tè"
+          ],
+          "zh": [
+            "开胃酒：Hanácká Karpatka 4 cl",
+            "什锦冷盘",
+            "牛尾清汤配欧芹小团子和蔬菜",
+            "手撕猪里脊馅可乐饼",
+            "烤三文鱼配紫薯泥、蔬菜和香草",
+            "梨挞",
+            "奶酪拼盘配核桃和水果",
+            "咖啡或茶"
+          ]
+        }
+      },
+      {
+        "nadpis": {
+          "cs": "Nápoje",
+          "en": "Drinks",
+          "de": "Getränke",
+          "fr": "Boissons",
+          "es": "Bebidas",
+          "it": "Bevande",
+          "zh": "饮品"
+        },
+        "polozky": {
+          "cs": [
+            "Pivo, rozlévané lahvové víno, nealkoholické nápoje (20:00–00:00)",
+            "O půlnoci se podává sklenka Bohemia Sektu a tradiční šunka od kosti s čočkovým salátem."
+          ],
+          "en": [
+            "Beer, bottled wine served by the glass, soft drinks (20:00–00:00)",
+            "At midnight, a glass of Bohemia Sekt is served with traditional ham on the bone and lentil salad."
+          ],
+          "de": [
+            "Bier, offener Flaschenwein, alkoholfreie Getränke (20:00–00:00 Uhr)",
+            "Um Mitternacht wird ein Glas Bohemia Sekt mit traditionellem Schinken vom Knochen und Linsensalat serviert."
+          ],
+          "fr": [
+            "Bière, vin en bouteille servi au verre, boissons sans alcool (20:00–00:00)",
+            "À minuit, une coupe de Bohemia Sekt est servie avec le traditionnel jambon à l’os et une salade de lentilles."
+          ],
+          "es": [
+            "Cerveza, vino embotellado servido por copas, refrescos (20:00–00:00)",
+            "A medianoche se sirve una copa de Bohemia Sekt con el tradicional jamón con hueso y ensalada de lentejas."
+          ],
+          "it": [
+            "Birra, vino in bottiglia servito al bicchiere, bevande analcoliche (20:00–00:00)",
+            "A mezzanotte viene servito un calice di Bohemia Sekt con il tradizionale prosciutto all'osso e insalata di lenticchie."
+          ],
+          "zh": [
+            "啤酒、瓶装葡萄酒（按杯供应）、软饮料（20:00–00:00）",
+            "午夜时分将为您奉上一杯Bohemia起泡酒，以及传统带骨火腿配扁豆沙拉。"
+          ]
+        }
+      },
+      {
+        "nadpis": {
+          "cs": "Hodí se vědět",
+          "en": "Good to know",
+          "de": "Gut zu wissen",
+          "fr": "Bon à savoir",
+          "es": "Conviene saber",
+          "it": "Buono a sapersi",
+          "zh": "实用信息"
+        },
+        "polozky": {
+          "cs": [
+            "Vystoupení folklórního souboru začíná ve 20:00 a končí o půlnoci.",
+            "Večírek končí v 00:30.",
+            "V ceně: jídlo, nápoje a představení."
+          ],
+          "en": [
+            "The folk ensemble's show starts at 20:00 and ends at midnight.",
+            "The party ends at 00:30.",
+            "Included in the price: food, drinks and the show."
+          ],
+          "de": [
+            "Die Vorstellung des Folkloreensembles beginnt um 20:00 Uhr und endet um Mitternacht.",
+            "Die Feier endet um 00:30 Uhr.",
+            "Im Preis inbegriffen: Essen, Getränke und Vorstellung."
+          ],
+          "fr": [
+            "Le spectacle de l’ensemble folklorique commence à 20:00 et se termine à minuit.",
+            "La soirée se termine à 00:30.",
+            "Compris dans le prix : repas, boissons et spectacle."
+          ],
+          "es": [
+            "El espectáculo del conjunto folclórico empieza a las 20:00 y termina a medianoche.",
+            "La fiesta termina a las 00:30.",
+            "Incluido en el precio: comida, bebidas y espectáculo."
+          ],
+          "it": [
+            "Lo spettacolo del gruppo folcloristico inizia alle 20:00 e termina a mezzanotte.",
+            "La festa termina alle 00:30.",
+            "Incluso nel prezzo: cena, bevande e spettacolo."
+          ],
+          "zh": [
+            "民俗乐团的表演于20:00开始，午夜结束。",
+            "派对于00:30结束。",
+            "价格包含：餐食、饮品和表演。"
+          ]
+        }
+      },
+      {
+        "nadpis": {
+          "cs": "Storno podmínky",
+          "en": "Cancellation policy",
+          "de": "Stornobedingungen",
+          "fr": "Conditions d’annulation",
+          "es": "Condiciones de cancelación",
+          "it": "Condizioni di cancellazione",
+          "zh": "取消政策"
+        },
+        "polozky": {
+          "cs": [
+            "Storno od 23. do 26. prosince: storno poplatek ve výši 50 % z celkové ceny.",
+            "Storno od 27. prosince: storno poplatek ve výši 100 % z celkové ceny."
+          ],
+          "en": [
+            "Cancellation from 23 to 26 December: cancellation fee of 50% of the total price.",
+            "Cancellation from 27 December: cancellation fee of 100% of the total price."
+          ],
+          "de": [
+            "Stornierung vom 23. bis 26. Dezember: Stornogebühr von 50 % des Gesamtpreises.",
+            "Stornierung ab dem 27. Dezember: Stornogebühr von 100 % des Gesamtpreises."
+          ],
+          "fr": [
+            "Annulation du 23 au 26 décembre : frais d’annulation de 50 % du prix total.",
+            "Annulation à partir du 27 décembre : frais d’annulation de 100 % du prix total."
+          ],
+          "es": [
+            "Cancelación del 23 al 26 de diciembre: gastos de cancelación del 50 % del precio total.",
+            "Cancelación a partir del 27 de diciembre: gastos de cancelación del 100 % del precio total."
+          ],
+          "it": [
+            "Cancellazione dal 23 al 26 dicembre: penale del 50 % del prezzo totale.",
+            "Cancellazione dal 27 dicembre: penale del 100 % del prezzo totale."
+          ],
+          "zh": [
+            "12月23日至26日取消：收取总价50%的取消费。",
+            "12月27日起取消：收取总价100%的取消费。"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "slug": "firemni-vecirky",
+    "skryty": false,
+    "foto": {
+      "src": "img/foto/interier-06.webp",
+      "sm": "img/foto/interier-06-sm.webp",
+      "alt": {
+        "cs": "Klenutý sál s cimbálem",
+        "en": "Vaulted hall with a cimbalom"
+      }
+    },
+    "stitek": {
+      "cs": "Pro firmy",
+      "de": "Für Firmen",
+      "en": "For companies",
+      "es": "Para empresas",
+      "fr": "Entreprises",
+      "it": "Per le aziende",
+      "zh": "企业活动"
+    },
+    "nazev": {
+      "cs": "Firemní večírky",
+      "de": "Firmenfeiern",
+      "en": "Corporate parties",
+      "es": "Fiestas de empresa",
+      "fr": "Soirées d’entreprise",
+      "it": "Feste aziendali",
+      "zh": "公司聚会"
+    },
+    "perex": {
+      "cs": "Firemní a vánoční večírky v prostorách restaurace u Karlova mostu.",
+      "de": "Firmen- und Weihnachtsfeiern in den Räumlichkeiten des Restaurants an der Karlsbrücke.",
+      "en": "Corporate and Christmas parties in our restaurant by Charles Bridge.",
+      "es": "Fiestas de empresa y de Navidad en los espacios del restaurante junto al Puente de Carlos.",
+      "fr": "Soirées d’entreprise et fêtes de Noël dans notre restaurant près du pont Charles.",
+      "it": "Feste aziendali e di Natale negli spazi del ristorante vicino al Ponte Carlo.",
+      "zh": "在查理大桥旁的餐厅举办公司聚会和圣诞晚会。"
+    },
+    "text": {
+      "cs": "V kombinaci s unikátními prostory restaurace, kvalitním servisem a gurmánskými specialitami pro Vás připravíme akci na špičkové úrovni, kterou zaručujeme dlouholetými zkušenostmi a řadou vynikajících referencí.\nNapište nám nezávaznou poptávku a pošleme Vám podrobnosti.",
+      "de": "In Verbindung mit den einzigartigen Räumlichkeiten des Restaurants, erstklassigem Service und Gourmet-Spezialitäten bereiten wir für Sie ein Event auf höchstem Niveau vor – garantiert durch langjährige Erfahrung und zahlreiche hervorragende Referenzen.\nSenden Sie uns eine unverbindliche Anfrage, und wir schicken Ihnen alle Details.",
+      "en": "In our unique setting, combined with great service and gourmet specialities, we can prepare a top-level event for you, guaranteed by many years of experience and a number of excellent references.\nSend us a no-obligation enquiry and we will send you the details.",
+      "es": "Gracias a los espacios únicos del restaurante, a un servicio de calidad y a nuestras especialidades gourmet, le prepararemos un evento del más alto nivel, avalado por nuestra larga experiencia y numerosas referencias excelentes.\nEnvíenos una solicitud sin compromiso y le haremos llegar todos los detalles.",
+      "fr": "Nos locaux uniques, un excellent service et nos spécialités gastronomiques vous permettront de vivre un événement de la plus grande qualité, garanti par notre longue expérience et une flatteuse liste de références.\nEnvoyez-nous une demande sans engagement et nous vous ferons parvenir tous les détails.",
+      "it": "Grazie agli spazi unici del ristorante, a un servizio di qualità e alle specialità per buongustai, prepariamo per Lei eventi di alto livello, garantiti dalla nostra esperienza pluriennale e da numerose ottime referenze.\nCi invii una richiesta senza impegno e Le manderemo tutti i dettagli.",
+      "zh": "凭借独特的餐厅空间、优质的服务和特色美食，我们将为您筹备最高水准的活动——多年的经验和众多出色的客户口碑就是品质的保证。\n欢迎向我们提交免费咨询，我们将为您发送详细信息。"
+    },
+    "termin": {
+      "cs": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "it": "",
+      "zh": ""
+    },
+    "cena": {
+      "cs": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "it": "",
+      "zh": ""
+    },
+    "kapacita": {
+      "cs": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "it": "",
+      "zh": ""
+    },
+    "polozky_nadpis": {
+      "cs": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "it": "",
+      "zh": ""
     },
     "polozky": {
-     "cs": [
-      "Aperitiv: Hanácká Karpatka 4 cl",
-      "Variace studených předkrmů",
-      "Hovězí consomé z oháňky s petrželkovými noky a zeleninou",
-      "Kroketa plněná trhanou vepřovou panenkou",
-      "Losos na grilu, pyré z fialových brambor, zelenina, bylinky",
-      "Hrušková tartaletka",
-      "Sýrová variace s vlašskými ořechy a ovocem",
-      "Káva nebo čaj"
-     ],
-     "en": [
-      "Aperitif: Hanácká Karpatka 4 cl",
-      "Selection of cold starters",
-      "Oxtail beef consommé with parsley gnocchi and vegetables",
-      "Croquette filled with pulled pork tenderloin",
-      "Grilled salmon, purple potato purée, vegetables, herbs",
-      "Pear tartlet",
-      "Cheese selection with walnuts and fruit",
-      "Coffee or tea"
-     ],
-     "de": [
-      "Aperitif: Hanácká Karpatka 4 cl",
-      "Variation kalter Vorspeisen",
-      "Rinderconsommé vom Ochsenschwanz mit Petersiliennocken und Gemüse",
-      "Krokette gefüllt mit gezupftem Schweinefilet",
-      "Gegrillter Lachs, Püree von violetten Kartoffeln, Gemüse, Kräuter",
-      "Birnentartelette",
-      "Käsevariation mit Walnüssen und Obst",
-      "Kaffee oder Tee"
-     ],
-     "fr": [
-      "Apéritif : Hanácká Karpatka 4 cl",
-      "Assortiment d’entrées froides",
-      "Consommé de queue de bœuf, quenelles au persil et légumes",
-      "Croquette farcie de filet mignon de porc effiloché",
-      "Saumon grillé, purée de pommes de terre violettes, légumes, herbes",
-      "Tartelette aux poires",
-      "Assortiment de fromages aux noix et aux fruits",
-      "Café ou thé"
-     ],
-     "es": [
-      "Aperitivo: Hanácká Karpatka 4 cl",
-      "Variado de entrantes fríos",
-      "Consomé de rabo de buey con ñoquis de perejil y verduras",
-      "Croqueta rellena de solomillo de cerdo deshilachado",
-      "Salmón a la parrilla, puré de patatas moradas, verduras, hierbas",
-      "Tartaleta de pera",
-      "Surtido de quesos con nueces y fruta",
-      "Café o té"
-     ],
-     "it": [
-      "Aperitivo: Hanácká Karpatka 4 cl",
-      "Selezione di antipasti freddi",
-      "Consommé di coda di manzo con gnocchetti al prezzemolo e verdure",
-      "Crocchetta ripiena di filetto di maiale sfilacciato",
-      "Salmone alla griglia, purè di patate viola, verdure, erbe aromatiche",
-      "Tartelletta alle pere",
-      "Selezione di formaggi con noci e frutta",
-      "Caffè o tè"
-     ],
-     "zh": [
-      "开胃酒：Hanácká Karpatka 4 cl",
-      "什锦冷盘",
-      "牛尾清汤配欧芹小团子和蔬菜",
-      "手撕猪里脊馅可乐饼",
-      "烤三文鱼配紫薯泥、蔬菜和香草",
-      "梨挞",
-      "奶酪拼盘配核桃和水果",
-      "咖啡或茶"
-     ]
-    }
-   },
-   {
-    "nadpis": {
-     "cs": "Nápoje",
-     "en": "Drinks",
-     "de": "Getränke",
-     "fr": "Boissons",
-     "es": "Bebidas",
-     "it": "Bevande",
-     "zh": "饮品"
+      "cs": [],
+      "de": [],
+      "en": [],
+      "es": [],
+      "fr": [],
+      "it": [],
+      "zh": []
     },
-    "polozky": {
-     "cs": [
-      "Pivo, rozlévané lahvové víno, nealkoholické nápoje (20:00–00:00)",
-      "O půlnoci se podává sklenka Bohemia Sektu a tradiční šunka od kosti s čočkovým salátem."
-     ],
-     "en": [
-      "Beer, bottled wine served by the glass, soft drinks (20:00–00:00)",
-      "At midnight, a glass of Bohemia Sekt is served with traditional ham on the bone and lentil salad."
-     ],
-     "de": [
-      "Bier, offener Flaschenwein, alkoholfreie Getränke (20:00–00:00 Uhr)",
-      "Um Mitternacht wird ein Glas Bohemia Sekt mit traditionellem Schinken vom Knochen und Linsensalat serviert."
-     ],
-     "fr": [
-      "Bière, vin en bouteille servi au verre, boissons sans alcool (20:00–00:00)",
-      "À minuit, une coupe de Bohemia Sekt est servie avec le traditionnel jambon à l’os et une salade de lentilles."
-     ],
-     "es": [
-      "Cerveza, vino embotellado servido por copas, refrescos (20:00–00:00)",
-      "A medianoche se sirve una copa de Bohemia Sekt con el tradicional jamón con hueso y ensalada de lentejas."
-     ],
-     "it": [
-      "Birra, vino in bottiglia servito al bicchiere, bevande analcoliche (20:00–00:00)",
-      "A mezzanotte viene servito un calice di Bohemia Sekt con il tradizionale prosciutto all'osso e insalata di lenticchie."
-     ],
-     "zh": [
-      "啤酒、瓶装葡萄酒（按杯供应）、软饮料（20:00–00:00）",
-      "午夜时分将为您奉上一杯Bohemia起泡酒，以及传统带骨火腿配扁豆沙拉。"
-     ]
-    }
-   },
-   {
-    "nadpis": {
-     "cs": "Hodí se vědět",
-     "en": "Good to know",
-     "de": "Gut zu wissen",
-     "fr": "Bon à savoir",
-     "es": "Conviene saber",
-     "it": "Buono a sapersi",
-     "zh": "实用信息"
+    "pozn": {
+      "cs": "",
+      "de": "",
+      "en": "",
+      "es": "",
+      "fr": "",
+      "it": "",
+      "zh": ""
     },
-    "polozky": {
-     "cs": [
-      "Vystoupení folklórního souboru začíná ve 20:00 a končí o půlnoci.",
-      "Večírek končí v 00:30.",
-      "V ceně: jídlo, nápoje a představení."
-     ],
-     "en": [
-      "The folk ensemble's show starts at 20:00 and ends at midnight.",
-      "The party ends at 00:30.",
-      "Included in the price: food, drinks and the show."
-     ],
-     "de": [
-      "Die Vorstellung des Folkloreensembles beginnt um 20:00 Uhr und endet um Mitternacht.",
-      "Die Feier endet um 00:30 Uhr.",
-      "Im Preis inbegriffen: Essen, Getränke und Vorstellung."
-     ],
-     "fr": [
-      "Le spectacle de l’ensemble folklorique commence à 20:00 et se termine à minuit.",
-      "La soirée se termine à 00:30.",
-      "Compris dans le prix : repas, boissons et spectacle."
-     ],
-     "es": [
-      "El espectáculo del conjunto folclórico empieza a las 20:00 y termina a medianoche.",
-      "La fiesta termina a las 00:30.",
-      "Incluido en el precio: comida, bebidas y espectáculo."
-     ],
-     "it": [
-      "Lo spettacolo del gruppo folcloristico inizia alle 20:00 e termina a mezzanotte.",
-      "La festa termina alle 00:30.",
-      "Incluso nel prezzo: cena, bevande e spettacolo."
-     ],
-     "zh": [
-      "民俗乐团的表演于20:00开始，午夜结束。",
-      "派对于00:30结束。",
-      "价格包含：餐食、饮品和表演。"
-     ]
-    }
-   },
-   {
-    "nadpis": {
-     "cs": "Storno podmínky",
-     "en": "Cancellation policy",
-     "de": "Stornobedingungen",
-     "fr": "Conditions d’annulation",
-     "es": "Condiciones de cancelación",
-     "it": "Condizioni di cancellazione",
-     "zh": "取消政策"
-    },
-    "polozky": {
-     "cs": [
-      "Storno od 23. do 26. prosince: storno poplatek ve výši 50 % z celkové ceny.",
-      "Storno od 27. prosince: storno poplatek ve výši 100 % z celkové ceny."
-     ],
-     "en": [
-      "Cancellation from 23 to 26 December: cancellation fee of 50% of the total price.",
-      "Cancellation from 27 December: cancellation fee of 100% of the total price."
-     ],
-     "de": [
-      "Stornierung vom 23. bis 26. Dezember: Stornogebühr von 50 % des Gesamtpreises.",
-      "Stornierung ab dem 27. Dezember: Stornogebühr von 100 % des Gesamtpreises."
-     ],
-     "fr": [
-      "Annulation du 23 au 26 décembre : frais d’annulation de 50 % du prix total.",
-      "Annulation à partir du 27 décembre : frais d’annulation de 100 % du prix total."
-     ],
-     "es": [
-      "Cancelación del 23 al 26 de diciembre: gastos de cancelación del 50 % del precio total.",
-      "Cancelación a partir del 27 de diciembre: gastos de cancelación del 100 % del precio total."
-     ],
-     "it": [
-      "Cancellazione dal 23 al 26 dicembre: penale del 50 % del prezzo totale.",
-      "Cancellazione dal 27 dicembre: penale del 100 % del prezzo totale."
-     ],
-     "zh": [
-      "12月23日至26日取消：收取总价50%的取消费。",
-      "12月27日起取消：收取总价100%的取消费。"
-     ]
-    }
-   }
-  ]
- },
- {
-  "slug": "firemni-vecirky",
-  "skryty": false,
-  "foto": {
-   "src": "img/foto/interier-06.webp",
-   "sm": "img/foto/interier-06-sm.webp",
-   "alt": {
-    "cs": "Klenutý sál s cimbálem",
-    "en": "Vaulted hall with a cimbalom"
-   }
-  },
-  "stitek": {
-   "cs": "Pro firmy",
-   "de": "Für Firmen",
-   "en": "For companies",
-   "es": "Para empresas",
-   "fr": "Entreprises",
-   "it": "Per le aziende",
-   "zh": "企业活动"
-  },
-  "nazev": {
-   "cs": "Firemní večírky",
-   "de": "Firmenfeiern",
-   "en": "Corporate parties",
-   "es": "Fiestas de empresa",
-   "fr": "Soirées d’entreprise",
-   "it": "Feste aziendali",
-   "zh": "公司聚会"
-  },
-  "perex": {
-   "cs": "Firemní a vánoční večírky v prostorách restaurace u Karlova mostu.",
-   "de": "Firmen- und Weihnachtsfeiern in den Räumlichkeiten des Restaurants an der Karlsbrücke.",
-   "en": "Corporate and Christmas parties in our restaurant by Charles Bridge.",
-   "es": "Fiestas de empresa y de Navidad en los espacios del restaurante junto al Puente de Carlos.",
-   "fr": "Soirées d’entreprise et fêtes de Noël dans notre restaurant près du pont Charles.",
-   "it": "Feste aziendali e di Natale negli spazi del ristorante vicino al Ponte Carlo.",
-   "zh": "在查理大桥旁的餐厅举办公司聚会和圣诞晚会。"
-  },
-  "text": {
-   "cs": "V kombinaci s unikátními prostory restaurace, kvalitním servisem a gurmánskými specialitami pro Vás připravíme akci na špičkové úrovni, kterou zaručujeme dlouholetými zkušenostmi a řadou vynikajících referencí.\nNapište nám nezávaznou poptávku a pošleme Vám podrobnosti.",
-   "de": "In Verbindung mit den einzigartigen Räumlichkeiten des Restaurants, erstklassigem Service und Gourmet-Spezialitäten bereiten wir für Sie ein Event auf höchstem Niveau vor – garantiert durch langjährige Erfahrung und zahlreiche hervorragende Referenzen.\nSenden Sie uns eine unverbindliche Anfrage, und wir schicken Ihnen alle Details.",
-   "en": "In our unique setting, combined with great service and gourmet specialities, we can prepare a top-level event for you, guaranteed by many years of experience and a number of excellent references.\nSend us a no-obligation enquiry and we will send you the details.",
-   "es": "Gracias a los espacios únicos del restaurante, a un servicio de calidad y a nuestras especialidades gourmet, le prepararemos un evento del más alto nivel, avalado por nuestra larga experiencia y numerosas referencias excelentes.\nEnvíenos una solicitud sin compromiso y le haremos llegar todos los detalles.",
-   "fr": "Nos locaux uniques, un excellent service et nos spécialités gastronomiques vous permettront de vivre un événement de la plus grande qualité, garanti par notre longue expérience et une flatteuse liste de références.\nEnvoyez-nous une demande sans engagement et nous vous ferons parvenir tous les détails.",
-   "it": "Grazie agli spazi unici del ristorante, a un servizio di qualità e alle specialità per buongustai, prepariamo per Lei eventi di alto livello, garantiti dalla nostra esperienza pluriennale e da numerose ottime referenze.\nCi invii una richiesta senza impegno e Le manderemo tutti i dettagli.",
-   "zh": "凭借独特的餐厅空间、优质的服务和特色美食，我们将为您筹备最高水准的活动——多年的经验和众多出色的客户口碑就是品质的保证。\n欢迎向我们提交免费咨询，我们将为您发送详细信息。"
-  },
-  "termin": {
-   "cs": "",
-   "de": "",
-   "en": "",
-   "es": "",
-   "fr": "",
-   "it": "",
-   "zh": ""
-  },
-  "cena": {
-   "cs": "",
-   "de": "",
-   "en": "",
-   "es": "",
-   "fr": "",
-   "it": "",
-   "zh": ""
-  },
-  "kapacita": {
-   "cs": "",
-   "de": "",
-   "en": "",
-   "es": "",
-   "fr": "",
-   "it": "",
-   "zh": ""
-  },
-  "polozky_nadpis": {
-   "cs": "",
-   "de": "",
-   "en": "",
-   "es": "",
-   "fr": "",
-   "it": "",
-   "zh": ""
-  },
-  "polozky": {
-   "cs": [],
-   "de": [],
-   "en": [],
-   "es": [],
-   "fr": [],
-   "it": [],
-   "zh": []
-  },
-  "pozn": {
-   "cs": "",
-   "de": "",
-   "en": "",
-   "es": "",
-   "fr": "",
-   "it": "",
-   "zh": ""
-  },
-  "fotky": [],
-  "bloky": []
- }
+    "fotky": [],
+    "bloky": []
+  }
 ]
