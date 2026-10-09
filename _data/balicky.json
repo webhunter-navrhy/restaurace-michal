@@ -58,7 +58,7 @@
       "zh": "2026年12月31日 20:00起"
     },
     "cena": {
-      "cs": "3 200 Kč / osoba, dítě do 12 let 50 % sleva, dítě do 6 let zdarma",
+      "cs": "3 200 Kč / osoba",
       "en": "CZK 3,200 per person",
       "de": "3.200 CZK pro Person",
       "fr": "3 200 CZK par personne",
@@ -122,7 +122,7 @@
       ]
     },
     "pozn": {
-      "cs": "",
+      "cs": " dítě do 12 let 50 % sleva, dítě do 6 let zdarma",
       "de": "",
       "en": "",
       "es": "",
