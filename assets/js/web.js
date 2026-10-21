@@ -11,12 +11,14 @@
   const first = $('main > section');
   const overPhoto = first && (first.classList.contains('hero') || (first.classList.contains('phero') && !first.classList.contains('phero--plain')));
   if (!overPhoto) hdr.classList.add('hdr--solid');
+  /* na mobilu je tlačítko Rezervace jen ve spodní liště: kde nahoře není jiné, ukázat ji hned */
+  const mbarHned = !(first && first.classList.contains('hero')) && !document.body.classList.contains('p-rezervace');
   let ticking = false;
   const onScroll = () => {
     ticking = false;
     const y = window.scrollY;
     hdr.classList.toggle('is-solid', y > 40);
-    if (mbar) mbar.classList.toggle('on', y > window.innerHeight * .6);
+    if (mbar) mbar.classList.toggle('on', mbarHned || y > window.innerHeight * .6);
   };
   window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
   onScroll();

@@ -240,6 +240,7 @@
       "perex": "Rezervace je před návštěvou nutná. Rezervaci potvrdíme e-mailem nebo telefonicky, platná je až potvrzená rezervace.",
       "form_h": "Rezervační formulář",
       "form_text": "Vyplňte prosím údaje, ozveme se Vám s potvrzením.",
+      "dnes": "Rezervaci na dnešní den přijímáme do 15:00 hodin.",
       "odeslat": "Odeslat rezervaci",
       "side_h": "Raději telefonicky?",
       "side_text": "Platná je až potvrzená rezervace. Potvrdíme Vám ji e-mailem nebo telefonicky."
@@ -505,6 +506,7 @@
       "perex": "Eine Reservierung vor dem Besuch ist erforderlich. Wir bestätigen sie per E-Mail oder telefonisch – gültig ist erst die bestätigte Reservierung.",
       "form_h": "Reservierungsformular",
       "form_text": "Bitte füllen Sie Ihre Angaben aus, wir melden uns mit einer Bestätigung bei Ihnen.",
+      "dnes": "Reservierungen für den heutigen Tag nehmen wir bis 15:00 Uhr entgegen.",
       "odeslat": "Reservierung senden",
       "side_h": "Lieber telefonisch?",
       "side_text": "Gültig ist erst die bestätigte Reservierung. Wir bestätigen sie Ihnen per E-Mail oder telefonisch."
@@ -770,6 +772,7 @@
       "perex": "Booking before your visit is necessary. We will confirm your reservation by e-mail or phone – a reservation is only valid once confirmed.",
       "form_h": "Reservation form",
       "form_text": "Please fill in your details and we will get back to you with a confirmation.",
+      "dnes": "Same-day reservations are accepted until 3:00 pm.",
       "odeslat": "Send reservation",
       "side_h": "Prefer to call?",
       "side_text": "A reservation is only valid once confirmed. We will confirm it by e-mail or phone."
@@ -1035,6 +1038,7 @@
       "perex": "Es necesario reservar antes de la visita. Confirmaremos su reserva por correo electrónico o por teléfono; la reserva solo es válida una vez confirmada.",
       "form_h": "Formulario de reserva",
       "form_text": "Por favor, rellene sus datos y le responderemos con la confirmación.",
+      "dnes": "Las reservas para el mismo día se aceptan hasta las 15:00.",
       "odeslat": "Enviar reserva",
       "side_h": "¿Prefiere llamarnos?",
       "side_text": "La reserva solo es válida una vez confirmada. Se la confirmaremos por correo electrónico o por teléfono."
@@ -1300,6 +1304,7 @@
       "perex": "La réservation est obligatoire avant votre visite. Nous la confirmons par e-mail ou par téléphone ; seule une réservation confirmée est valable.",
       "form_h": "Formulaire de réservation",
       "form_text": "Merci de remplir vos coordonnées, nous reviendrons vers vous avec une confirmation.",
+      "dnes": "Les réservations pour le jour même sont acceptées jusqu’à 15 h.",
       "odeslat": "Envoyer la réservation",
       "side_h": "Vous préférez téléphoner ?",
       "side_text": "Seule une réservation confirmée est valable. Nous vous la confirmerons par e-mail ou par téléphone."
@@ -1565,6 +1570,7 @@
       "perex": "La prenotazione prima della visita è obbligatoria. La confermeremo via e-mail o per telefono: è valida solo la prenotazione confermata.",
       "form_h": "Modulo di prenotazione",
       "form_text": "La preghiamo di compilare i dati: La ricontatteremo con la conferma.",
+      "dnes": "Le prenotazioni per il giorno stesso si accettano fino alle ore 15:00.",
       "odeslat": "Invia la prenotazione",
       "side_h": "Preferisce telefonare?",
       "side_text": "È valida solo la prenotazione confermata. Gliela confermeremo via e-mail o per telefono."
@@ -1830,6 +1836,7 @@
       "perex": "到访前须提前预订。我们将通过电子邮件或电话确认您的预订，预订须经确认后方为有效。",
       "form_h": "预订表",
       "form_text": "请填写以下信息，我们将与您联系确认。",
+      "dnes": "当天预订受理至15:00。",
       "odeslat": "提交预订",
       "side_h": "更喜欢电话预订？",
       "side_text": "预订须经确认后方为有效。我们将通过电子邮件或电话向您确认。"

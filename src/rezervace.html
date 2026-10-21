@@ -8,6 +8,7 @@
     <div class="resv__card formbox rv">
       <h2 style="font-size:clamp(1.7rem,3vw,2.4rem);margin-bottom:.6rem">{{ P.form_h }}</h2>
       <p class="muted" style="margin-bottom:2rem">{{ P.form_text|nb }}</p>
+      {% if P.dnes %}<div class="warn warn--form">{{ ic('clock') }}<span>{{ P.dnes|nb }}</span></div>{% endif %}
       <form class="form" data-form="rezervace" novalidate>
         <div class="f f--3"><label for="rj">{{ U.f.jmeno }} <i>*</i></label><input id="rj" name="jmeno" autocomplete="given-name" required></div>
         <div class="f f--3"><label for="rp">{{ U.f.prijmeni }} <i>*</i></label><input id="rp" name="prijmeni" autocomplete="family-name" required></div>

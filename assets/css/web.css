@@ -496,6 +496,7 @@ html:lang(zh-Hans) .quote blockquote { font-style: normal; }
 .warn svg { width: 20px; height: 20px; flex: none; color: var(--accent); margin-top: .2rem; }
 .section .warn { color: var(--text); }
 .dark .warn { color: var(--dark-text); }
+.warn--form { margin: -.8rem 0 2rem; }
 
 /* ---------------------------------------------------------------- formulář */
 .form { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 1.1rem 1.2rem; }
@@ -650,7 +651,7 @@ html:lang(zh-Hans) .mset__head small { font-style: normal; }
   .hdr.is-solid .logo img { height: 34px; }
   .logo__txt small { display: none; }
   .logo__txt b { font-size: 1.12rem; }
-  .hdr__act .btn--resv { min-height: 40px; padding: .5rem .95rem; font-size: .8rem; }
+  .hdr__act .btn--resv { display: none; } /* na mobilu rezervuje spodní lišta a tlačítko v úvodu */
   .hdr__act { gap: .45rem; }
   .lang > button { height: 40px; padding: 0 .65rem; gap: .25rem; font-size: .78rem; }
   .lang > button > svg:last-child { display: none; }
@@ -690,11 +691,10 @@ html:lang(zh-Hans) .mset__head small { font-style: normal; }
   .ftr { padding-bottom: 6rem; }
   .lb button.lb-p, .lb button.lb-n { top: auto; bottom: 1rem; transform: none; }
 }
+@media (max-width: 439px) { .logo__txt { display: none; } }
 @media (max-width: 400px) {
   .regions { grid-template-columns: 1fr; }
-  .logo__txt { display: none; }
   .logo img, .hdr.is-solid .logo img { height: 32px; }
-  .hdr__act .btn--resv { padding: .5rem .8rem; }
   .lang > button > svg:first-child { display: none; }
   .burger { width: 40px; }
   .burger span { left: 8px; right: 8px; }
