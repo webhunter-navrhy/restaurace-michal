@@ -101,7 +101,7 @@
     </div>
     <div class="ftr__bot">
       <p>© 2006–{{ year }} {{ SITE.nazev }} · {{ U.provozuje }}: {{ SITE.provozovatel }}, {{ SITE.ulice }}, {{ SITE.psc }} {{ SITE.mesto }} · {{ U.ico }} {{ SITE.ico }}, {{ U.dic }} {{ SITE.dic }}{% if SITE.rejstrik|t %} · {{ SITE.rejstrik|t }}{% endif %}{% if U.eet %}<br>{{ U.eet }}{% endif %}</p>
-      <div class="ftr__langs">{% for l in LANGS %}<a href="{{ B }}{{ alts[l] }}" hreflang="{{ HREFLANG[l] }}" lang="{{ HREFLANG[l] }}">{{ LANG_NAME[l] }}</a>{% endfor %}</div>
+      <div class="ftr__langs">{% for l in LANGS %}<a href="{{ B }}{{ alts[l] }}" hreflang="{{ HREFLANG[l] }}" lang="{{ HREFLANG[l] }}">{{ LANG_NAME[l] }}</a>{% endfor %}<a href="{{ B }}admin/" rel="nofollow">Administrace</a></div>
     </div>
   </div>
 </footer>
