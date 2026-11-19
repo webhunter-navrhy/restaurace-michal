@@ -1,7 +1,7 @@
 [
   {
     "slug": "silvestr",
-    "skryty": true,
+    "skryty": false,
     "foto": {
       "src": "img/foto/tanecnici-14.webp",
       "sm": "img/foto/tanecnici-14-sm.webp",
