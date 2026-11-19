@@ -1,18 +1,18 @@
 {
- "zapnuto": true,
- "balicek": "silvestr",
- "nadpis": {
-  "cs": ""
- },
- "text": {
-  "cs": ""
- },
- "tlacitko": {
-  "cs": ""
- },
- "odkaz": "",
- "foto": {
-  "src": ""
- },
- "zpozdeni": 4
+  "zapnuto": false,
+  "balicek": "silvestr",
+  "nadpis": {
+    "cs": ""
+  },
+  "text": {
+    "cs": ""
+  },
+  "tlacitko": {
+    "cs": ""
+  },
+  "odkaz": "",
+  "foto": {
+    "src": ""
+  },
+  "zpozdeni": 4
 }
